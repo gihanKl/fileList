@@ -1,0 +1,3248 @@
+Testcase, Testcase #,domainCodeRegister,category,staticGroup,requestedDate,messageRegister,action,userTokenValidity,domainCodeSaveAction,value,data,messageSaveAction
+"SaveAction-VERIFICATION
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,VERIFICATION_EMAIL,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,VERIFICATION_EMAIL,Valid,WAPP,," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,VERIFICATION_EMAIL,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,VERIFICATION_EMAIL,null,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,VERIFICATION_EMAIL,Invalid,Invalid,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,VERIFICATION_EMAIL,Valid,null,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,VERIFICATION_EMAIL,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,VERIFICATION_EMAIL,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":"""",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,VERIFICATION_EMAIL,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""""
+            }",Document action saved successfully
+"SaveAction-CHANGE_ADDRESS
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,CHANGE_ADDRESS,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Fonseka"",
+        ""new_address_information"":""1/462, Cotta Rd,Weweldeniya, Sri Lanka"",
+  ""link"":""www.google.lk""
+  }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,CHANGE_ADDRESS,Valid,WAPP,,"{
+  ""first_name"":""Charutha Fonseka"",
+        ""new_address_information"":""1/462, Cotta Rd,Weweldeniya, Sri Lanka"",
+  ""link"":""www.google.lk""
+  }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,CHANGE_ADDRESS,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Fonseka"",
+        ""new_address_information"":""1/462, Cotta Rd,Weweldeniya, Sri Lanka"",
+  ""link"":""www.google.lk""
+  }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,CHANGE_ADDRESS,null,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Fonseka"",
+        ""new_address_information"":""1/462, Cotta Rd,Weweldeniya, Sri Lanka"",
+  ""link"":""www.google.lk""
+  }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,CHANGE_ADDRESS,Invalid,Invalid,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Fonseka"",
+        ""new_address_information"":""1/462, Cotta Rd,Weweldeniya, Sri Lanka"",
+  ""link"":""www.google.lk""
+  }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,CHANGE_ADDRESS,Valid,null,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Fonseka"",
+        ""new_address_information"":""1/462, Cotta Rd,Weweldeniya, Sri Lanka"",
+  ""link"":""www.google.lk""
+  }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,CHANGE_ADDRESS,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Fonseka"",
+        ""new_address_information"":""1/462, Cotta Rd,Weweldeniya, Sri Lanka"",
+  ""link"":""www.google.lk""
+  }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,CHANGE_ADDRESS,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":"""",
+        ""new_address_information"":""1/462, Cotta Rd,Weweldeniya, Sri Lanka"",
+  ""link"":""www.google.lk""
+  }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,CHANGE_ADDRESS,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Fonseka"",
+        ""new_address_information"":""1/462, Cotta Rd,Weweldeniya, Sri Lanka"",
+  ""link"":""""
+  }",Document action saved successfully
+,TC-014,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,CHANGE_ADDRESS,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Fonseka"",
+        ""new_address_information"":"""",
+  ""link"":""www.google.lk""
+  }",Document action saved successfully
+"SaveAction-CHANGE_EMAIL
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,CHANGE_EMAIL,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""new_email_information"":""rumanabanu5@gmail.com"",
+  ""link"":""www.google.lk""
+  }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,CHANGE_EMAIL,Valid,WAPP,,"{
+  ""first_name"":""Charutha Test"",
+        ""new_email_information"":""rumanabanu5@gmail.com"",
+  ""link"":""www.google.lk""
+  }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,CHANGE_EMAIL,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""new_email_information"":""rumanabanu5@gmail.com"",
+  ""link"":""www.google.lk""
+  }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,CHANGE_EMAIL,null,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""new_email_information"":""rumanabanu5@gmail.com"",
+  ""link"":""www.google.lk""
+  }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,CHANGE_EMAIL,Invalid,Invalid,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""new_email_information"":""rumanabanu5@gmail.com"",
+  ""link"":""www.google.lk""
+  }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,CHANGE_EMAIL,Valid,null,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""new_email_information"":""rumanabanu5@gmail.com"",
+  ""link"":""www.google.lk""
+  }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,CHANGE_EMAIL,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""new_email_information"":""rumanabanu5@gmail.com"",
+  ""link"":""www.google.lk""
+  }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,CHANGE_EMAIL,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":"""",
+        ""new_email_information"":""rumanabanu5@gmail.com"",
+  ""link"":""www.google.lk""
+  }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,CHANGE_EMAIL,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""new_email_information"":""rumanabanu5@gmail.com"",
+  ""link"":""""
+  }",Document action saved successfully
+,TC-014,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,CHANGE_EMAIL,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""new_email_information"":"""",
+  ""link"":""www.google.lk""
+  }",Document action saved successfully
+"SaveAction-CHANGE_PASSWORD
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,CHANGE_PASSWORD,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,CHANGE_PASSWORD,Valid,WAPP,," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,CHANGE_PASSWORD,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,CHANGE_PASSWORD,null,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,CHANGE_PASSWORD,Invalid,Invalid,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,CHANGE_PASSWORD,Valid,null,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,CHANGE_PASSWORD,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,CHANGE_PASSWORD,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":"""",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,CHANGE_PASSWORD,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""""
+            }",Document action saved successfully
+"SaveAction-RESET_PASSWORD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,RESET_PASSWORD,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""surname"":""Fonseka"",
+        ""link"":""www.google.com""
+  }
+",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,RESET_PASSWORD,Valid,WAPP,," {
+  ""first_name"":""Charutha"",
+        ""surname"":""Fonseka"",
+        ""link"":""www.google.com""
+  }
+",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,RESET_PASSWORD,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""surname"":""Fonseka"",
+        ""link"":""www.google.com""
+  }
+",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,RESET_PASSWORD,null,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""surname"":""Fonseka"",
+        ""link"":""www.google.com""
+  }
+",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,RESET_PASSWORD,Invalid,Invalid,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""surname"":""Fonseka"",
+        ""link"":""www.google.com""
+  }
+",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,RESET_PASSWORD,Valid,null,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""surname"":""Fonseka"",
+        ""link"":""www.google.com""
+  }
+",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,RESET_PASSWORD,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""surname"":""Fonseka"",
+        ""link"":""www.google.com""
+  }
+",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,RESET_PASSWORD,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":"""",
+        ""surname"":""Fonseka"",
+        ""link"":""www.google.com""
+  }
+",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,RESET_PASSWORD,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""surname"":""Fonseka"",
+        ""link"":""""
+  }
+",Document action saved successfully
+,TC-014,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,RESET_PASSWORD,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""surname"":"""",
+        ""link"":""www.google.com""
+  }
+",Document action saved successfully
+"SaveAction-NOT_INSTALL_APP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,NOT_INSTALL_APP,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link_ios_app_store"":""https://www.apple.com/"",
+        ""link_android_play_store"":""https://play.google.com/store""
+  }
+",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,NOT_INSTALL_APP,Valid,WAPP,,"{
+  ""first_name"":""Charutha Test"",
+        ""link_ios_app_store"":""https://www.apple.com/"",
+        ""link_android_play_store"":""https://play.google.com/store""
+  }
+",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,NOT_INSTALL_APP,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link_ios_app_store"":""https://www.apple.com/"",
+        ""link_android_play_store"":""https://play.google.com/store""
+  }
+",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,NOT_INSTALL_APP,null,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link_ios_app_store"":""https://www.apple.com/"",
+        ""link_android_play_store"":""https://play.google.com/store""
+  }
+",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,NOT_INSTALL_APP,Invalid,Invalid,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link_ios_app_store"":""https://www.apple.com/"",
+        ""link_android_play_store"":""https://play.google.com/store""
+  }
+",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,NOT_INSTALL_APP,Valid,null,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link_ios_app_store"":""https://www.apple.com/"",
+        ""link_android_play_store"":""https://play.google.com/store""
+  }
+",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,NOT_INSTALL_APP,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link_ios_app_store"":""https://www.apple.com/"",
+        ""link_android_play_store"":""https://play.google.com/store""
+  }
+",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,NOT_INSTALL_APP,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":"""",
+        ""link_ios_app_store"":""https://www.apple.com/"",
+        ""link_android_play_store"":""https://play.google.com/store""
+  }
+",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,NOT_INSTALL_APP,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link_ios_app_store"":"""",
+        ""link_android_play_store"":""https://play.google.com/store""
+  }
+",Document action saved successfully
+,TC-014,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,NOT_INSTALL_APP,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link_ios_app_store"":""https://www.apple.com/"",
+        ""link_android_play_store"":""""
+  }
+",Document action saved successfully
+"SaveAction-CHANGE_TELEPHONE
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,CHANGE_TELEPHONE,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha Test"",
+        ""new_phone_information"":""07161016766"",
+  ""link"":""www.google.lk""
+  }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,CHANGE_TELEPHONE,Valid,WAPP,," {
+  ""first_name"":""Charutha Test"",
+        ""new_phone_information"":""07161016766"",
+  ""link"":""www.google.lk""
+  }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,CHANGE_TELEPHONE,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha Test"",
+        ""new_phone_information"":""07161016766"",
+  ""link"":""www.google.lk""
+  }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,CHANGE_TELEPHONE,null,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha Test"",
+        ""new_phone_information"":""07161016766"",
+  ""link"":""www.google.lk""
+  }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,CHANGE_TELEPHONE,Invalid,Invalid,gihan@intervest.lk," {
+  ""first_name"":""Charutha Test"",
+        ""new_phone_information"":""07161016766"",
+  ""link"":""www.google.lk""
+  }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,CHANGE_TELEPHONE,Valid,null,gihan@intervest.lk," {
+  ""first_name"":""Charutha Test"",
+        ""new_phone_information"":""07161016766"",
+  ""link"":""www.google.lk""
+  }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,CHANGE_TELEPHONE,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha Test"",
+        ""new_phone_information"":""07161016766"",
+  ""link"":""www.google.lk""
+  }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,CHANGE_TELEPHONE,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":"""",
+        ""new_phone_information"":""07161016766"",
+  ""link"":""www.google.lk""
+  }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,CHANGE_TELEPHONE,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha Test"",
+        ""new_phone_information"":""07161016766"",
+  ""link"":""""
+  }",Document action saved successfully
+,TC-014,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,CHANGE_TELEPHONE,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha Test"",
+        ""new_phone_information"":"""",
+  ""link"":""www.google.lk""
+  }",Document action saved successfully
+"SaveAction-CHANGE_DEVICE
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,CHANGE_DEVICE,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,CHANGE_DEVICE,Valid,WAPP,," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,CHANGE_DEVICE,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,CHANGE_DEVICE,null,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,CHANGE_DEVICE,Invalid,Invalid,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,CHANGE_DEVICE,Valid,null,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,CHANGE_DEVICE,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,CHANGE_DEVICE,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":"""",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,CHANGE_DEVICE,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""""
+            }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,CARD_EXPIRY,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,CARD_EXPIRY,Valid,WAPP,," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,CARD_EXPIRY,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,CARD_EXPIRY,null,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,CARD_EXPIRY,Invalid,Invalid,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,CARD_EXPIRY,Valid,null,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,CARD_EXPIRY,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,CARD_EXPIRY,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":"""",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,CARD_EXPIRY,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""""
+            }",Document action saved successfully
+"Save Action - PAYMENT_FAILURE
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,PAYMENT_FAILURE,Valid,WAPP,gihan@intervest.lk,"{
+  ""name"":""Charutha Test"",
+        ""payment_amount"":""�309.99"",
+        ""link"":""www.google.com""
+  }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,PAYMENT_FAILURE,Valid,WAPP,,"{
+  ""name"":""Charutha Test"",
+        ""payment_amount"":""�309.99"",
+        ""link"":""www.google.com""
+  }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,PAYMENT_FAILURE,Valid,WAPP,gihan@intervest.lk,"{
+  ""name"":""Charutha Test"",
+        ""payment_amount"":""�309.99"",
+        ""link"":""www.google.com""
+  }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,PAYMENT_FAILURE,null,WAPP,gihan@intervest.lk,"{
+  ""name"":""Charutha Test"",
+        ""payment_amount"":""�309.99"",
+        ""link"":""www.google.com""
+  }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,PAYMENT_FAILURE,Invalid,Invalid,gihan@intervest.lk,"{
+  ""name"":""Charutha Test"",
+        ""payment_amount"":""�309.99"",
+        ""link"":""www.google.com""
+  }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,PAYMENT_FAILURE,Valid,null,gihan@intervest.lk,"{
+  ""name"":""Charutha Test"",
+        ""payment_amount"":""�309.99"",
+        ""link"":""www.google.com""
+  }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,PAYMENT_FAILURE,Valid,WAPP,gihan@intervest.lk,"{
+  ""name"":""Charutha Test"",
+        ""payment_amount"":""�309.99"",
+        ""link"":""www.google.com""
+  }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,PAYMENT_FAILURE,Valid,WAPP,gihan@intervest.lk,"{
+  ""name"":"""",
+        ""payment_amount"":""�309.99"",
+        ""link"":""www.google.com""
+  }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,PAYMENT_FAILURE,Valid,WAPP,gihan@intervest.lk,"{
+  ""name"":""Charutha Test"",
+        ""payment_amount"":""�309.99"",
+        ""link"":""""
+  }",Document action saved successfully
+,TC-014,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,PAYMENT_FAILURE,Valid,WAPP,gihan@intervest.lk,"{
+  ""name"":""Charutha Test"",
+        ""payment_amount"":""�309.99"",
+        ""link"":""www.google.com""
+  }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,ANNUAL_STATEMENT,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,ANNUAL_STATEMENT,Valid,WAPP,," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,ANNUAL_STATEMENT,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,ANNUAL_STATEMENT,null,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,ANNUAL_STATEMENT,Invalid,Invalid,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,ANNUAL_STATEMENT,Valid,null,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,ANNUAL_STATEMENT,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,ANNUAL_STATEMENT,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":"""",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,ANNUAL_STATEMENT,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""""
+            }",Document action saved successfully
+"Save Action - PAYMENT_FAILURE
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,PAYMENT_TAKEN,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link"":""www.google.com"",
+        ""payment_amount"":""�50.00""
+  }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,PAYMENT_TAKEN,Valid,WAPP,,"{
+  ""first_name"":""Charutha Test"",
+        ""link"":""www.google.com"",
+        ""payment_amount"":""�50.00""
+  }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,PAYMENT_TAKEN,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link"":""www.google.com"",
+        ""payment_amount"":""�50.00""
+  }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,PAYMENT_TAKEN,null,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link"":""www.google.com"",
+        ""payment_amount"":""�50.00""
+  }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,PAYMENT_TAKEN,Invalid,Invalid,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link"":""www.google.com"",
+        ""payment_amount"":""�50.00""
+  }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,PAYMENT_TAKEN,Valid,null,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link"":""www.google.com"",
+        ""payment_amount"":""�50.00""
+  }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,PAYMENT_TAKEN,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link"":""www.google.com"",
+        ""payment_amount"":""�50.00""
+  }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,PAYMENT_TAKEN,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":"""",
+        ""link"":""www.google.com"",
+        ""payment_amount"":""�50.00""
+  }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,PAYMENT_TAKEN,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link"":"""",
+        ""payment_amount"":""�50.00""
+  }",Document action saved successfully
+,TC-014,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,PAYMENT_TAKEN,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha Test"",
+        ""link"":""www.google.com"",
+        ""payment_amount"":""�309.99""
+  }",Document action saved successfully
+"Save Action - PAYMENT_FAILURE
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,WELCOME_COUNTRY,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"":""Charutha Test"",
+        ""country_name"":""Sri Lanka"",
+        ""link"":""www.google.com""
+    }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,WELCOME_COUNTRY,Valid,WAPP,,"{
+        ""first_name"":""Charutha Test"",
+        ""country_name"":""Sri Lanka"",
+        ""link"":""www.google.com""
+    }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,WELCOME_COUNTRY,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"":""Charutha Test"",
+        ""country_name"":""Sri Lanka"",
+        ""link"":""www.google.com""
+    }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,WELCOME_COUNTRY,null,WAPP,gihan@intervest.lk,"{
+        ""first_name"":""Charutha Test"",
+        ""country_name"":""Sri Lanka"",
+        ""link"":""www.google.com""
+    }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,WELCOME_COUNTRY,Invalid,Invalid,gihan@intervest.lk,"{
+        ""first_name"":""Charutha Test"",
+        ""country_name"":""Sri Lanka"",
+        ""link"":""www.google.com""
+    }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,WELCOME_COUNTRY,Valid,null,gihan@intervest.lk,"{
+        ""first_name"":""Charutha Test"",
+        ""country_name"":""Sri Lanka"",
+        ""link"":""www.google.com""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,WELCOME_COUNTRY,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"":""Charutha Test"",
+        ""country_name"":""Sri Lanka"",
+        ""link"":""www.google.com""
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,WELCOME_COUNTRY,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"":"""",
+        ""country_name"":""Sri Lanka"",
+        ""link"":""www.google.com""
+    }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,WELCOME_COUNTRY,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"":""Charutha Test"",
+        ""country_name"":""Sri Lanka"",
+        ""link"":""""
+    }",Document action saved successfully
+,TC-014,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,WELCOME_COUNTRY,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"":""Charutha Test"",
+        ""country_name"":"""",
+        ""link"":""www.google.com""
+    }",Document action saved successfully
+"Save Action - PAYMENT_FAILURE
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,STOP_TRIP_COVER,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""link"":""www.google.com"",
+        ""number_of_days"": ""10 days""
+ }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,STOP_TRIP_COVER,Valid,WAPP,," {
+  ""first_name"":""Charutha"",
+        ""link"":""www.google.com"",
+        ""number_of_days"": ""10 days""
+ }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,STOP_TRIP_COVER,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""link"":""www.google.com"",
+        ""number_of_days"": ""10 days""
+ }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,STOP_TRIP_COVER,null,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""link"":""www.google.com"",
+        ""number_of_days"": ""10 days""
+ }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,STOP_TRIP_COVER,Invalid,Invalid,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""link"":""www.google.com"",
+        ""number_of_days"": ""10 days""
+ }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,STOP_TRIP_COVER,Valid,null,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""link"":""www.google.com"",
+        ""number_of_days"": ""10 days""
+ }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,STOP_TRIP_COVER,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""link"":""www.google.com"",
+        ""number_of_days"": ""10 days""
+ }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,STOP_TRIP_COVER,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":"""",
+        ""link"":""www.google.com"",
+        ""number_of_days"": ""10 days""
+ }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,STOP_TRIP_COVER,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""link"":"""",
+        ""number_of_days"": ""10 days""
+ }",Document action saved successfully
+,TC-014,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,STOP_TRIP_COVER,Valid,WAPP,gihan@intervest.lk," {
+  ""first_name"":""Charutha"",
+        ""link"":""www.google.com"",
+        ""number_of_days"": """"
+ }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,BIRTHDAY,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,BIRTHDAY,Valid,WAPP,," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,BIRTHDAY,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,BIRTHDAY,null,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,BIRTHDAY,Invalid,Invalid,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,BIRTHDAY,Valid,null,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,BIRTHDAY,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,BIRTHDAY,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":"""",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,BIRTHDAY,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""""
+            }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,REFUND,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952""
+      
+            }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,REFUND,Valid,WAPP,," {
+        ""first_name"":""rumana 21012021 0952""
+      
+            }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,REFUND,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952""
+      
+            }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,REFUND,null,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952""
+      
+            }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,REFUND,Invalid,Invalid,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952""
+      
+            }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,REFUND,Valid,null,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952""
+      
+            }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,REFUND,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952""
+      
+            }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,REFUND,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""""
+      
+            }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,POLICY_CANCELLATION_NO_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,POLICY_CANCELLATION_NO_SUBSCRIPTION,Valid,WAPP,," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,POLICY_CANCELLATION_NO_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,POLICY_CANCELLATION_NO_SUBSCRIPTION,null,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,POLICY_CANCELLATION_NO_SUBSCRIPTION,Invalid,Invalid,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,POLICY_CANCELLATION_NO_SUBSCRIPTION,Valid,null,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,POLICY_CANCELLATION_NO_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,POLICY_CANCELLATION_NO_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":"""",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,POLICY_CANCELLATION_NO_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""""
+            }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,POLICY_CANCELLATION_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,POLICY_CANCELLATION_SUBSCRIPTION,Valid,WAPP,," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,POLICY_CANCELLATION_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,POLICY_CANCELLATION_SUBSCRIPTION,null,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,POLICY_CANCELLATION_SUBSCRIPTION,Invalid,Invalid,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,POLICY_CANCELLATION_SUBSCRIPTION,Valid,null,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,POLICY_CANCELLATION_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,POLICY_CANCELLATION_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":"""",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,POLICY_CANCELLATION_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""""
+            }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,POLICY_CANCELLATION_COOLING_OFF_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,POLICY_CANCELLATION_COOLING_OFF_SUBSCRIPTION,Valid,WAPP,," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,POLICY_CANCELLATION_COOLING_OFF_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,POLICY_CANCELLATION_COOLING_OFF_SUBSCRIPTION,null,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,POLICY_CANCELLATION_COOLING_OFF_SUBSCRIPTION,Invalid,Invalid,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,POLICY_CANCELLATION_COOLING_OFF_SUBSCRIPTION,Valid,null,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,POLICY_CANCELLATION_COOLING_OFF_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,POLICY_CANCELLATION_COOLING_OFF_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":"""",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,POLICY_CANCELLATION_COOLING_OFF_SUBSCRIPTION,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""""
+            }",Document action saved successfully
+"Save Action - PAYMENT_FAILURE
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,TRUST_PILOT_REVIEW,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Amila"",
+        ""link_to_trustpilot_review_site"":""google.com"",
+  ""link"":""google.lk""
+  }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,TRUST_PILOT_REVIEW,Valid,WAPP,,"{
+  ""first_name"":""Amila"",
+        ""link_to_trustpilot_review_site"":""google.com"",
+  ""link"":""google.lk""
+  }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,TRUST_PILOT_REVIEW,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Amila"",
+        ""link_to_trustpilot_review_site"":""google.com"",
+  ""link"":""google.lk""
+  }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,TRUST_PILOT_REVIEW,null,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Amila"",
+        ""link_to_trustpilot_review_site"":""google.com"",
+  ""link"":""google.lk""
+  }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,TRUST_PILOT_REVIEW,Invalid,Invalid,gihan@intervest.lk,"{
+  ""first_name"":""Amila"",
+        ""link_to_trustpilot_review_site"":""google.com"",
+  ""link"":""google.lk""
+  }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,TRUST_PILOT_REVIEW,Valid,null,gihan@intervest.lk,"{
+  ""first_name"":""Amila"",
+        ""link_to_trustpilot_review_site"":""google.com"",
+  ""link"":""google.lk""
+  }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,TRUST_PILOT_REVIEW,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Amila"",
+        ""link_to_trustpilot_review_site"":""google.com"",
+  ""link"":""google.lk""
+  }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,TRUST_PILOT_REVIEW,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":"""",
+        ""link_to_trustpilot_review_site"":""google.com"",
+  ""link"":""google.lk""
+  }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,TRUST_PILOT_REVIEW,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Amila"",
+        ""link_to_trustpilot_review_site"":""google.com"",
+  ""link"":""""
+  }",Document action saved successfully
+,TC-014,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,TRUST_PILOT_REVIEW,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Amila"",
+        ""link_to_trustpilot_review_site"":"""",
+  ""link"":""google.lk""
+  }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,MEDICAL_REMINDER,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,MEDICAL_REMINDER,Valid,WAPP,," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,MEDICAL_REMINDER,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,MEDICAL_REMINDER,null,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,MEDICAL_REMINDER,Invalid,Invalid,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,MEDICAL_REMINDER,Valid,null,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,MEDICAL_REMINDER,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,MEDICAL_REMINDER,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":"""",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,MEDICAL_REMINDER,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""""
+            }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,PRICE_CHANGE,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha"",
+        ""date_effect_on"":""01/01/2021""
+ }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,PRICE_CHANGE,Valid,WAPP,,"{
+  ""first_name"":""Charutha"",
+        ""date_effect_on"":""01/01/2021""
+ }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,PRICE_CHANGE,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha"",
+        ""date_effect_on"":""01/01/2021""
+ }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,PRICE_CHANGE,null,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha"",
+        ""date_effect_on"":""01/01/2021""
+ }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,PRICE_CHANGE,Invalid,Invalid,gihan@intervest.lk,"{
+  ""first_name"":""Charutha"",
+        ""date_effect_on"":""01/01/2021""
+ }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,PRICE_CHANGE,Valid,null,gihan@intervest.lk,"{
+  ""first_name"":""Charutha"",
+        ""date_effect_on"":""01/01/2021""
+ }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,PRICE_CHANGE,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha"",
+        ""date_effect_on"":""01/01/2021""
+ }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,PRICE_CHANGE,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":"""",
+        ""date_effect_on"":""01/01/2021""
+ }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,PRICE_CHANGE,Valid,WAPP,gihan@intervest.lk,"{
+  ""first_name"":""Charutha"",
+        ""date_effect_on"":""""
+ }",Document action saved successfully
+"Save Action - PAYMENT_FAILURE
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,PASSENGER_PRICE_CHANGE,Valid,WAPP,gihan@intervest.lk,"
+ {
+        ""first_name"": ""Chamith"",
+                ""passengers"": [
+            {
+                ""name"":""Name1"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            },
+            {
+                ""name"":""Name2"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            }
+        ],
+        ""travellers"" : [
+            {
+                ""name"":""traveller1"",
+                ""cost_increase"": ""�68.87"" 
+            },
+            {
+                ""name"":""traveller2"",
+                ""cost_increase"": ""�10.14"" 
+            }
+        ]
+    }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,PASSENGER_PRICE_CHANGE,Valid,WAPP,,"
+ {
+        ""first_name"": ""Chamith"",
+                ""passengers"": [
+            {
+                ""name"":""Name1"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            },
+            {
+                ""name"":""Name2"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            }
+        ],
+        ""travellers"" : [
+            {
+                ""name"":""traveller1"",
+                ""cost_increase"": ""�68.87"" 
+            },
+            {
+                ""name"":""traveller2"",
+                ""cost_increase"": ""�10.14"" 
+            }
+        ]
+    }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,PASSENGER_PRICE_CHANGE,Valid,WAPP,gihan@intervest.lk,"
+ {
+        ""first_name"": ""Chamith"",
+                ""passengers"": [
+            {
+                ""name"":""Name1"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            },
+            {
+                ""name"":""Name2"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            }
+        ],
+        ""travellers"" : [
+            {
+                ""name"":""traveller1"",
+                ""cost_increase"": ""�68.87"" 
+            },
+            {
+                ""name"":""traveller2"",
+                ""cost_increase"": ""�10.14"" 
+            }
+        ]
+    }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,PASSENGER_PRICE_CHANGE,null,WAPP,gihan@intervest.lk,"
+ {
+        ""first_name"": ""Chamith"",
+                ""passengers"": [
+            {
+                ""name"":""Name1"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            },
+            {
+                ""name"":""Name2"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            }
+        ],
+        ""travellers"" : [
+            {
+                ""name"":""traveller1"",
+                ""cost_increase"": ""�68.87"" 
+            },
+            {
+                ""name"":""traveller2"",
+                ""cost_increase"": ""�10.14"" 
+            }
+        ]
+    }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,PASSENGER_PRICE_CHANGE,Invalid,Invalid,gihan@intervest.lk,"
+ {
+        ""first_name"": ""Chamith"",
+                ""passengers"": [
+            {
+                ""name"":""Name1"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            },
+            {
+                ""name"":""Name2"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            }
+        ],
+        ""travellers"" : [
+            {
+                ""name"":""traveller1"",
+                ""cost_increase"": ""�68.87"" 
+            },
+            {
+                ""name"":""traveller2"",
+                ""cost_increase"": ""�10.14"" 
+            }
+        ]
+    }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,PASSENGER_PRICE_CHANGE,Valid,null,gihan@intervest.lk,"
+ {
+        ""first_name"": ""Chamith"",
+                ""passengers"": [
+            {
+                ""name"":""Name1"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            },
+            {
+                ""name"":""Name2"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            }
+        ],
+        ""travellers"" : [
+            {
+                ""name"":""traveller1"",
+                ""cost_increase"": ""�68.87"" 
+            },
+            {
+                ""name"":""traveller2"",
+                ""cost_increase"": ""�10.14"" 
+            }
+        ]
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,PASSENGER_PRICE_CHANGE,Valid,WAPP,gihan@intervest.lk,"
+ {
+        ""first_name"": ""Chamith"",
+                ""passengers"": [
+            {
+                ""name"":""Name1"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            },
+            {
+                ""name"":""Name2"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            }
+        ],
+        ""travellers"" : [
+            {
+                ""name"":""traveller1"",
+                ""cost_increase"": ""�68.87"" 
+            },
+            {
+                ""name"":""traveller2"",
+                ""cost_increase"": ""�10.14"" 
+            }
+        ]
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,PASSENGER_PRICE_CHANGE,Valid,WAPP,gihan@intervest.lk,"
+ {
+        ""first_name"": ""Chamith"",
+                ""passengers"": [
+            {
+                ""name"":""Name1"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            },
+            {
+                ""name"":""Name2"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            }
+        ],
+        ""travellers"" : [
+            {
+                ""name"":""traveller1"",
+                ""cost_increase"": ""�68.87"" 
+            },
+            {
+                ""name"":""traveller2"",
+                ""cost_increase"": ""�10.14"" 
+            }
+        ]
+    }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,PASSENGER_PRICE_CHANGE,Valid,WAPP,gihan@intervest.lk,"
+ {
+        ""first_name"": ""Chamith"",
+                ""passengers"": [
+            {
+                ""name"":""Name1"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            },
+            {
+                ""name"":""Name2"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            }
+        ],
+        ""travellers"" : [
+            {
+                ""name"":""traveller1"",
+                ""cost_increase"": ""�68.87"" 
+            },
+            {
+                ""name"":""traveller2"",
+                ""cost_increase"": ""�10.14"" 
+            }
+        ]
+    }",Document action saved successfully
+,TC-014,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,PASSENGER_PRICE_CHANGE,Valid,WAPP,gihan@intervest.lk,"
+ {
+        ""first_name"": ""Chamith"",
+                ""passengers"": [
+            {
+                ""name"":""Name1"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            },
+            {
+                ""name"":""Name2"",
+                ""cost_europe"": ""�68.87"",
+                ""cost_row"":""�14.25"",
+                ""cost_america"":""�47.12"" 
+            }
+        ],
+        ""travellers"" : [
+            {
+                ""name"":""traveller1"",
+                ""cost_increase"": ""�68.87"" 
+            },
+            {
+                ""name"":""traveller2"",
+                ""cost_increase"": ""�10.14"" 
+            }
+        ]
+    }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,TRIP_COVER_CANCELLED,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,TRIP_COVER_CANCELLED,Valid,WAPP,," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,TRIP_COVER_CANCELLED,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,TRIP_COVER_CANCELLED,null,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,TRIP_COVER_CANCELLED,Invalid,Invalid,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,TRIP_COVER_CANCELLED,Valid,null,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,TRIP_COVER_CANCELLED,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,TRIP_COVER_CANCELLED,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":"""",
+        ""link"":""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+            }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,TRIP_COVER_CANCELLED,Valid,WAPP,gihan@intervest.lk," {
+        ""first_name"":""rumana 21012021 0952"",
+        ""link"":""""
+            }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,WELCOME_TO_COUNTRY_FCDO,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""today OR tomorrow"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,WELCOME_TO_COUNTRY_FCDO,Valid,WAPP,,"{
+        ""first_name"": ""Amila"",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""today OR tomorrow"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,WELCOME_TO_COUNTRY_FCDO,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""today OR tomorrow"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,WELCOME_TO_COUNTRY_FCDO,null,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""today OR tomorrow"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,WELCOME_TO_COUNTRY_FCDO,Invalid,Invalid,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""today OR tomorrow"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,WELCOME_TO_COUNTRY_FCDO,Valid,null,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""today OR tomorrow"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,WELCOME_TO_COUNTRY_FCDO,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""today OR tomorrow"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,WELCOME_TO_COUNTRY_FCDO,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": """",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""today OR tomorrow"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,WELCOME_COUNTRY_NOT_COVERED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""country_name"": ""United States""
+    }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,WELCOME_COUNTRY_NOT_COVERED,Valid,WAPP,,"{
+        ""first_name"": ""rumana"",
+        ""country_name"": ""United States""
+    }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,WELCOME_COUNTRY_NOT_COVERED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""country_name"": ""United States""
+    }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,WELCOME_COUNTRY_NOT_COVERED,null,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""country_name"": ""United States""
+    }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,WELCOME_COUNTRY_NOT_COVERED,Invalid,Invalid,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""country_name"": ""United States""
+    }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,WELCOME_COUNTRY_NOT_COVERED,Valid,null,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""country_name"": ""United States""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,WELCOME_COUNTRY_NOT_COVERED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""country_name"": ""United States""
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,WELCOME_COUNTRY_NOT_COVERED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": """",
+        ""country_name"": ""United States""
+    }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,WELCOME_COUNTRY_NOT_COVERED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""country_name"": """"
+    }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,EMAIL_ADDRESS_CHANGE_VERIFICATION,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana banu"",
+        ""email_confirm_url"": ""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+    }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,EMAIL_ADDRESS_CHANGE_VERIFICATION,Valid,WAPP,,"{
+        ""first_name"": ""rumana banu"",
+        ""email_confirm_url"": ""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+    }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,EMAIL_ADDRESS_CHANGE_VERIFICATION,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana banu"",
+        ""email_confirm_url"": ""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+    }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,EMAIL_ADDRESS_CHANGE_VERIFICATION,null,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana banu"",
+        ""email_confirm_url"": ""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+    }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,EMAIL_ADDRESS_CHANGE_VERIFICATION,Invalid,Invalid,gihan@intervest.lk,"{
+        ""first_name"": ""rumana banu"",
+        ""email_confirm_url"": ""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+    }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,EMAIL_ADDRESS_CHANGE_VERIFICATION,Valid,null,gihan@intervest.lk,"{
+        ""first_name"": ""rumana banu"",
+        ""email_confirm_url"": ""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,EMAIL_ADDRESS_CHANGE_VERIFICATION,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana banu"",
+        ""email_confirm_url"": ""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,EMAIL_ADDRESS_CHANGE_VERIFICATION,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana banu"",
+        ""email_confirm_url"": ""https://go-qa.PETSURE.com/web/link/verify-email/?userReference=Ql1c8vTttKibgbsbNFH6bQ%3D%3D&code=WLHyoDT1FFDnnT5RLmZr3qmGIB6JrAGG2D9d0DHo%2F44%3D""
+    }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,EMAIL_ADDRESS_CHANGE_VERIFICATION,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana banu"",
+        ""email_confirm_url"": """"
+    }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,WELCOME_HOME,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""cover_amount"": ""�100.00"",
+        ""trip_history_url"": ""https://www.google.com/""
+    }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,WELCOME_HOME,Valid,WAPP,,"{
+        ""first_name"": ""Amila"",
+        ""cover_amount"": ""�100.00"",
+        ""trip_history_url"": ""https://www.google.com/""
+    }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,WELCOME_HOME,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""cover_amount"": ""�100.00"",
+        ""trip_history_url"": ""https://www.google.com/""
+    }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,WELCOME_HOME,null,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""cover_amount"": ""�100.00"",
+        ""trip_history_url"": ""https://www.google.com/""
+    }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,WELCOME_HOME,Invalid,Invalid,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""cover_amount"": ""�100.00"",
+        ""trip_history_url"": ""https://www.google.com/""
+    }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,WELCOME_HOME,Valid,null,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""cover_amount"": ""�100.00"",
+        ""trip_history_url"": ""https://www.google.com/""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,WELCOME_HOME,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""cover_amount"": ""�100.00"",
+        ""trip_history_url"": ""https://www.google.com/""
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,WELCOME_HOME,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": """",
+        ""cover_amount"": ""�100.00"",
+        ""trip_history_url"": ""https://www.google.com/""
+    }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,WELCOME_HOME,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""cover_amount"": """",
+        ""trip_history_url"": ""https://www.google.com/""
+    }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,WELCOME_HOME,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""cover_amount"": ""�100.00"",
+        ""trip_history_url"": """"
+    }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,WELCOME_COUNTRY_COVID_COVER_REMOVED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""<today> OR <tomorrow>"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,WELCOME_COUNTRY_COVID_COVER_REMOVED,Valid,WAPP,,"{
+        ""first_name"": ""Amila"",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""<today> OR <tomorrow>"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,WELCOME_COUNTRY_COVID_COVER_REMOVED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""<today> OR <tomorrow>"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,WELCOME_COUNTRY_COVID_COVER_REMOVED,null,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""<today> OR <tomorrow>"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,WELCOME_COUNTRY_COVID_COVER_REMOVED,Invalid,Invalid,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""<today> OR <tomorrow>"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,WELCOME_COUNTRY_COVID_COVER_REMOVED,Valid,null,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""<today> OR <tomorrow>"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,WELCOME_COUNTRY_COVID_COVER_REMOVED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""<today> OR <tomorrow>"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,WELCOME_COUNTRY_COVID_COVER_REMOVED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": """",
+        ""country_name"": ""Sri Lanka"",
+        ""traveller_names"": ""Jhon Doe, Michel, Williom"",
+        ""cover_amount"": ""�100.00"",
+        ""from_date"": ""<today> OR <tomorrow>"",
+        ""on_trip_dashboard_url"": ""https://www.google.com/""
+    }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,TRIP_PAYMENT_TAKEN,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""billing_history_link"": ""https://www.google.com/"",
+        ""payment_amount"": ""�50.00""
+    }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,TRIP_PAYMENT_TAKEN,Valid,WAPP,,"{
+        ""first_name"": ""rumana"",
+        ""billing_history_link"": ""https://www.google.com/"",
+        ""payment_amount"": ""�50.00""
+    }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,TRIP_PAYMENT_TAKEN,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""billing_history_link"": ""https://www.google.com/"",
+        ""payment_amount"": ""�50.00""
+    }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,TRIP_PAYMENT_TAKEN,null,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""billing_history_link"": ""https://www.google.com/"",
+        ""payment_amount"": ""�50.00""
+    }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,TRIP_PAYMENT_TAKEN,Invalid,Invalid,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""billing_history_link"": ""https://www.google.com/"",
+        ""payment_amount"": ""�50.00""
+    }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,TRIP_PAYMENT_TAKEN,Valid,null,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""billing_history_link"": ""https://www.google.com/"",
+        ""payment_amount"": ""�50.00""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,TRIP_PAYMENT_TAKEN,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""billing_history_link"": ""https://www.google.com/"",
+        ""payment_amount"": ""�50.00""
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,TRIP_PAYMENT_TAKEN,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": """",
+        ""billing_history_link"": ""https://www.google.com/"",
+        ""payment_amount"": ""�50.00""
+    }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,TRIP_PAYMENT_TAKEN,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""billing_history_link"": """",
+        ""payment_amount"": ""�50.00""
+    }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,TRIP_PAYMENT_TAKEN,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""rumana"",
+        ""billing_history_link"": ""https://www.google.com/"",
+        ""payment_amount"": ""�309.99""
+    }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Jhon Doe"",
+        ""payment_amount"": ""�100"",
+        ""payment_details_link"":""https://www.google.com/""
+    }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,WAPP,,"{
+        ""first_name"": ""Jhon Doe"",
+        ""payment_amount"": ""�100"",
+        ""payment_details_link"":""https://www.google.com/""
+    }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Jhon Doe"",
+        ""payment_amount"": ""�100"",
+        ""payment_details_link"":""https://www.google.com/""
+    }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,null,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Jhon Doe"",
+        ""payment_amount"": ""�100"",
+        ""payment_details_link"":""https://www.google.com/""
+    }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Invalid,Invalid,gihan@intervest.lk,"{
+        ""first_name"": ""Jhon Doe"",
+        ""payment_amount"": ""�100"",
+        ""payment_details_link"":""https://www.google.com/""
+    }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,null,gihan@intervest.lk,"{
+        ""first_name"": ""Jhon Doe"",
+        ""payment_amount"": ""�100"",
+        ""payment_details_link"":""https://www.google.com/""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Jhon Doe"",
+        ""payment_amount"": ""�100"",
+        ""payment_details_link"":""https://www.google.com/""
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Jhon Doe"",
+        ""payment_amount"": ""�100"",
+        ""payment_details_link"":""https://www.google.com/""
+    }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Jhon Doe"",
+        ""payment_amount"": ""�309.99"",
+        ""payment_details_link"":""https://www.google.com/""
+    }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Jhon Doe"",
+        ""payment_amount"": ""�100"",
+        ""payment_details_link"":""""
+    }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,REACHING_AGE_LIMIT_TRAVELLER_REMOVED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""traveller_name"": ""Jhon Doe"",
+        ""todays_date"": ""<todays_date>""
+    }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,REACHING_AGE_LIMIT_TRAVELLER_REMOVED,Valid,WAPP,,"{
+        ""first_name"": ""Amila"",
+        ""traveller_name"": ""Jhon Doe"",
+        ""todays_date"": ""<todays_date>""
+    }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,REACHING_AGE_LIMIT_TRAVELLER_REMOVED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""traveller_name"": ""Jhon Doe"",
+        ""todays_date"": ""<todays_date>""
+    }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,REACHING_AGE_LIMIT_TRAVELLER_REMOVED,null,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""traveller_name"": ""Jhon Doe"",
+        ""todays_date"": ""<todays_date>""
+    }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,REACHING_AGE_LIMIT_TRAVELLER_REMOVED,Invalid,Invalid,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""traveller_name"": ""Jhon Doe"",
+        ""todays_date"": ""<todays_date>""
+    }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,REACHING_AGE_LIMIT_TRAVELLER_REMOVED,Valid,null,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""traveller_name"": ""Jhon Doe"",
+        ""todays_date"": ""<todays_date>""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,REACHING_AGE_LIMIT_TRAVELLER_REMOVED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""traveller_name"": ""Jhon Doe"",
+        ""todays_date"": ""<todays_date>""
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,REACHING_AGE_LIMIT_TRAVELLER_REMOVED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": """",
+        ""traveller_name"": ""Jhon Doe"",
+        ""todays_date"": ""<todays_date>""
+    }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,REACHING_AGE_LIMIT_TRAVELLER_REMOVED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""traveller_name"": """",
+        ""todays_date"": ""<todays_date>""
+    }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,REACHING_AGE_LIMIT_TRAVELLER_REMOVED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""traveller_name"": ""Jhon Doe"",
+        ""todays_date"": """"
+    }",Document action saved successfully
+"SaveAction-CARD_EXPIRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�100"",
+        ""todays_date"":""<todays_date>""
+    }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,WAPP,,"{
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�100"",
+        ""todays_date"":""<todays_date>""
+    }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�100"",
+        ""todays_date"":""<todays_date>""
+    }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,null,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�100"",
+        ""todays_date"":""<todays_date>""
+    }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Invalid,Invalid,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�100"",
+        ""todays_date"":""<todays_date>""
+    }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,null,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�100"",
+        ""todays_date"":""<todays_date>""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�100"",
+        ""todays_date"":""<todays_date>""
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�100"",
+        ""todays_date"":""<todays_date>""
+    }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�100"",
+        ""todays_date"":""<todays_date>""
+    }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,WAPP,gihan@intervest.lk,"{
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�100"",
+        ""todays_date"":""<todays_date>""
+    }",Document action saved successfully
+"SaveAction-ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFEREE
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFEREE,Valid,WAPP,gihan@intervest.lk," {
+    ""first_name"": ""WappUserREFEREE"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFEREE,Valid,WAPP,," {
+    ""first_name"": ""WappUserREFEREE"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFEREE,Valid,WAPP,gihan@intervest.lk," {
+    ""first_name"": ""WappUserREFEREE"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFEREE,null,WAPP,gihan@intervest.lk," {
+    ""first_name"": ""WappUserREFEREE"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFEREE,Invalid,Invalid,gihan@intervest.lk," {
+    ""first_name"": ""WappUserREFEREE"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFEREE,Valid,null,gihan@intervest.lk," {
+    ""first_name"": ""WappUserREFEREE"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFEREE,Valid,WAPP,gihan@intervest.lk," {
+    ""first_name"": ""WappUserREFEREE"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFEREE,Valid,WAPP,gihan@intervest.lk," {
+    ""first_name"": ""WappUserREFEREE"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFEREE,Valid,WAPP,gihan@intervest.lk," {
+    ""first_name"": ""WappUserREFEREE"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Document action saved successfully
+"SaveAction-ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFERRER
+
+
+",TC-005,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFERRER,Valid,WAPP,gihan@intervest.lk," {
+    ""first_name"": ""WappUser"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Document action saved successfully
+,TC-006,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFERRER,Valid,WAPP,," {
+    ""first_name"": ""WappUser"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Email address is null or invalid!
+,TC-007,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFERRER,Valid,WAPP,gihan@intervest.lk," {
+    ""first_name"": ""WappUser"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Email address is null or invalid!
+,TC-008,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFERRER,null,WAPP,gihan@intervest.lk," {
+    ""first_name"": ""WappUser"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Invalid token
+,TC-009,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFERRER,Invalid,Invalid,gihan@intervest.lk," {
+    ""first_name"": ""WappUser"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Invalid domain code
+,TC-010,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFERRER,Valid,null,gihan@intervest.lk," {
+    ""first_name"": ""WappUser"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFERRER,Valid,WAPP,gihan@intervest.lk," {
+    ""first_name"": ""WappUser"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFERRER,Valid,WAPP,gihan@intervest.lk," {
+    ""first_name"": ""WappUser"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Document action saved successfully
+,TC-013,WAPP,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,ONE_FREE_DAY_APPLIED_CONFORMATION_FOR_REFERRER,Valid,WAPP,gihan@intervest.lk," {
+    ""first_name"": ""WappUser"",
+""dashboard_link"": ""https://www.google.com/""
+            }",Document action saved successfully

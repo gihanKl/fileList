@@ -1,0 +1,269 @@
+Testcase, Testcase #,domainCodeRegister,category,staticGroup,requestedDate,messageRegister,action,userTokenValidity,domainCodeSaveAction,value,data,messageSaveAction
+"
+
+
+
+
+Save Action - CS_COMPLAINT_ACKNOWLEDGMENT_POLICY",TC-005,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_COMPLAINT_ACKNOWLEDGMENT_POLICY,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Document action saved successfully
+,TC-006,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-15,OK,CS_COMPLAINT_ACKNOWLEDGMENT_POLICY,Valid,WAPP,,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Email address is null or invalid!
+,TC-007,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-16,OK,CS_COMPLAINT_ACKNOWLEDGMENT_POLICY,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Document action saved successfully
+,TC-008,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-17,OK,CS_COMPLAINT_ACKNOWLEDGMENT_POLICY,null,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Invalid token
+,TC-009,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-18,OK,CS_COMPLAINT_ACKNOWLEDGMENT_POLICY,Invalid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Invalid token
+,TC-010,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-19,OK,CS_COMPLAINT_ACKNOWLEDGMENT_POLICY,Valid,,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Invalid domain code
+,TC-011,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-20,OK,CS_COMPLAINT_ACKNOWLEDGMENT_POLICY,Valid,STS,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Requested domain and registered domain are mismatch
+"
+
+
+
+
+Save Action - Save Action - CS_COMPLAINT_UNABLE_TO_CONTACT_POLICY",TC-005,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_POLICY,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""chalani""
+    }",Document action saved successfully
+,TC-006,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-15,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_POLICY,Valid,WAPP,,"{
+        ""first_name"":""chalani""
+    }",Email address is null or invalid!
+,TC-007,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-16,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_POLICY,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""chalani""
+    }",Document action saved successfully
+,TC-008,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-17,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_POLICY,null,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""chalani""
+    }",Invalid token
+,TC-009,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-18,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_POLICY,Invalid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""chalani""
+    }",Invalid token
+,TC-010,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-19,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_POLICY,Valid,,rumana@intervest.lk,"{
+        ""first_name"":""chalani""
+    }",Invalid domain code
+,TC-011,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-20,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_POLICY,Valid,STS,rumana@intervest.lk,"{
+        ""first_name"":""chalani""
+    }",Requested domain and registered domain are mismatch
+"
+
+
+
+
+Save Action - CS_CS_FOUR_WEEK_HOLDING_COMPLAINT_POLICY",TC-005,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_POLICY,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Document action saved successfully
+,TC-006,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-15,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_POLICY,Valid,WAPP,,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Email address is null or invalid!
+,TC-007,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-16,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_POLICY,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Document action saved successfully
+,TC-008,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-17,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_POLICY,null,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Invalid token
+,TC-009,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-18,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_POLICY,Invalid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Invalid token
+,TC-010,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-19,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_POLICY,Valid,,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Invalid domain code
+,TC-011,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-20,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_POLICY,Valid,STS,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Requested domain and registered domain are mismatch
+"
+
+
+
+
+Save Action - CS_DATA_SUBJECT_ACCESS_REQUEST_POLICY",TC-005,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_POLICY,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Document action saved successfully
+,TC-006,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_POLICY,Valid,WAPP,,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Email address is null or invalid!
+,TC-007,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_POLICY,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Document action saved successfully
+,TC-008,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_POLICY,null,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Invalid token
+,TC-009,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_POLICY,Invalid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Invalid token
+,TC-010,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_POLICY,Valid,,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Invalid domain code
+,TC-011,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_POLICY,Valid,STS,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Requested domain and registered domain are mismatch
+"
+
+
+
+
+Save Action - CS_SUMMARY_RESOLUTION_LETTER_POLICY",TC-005,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_SUMMARY_RESOLUTION_LETTER_POLICY,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""chalani""
+    }",Document action saved successfully
+,TC-006,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-15,OK,CS_SUMMARY_RESOLUTION_LETTER_POLICY,Valid,WAPP,,"{
+        ""first_name"":""chalani""
+    }",Email address is null or invalid!
+,TC-007,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-16,OK,CS_SUMMARY_RESOLUTION_LETTER_POLICY,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""chalani""
+    }",Document action saved successfully
+,TC-008,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-17,OK,CS_SUMMARY_RESOLUTION_LETTER_POLICY,null,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""chalani""
+    }",Invalid token
+,TC-009,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-18,OK,CS_SUMMARY_RESOLUTION_LETTER_POLICY,Invalid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""chalani""
+    }",Invalid token
+,TC-010,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-19,OK,CS_SUMMARY_RESOLUTION_LETTER_POLICY,Valid,,rumana@intervest.lk,"{
+        ""first_name"":""chalani""
+    }",Invalid domain code
+,TC-011,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-20,OK,CS_SUMMARY_RESOLUTION_LETTER_POLICY,Valid,STS,rumana@intervest.lk,"{
+        ""first_name"":""chalani""
+    }",Requested domain and registered domain are mismatch
+"
+
+
+
+
+Save Action - CS_UNABLE_TO_CONTACT_POLICY",TC-005,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_UNABLE_TO_CONTACT_POLICY,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Document action saved successfully
+,TC-006,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-15,OK,CS_UNABLE_TO_CONTACT_POLICY,Valid,WAPP,,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Email address is null or invalid!
+,TC-007,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-16,OK,CS_UNABLE_TO_CONTACT_POLICY,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Document action saved successfully
+,TC-008,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-17,OK,CS_UNABLE_TO_CONTACT_POLICY,null,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Invalid token
+,TC-009,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-18,OK,CS_UNABLE_TO_CONTACT_POLICY,Invalid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Invalid token
+,TC-010,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-19,OK,CS_UNABLE_TO_CONTACT_POLICY,Valid,,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Invalid domain code
+,TC-011,WAPP,cs_policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-20,OK,CS_UNABLE_TO_CONTACT_POLICY,Valid,STS,rumana@intervest.lk,"{
+  ""first_name"":""chalani"",
+        ""complaint_date"":""<8 weeks after complaint date>""
+ }",Requested domain and registered domain are mismatch

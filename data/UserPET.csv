@@ -1,0 +1,1910 @@
+Testcase, Testcase #,domainCodeRegister,category,staticGroup,requestedDate,messageRegister,action,userTokenValidity,domainCodeSaveAction,value,data,messageSaveAction
+Save Action - SS_ACCOUNT_ACTIVATION,TC-005,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,SS_ACCOUNT_ACTIVATION,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,SS_ACCOUNT_ACTIVATION,Valid,PETSURE,," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,SS_ACCOUNT_ACTIVATION,Valid,PETSURE,rumanaintervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,SS_ACCOUNT_ACTIVATION,null,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,SS_ACCOUNT_ACTIVATION,Invalid,Invalid,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,SS_ACCOUNT_ACTIVATION,Valid,null,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,SS_ACCOUNT_ACTIVATION,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,SS_ACCOUNT_ACTIVATION,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": """",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,SS_ACCOUNT_ACTIVATION,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": """",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Document action saved successfully
+,TC-014,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,SS_ACCOUNT_ACTIVATION,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": """",
+""link"": ""https://www.google.com?text=1""
+}
+",Document action saved successfully
+,TC-015,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/18/2020,OK,SS_ACCOUNT_ACTIVATION,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": """"
+}
+",Document action saved successfully
+Save Action - SS_ACCOUNT_CREATE_CONFIRMATION,TC-005,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,SS_ACCOUNT_CREATE_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""account_number"": ""2216313063"",
+""login_link"": ""https://www.google.com?text=1""
+}",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,SS_ACCOUNT_CREATE_CONFIRMATION,Valid,PETSURE,,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""account_number"": ""2216313063"",
+""login_link"": ""https://www.google.com?text=1""
+}",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,SS_ACCOUNT_CREATE_CONFIRMATION,Valid,PETSURE,rumanaintervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""account_number"": ""2216313063"",
+""login_link"": ""https://www.google.com?text=1""
+}",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,SS_ACCOUNT_CREATE_CONFIRMATION,null,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""account_number"": ""2216313063"",
+""login_link"": ""https://www.google.com?text=1""
+}",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,SS_ACCOUNT_CREATE_CONFIRMATION,Invalid,Invalid,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""account_number"": ""2216313063"",
+""login_link"": ""https://www.google.com?text=1""
+}",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,SS_ACCOUNT_CREATE_CONFIRMATION,Valid,null,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""account_number"": ""2216313063"",
+""login_link"": ""https://www.google.com?text=1""
+}",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,SS_ACCOUNT_CREATE_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""account_number"": ""2216313063"",
+""login_link"": ""https://www.google.com?text=1""
+}",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,SS_ACCOUNT_CREATE_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""account_number"": ""2216313063"",
+""login_link"": ""https://www.google.com?text=1""
+}",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,SS_ACCOUNT_CREATE_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""account_number"": ""2216313063"",
+""login_link"": ""https://www.google.com?text=1""
+}",Document action saved successfully
+,TC-014,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,SS_ACCOUNT_CREATE_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""account_number"": ""2216313063"",
+""login_link"": ""https://www.google.com?text=1""
+}",Document action saved successfully
+,TC-015,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/18/2020,OK,SS_ACCOUNT_CREATE_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""account_number"": ""2216313063"",
+""login_link"": ""https://www.google.com?text=1""
+}",Document action saved successfully
+,TC-016,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/19/2020,OK,SS_ACCOUNT_CREATE_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""account_number"": ""2216313063"",
+""login_link"": ""https://www.google.com?text=1""
+}",Document action saved successfully
+Save Action - SS_CHANGE_USERNAME_REQUEST_INFORM,TC-005,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,SS_CHANGE_USERNAME_REQUEST_INFORM,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,SS_CHANGE_USERNAME_REQUEST_INFORM,Valid,PETSURE,,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,SS_CHANGE_USERNAME_REQUEST_INFORM,Valid,PETSURE,rumanaintervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,SS_CHANGE_USERNAME_REQUEST_INFORM,null,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,SS_CHANGE_USERNAME_REQUEST_INFORM,Invalid,Invalid,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,SS_CHANGE_USERNAME_REQUEST_INFORM,Valid,null,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,SS_CHANGE_USERNAME_REQUEST_INFORM,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,SS_CHANGE_USERNAME_REQUEST_INFORM,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": """",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,SS_CHANGE_USERNAME_REQUEST_INFORM,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": """",
+""title"": ""Mr""
+}",Document action saved successfully
+,TC-014,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,SS_CHANGE_USERNAME_REQUEST_INFORM,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": """"
+}",Document action saved successfully
+Save Action - SS_CHANGE_USERNAME_CONFIRMATION_TO_OLD,TC-005,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION_TO_OLD,Valid,PETSURE,gihan@intervest.lk," {
+       ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr""
+    }",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION_TO_OLD,Valid,PETSURE,," {
+       ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr""
+    }",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION_TO_OLD,Valid,PETSURE,rumanaintervest.lk," {
+       ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr""
+    }",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION_TO_OLD,null,PETSURE,gihan@intervest.lk," {
+       ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr""
+    }",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION_TO_OLD,Invalid,Invalid,gihan@intervest.lk," {
+       ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr""
+    }",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION_TO_OLD,Valid,null,gihan@intervest.lk," {
+       ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION_TO_OLD,Valid,PETSURE,gihan@intervest.lk," {
+       ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr""
+    }",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION_TO_OLD,Valid,PETSURE,gihan@intervest.lk," {
+       ""first_name"": """",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr""
+    }",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION_TO_OLD,Valid,PETSURE,gihan@intervest.lk," {
+       ""first_name"": ""Rumana"",
+        ""sur_name"": """",
+        ""title"": ""Mr""
+    }",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION_TO_OLD,Valid,PETSURE,gihan@intervest.lk," {
+       ""first_name"": ""Rumana"",
+        ""sur_name"": """",
+        ""title"": ""Mr""
+    }",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,SS_CHANGE_USERNAME,Valid,PETSURE,,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""link"":""https://www.google.com?text=1""
+}",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,SS_CHANGE_USERNAME,Valid,PETSURE,rumanaintervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""link"":""https://www.google.com?text=1""
+}",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,SS_CHANGE_USERNAME,null,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""link"":""https://www.google.com?text=1""
+}",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,SS_CHANGE_USERNAME,Invalid,Invalid,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""link"":""https://www.google.com?text=1""
+}",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,SS_CHANGE_USERNAME,Valid,null,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""link"":""https://www.google.com?text=1""
+}",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,SS_CHANGE_USERNAME,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""link"":""https://www.google.com?text=1""
+}",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,SS_CHANGE_USERNAME,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": """",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""link"":""https://www.google.com?text=1""
+}",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,SS_CHANGE_USERNAME,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": """",
+        ""title"": ""Mr"",
+        ""link"":""https://www.google.com?text=1""
+}",Document action saved successfully
+,TC-014,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,SS_CHANGE_USERNAME,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": """",
+        ""link"":""https://www.google.com?text=1""
+}",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION,Valid,PETSURE,,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION,Valid,PETSURE,rumanaintervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION,null,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION,Invalid,Invalid,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION,Valid,null,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": """",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": """",
+""title"": ""Mr""
+}",Document action saved successfully
+,TC-014,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,SS_CHANGE_USERNAME_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": """"
+}",Document action saved successfully
+Save Action - SS_CHANGE_PASSWORD_CONFIRMATION,TC-005,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,SS_CHANGE_PASSWORD_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,SS_CHANGE_PASSWORD_CONFIRMATION,Valid,PETSURE,,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,SS_CHANGE_PASSWORD_CONFIRMATION,Valid,PETSURE,rumanaintervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,SS_CHANGE_PASSWORD_CONFIRMATION,null,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,SS_CHANGE_PASSWORD_CONFIRMATION,Invalid,Invalid,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,SS_CHANGE_PASSWORD_CONFIRMATION,Valid,null,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,SS_CHANGE_PASSWORD_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,SS_CHANGE_PASSWORD_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": """",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr""
+}",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,SS_CHANGE_PASSWORD_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": """",
+""title"": ""Mr""
+}",Document action saved successfully
+,TC-014,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,SS_CHANGE_PASSWORD_CONFIRMATION,Valid,PETSURE,gihan@intervest.lk,"{
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": """"
+}",Document action saved successfully
+Save Action - SS_CHANGE_MY_DETAIL,TC-005,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,SS_CHANGE_MY_DETAIL,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""account_number"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1"",
+        ""change_made"":""NIC Number, Date of Birth, <any item>"",
+        ""modified_items"": [
+            ""NIC Number"",
+            ""Date of birth"",
+            ""<any item>""
+        ]
+    }",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,SS_CHANGE_MY_DETAIL,Valid,PETSURE,,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""account_number"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1"",
+        ""change_made"":""NIC Number, Date of Birth, <any item>"",
+        ""modified_items"": [
+            ""NIC Number"",
+            ""Date of birth"",
+            ""<any item>""
+        ]
+    }",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,SS_CHANGE_MY_DETAIL,Valid,PETSURE,rumanaintervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""account_number"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1"",
+        ""change_made"":""NIC Number, Date of Birth, <any item>"",
+        ""modified_items"": [
+            ""NIC Number"",
+            ""Date of birth"",
+            ""<any item>""
+        ]
+    }",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,SS_CHANGE_MY_DETAIL,null,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""account_number"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1"",
+        ""change_made"":""NIC Number, Date of Birth, <any item>"",
+        ""modified_items"": [
+            ""NIC Number"",
+            ""Date of birth"",
+            ""<any item>""
+        ]
+    }",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,SS_CHANGE_MY_DETAIL,Invalid,Invalid,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""account_number"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1"",
+        ""change_made"":""NIC Number, Date of Birth, <any item>"",
+        ""modified_items"": [
+            ""NIC Number"",
+            ""Date of birth"",
+            ""<any item>""
+        ]
+    }",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,SS_CHANGE_MY_DETAIL,Valid,null,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""account_number"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1"",
+        ""change_made"":""NIC Number, Date of Birth, <any item>"",
+        ""modified_items"": [
+            ""NIC Number"",
+            ""Date of birth"",
+            ""<any item>""
+        ]
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,SS_CHANGE_MY_DETAIL,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""account_number"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1"",
+        ""change_made"":""NIC Number, Date of Birth, <any item>"",
+        ""modified_items"": [
+            ""NIC Number"",
+            ""Date of birth"",
+            ""<any item>""
+        ]
+    }",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,SS_CHANGE_MY_DETAIL,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": """",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""account_number"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1"",
+        ""change_made"":""NIC Number, Date of Birth, <any item>"",
+        ""modified_items"": [
+            ""NIC Number"",
+            ""Date of birth"",
+            ""<any item>""
+        ]
+    }",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,SS_CHANGE_MY_DETAIL,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": """",
+        ""title"": ""Mr"",
+        ""account_number"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1"",
+        ""change_made"":""NIC Number, Date of Birth, <any item>"",
+        ""modified_items"": [
+            ""NIC Number"",
+            ""Date of birth"",
+            ""<any item>""
+        ]
+    }",Document action saved successfully
+,TC-014,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,SS_CHANGE_MY_DETAIL,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": """",
+        ""account_number"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1"",
+        ""change_made"":""NIC Number, Date of Birth, <any item>"",
+        ""modified_items"": [
+            ""NIC Number"",
+            ""Date of birth"",
+            ""<any item>""
+        ]
+    }",Document action saved successfully
+,TC-015,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/18/2020,OK,SS_CHANGE_MY_DETAIL,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""account_number"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1"",
+        ""change_made"":""NIC Number, Date of Birth, <any item>"",
+        ""modified_items"": [ ]
+    }",Document action saved successfully
+Save Action - SS_CHANGE_PASSWORD,TC-005,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,SS_CHANGE_PASSWORD,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,SS_CHANGE_PASSWORD,Valid,PETSURE,," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,SS_CHANGE_PASSWORD,Valid,PETSURE,rumanaintervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,SS_CHANGE_PASSWORD,null,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,SS_CHANGE_PASSWORD,Invalid,Invalid,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,SS_CHANGE_PASSWORD,Valid,null,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,SS_CHANGE_PASSWORD,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,SS_CHANGE_PASSWORD,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": """",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,SS_CHANGE_PASSWORD,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": """",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Document action saved successfully
+,TC-014,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,SS_CHANGE_PASSWORD,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": """",
+""link"": ""https://www.google.com?text=1""
+}
+",Document action saved successfully
+,TC-015,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/18/2020,OK,SS_CHANGE_PASSWORD,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": """"
+}
+",Document action saved successfully
+Save Action - SS_FORGET_PASSWORD,TC-005,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,SS_FORGET_PASSWORD,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,SS_FORGET_PASSWORD,Valid,PETSURE,," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,SS_FORGET_PASSWORD,Valid,PETSURE,rumanaintervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,SS_FORGET_PASSWORD,null,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,SS_FORGET_PASSWORD,Invalid,Invalid,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,SS_FORGET_PASSWORD,Valid,null,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,SS_FORGET_PASSWORD,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,SS_FORGET_PASSWORD,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": """",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,SS_FORGET_PASSWORD,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": """",
+""title"": ""Mr"",
+""link"": ""https://www.google.com?text=1""
+}
+",Document action saved successfully
+,TC-014,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,SS_FORGET_PASSWORD,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": """",
+""link"": ""https://www.google.com?text=1""
+}
+",Document action saved successfully
+,TC-015,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/18/2020,OK,SS_FORGET_PASSWORD,Valid,PETSURE,gihan@intervest.lk," {
+""first_name"": ""Gihan"",
+""sur_name"": ""Kadawathage"",
+""title"": ""Mr"",
+""link"": """"
+}
+",Document action saved successfully
+Save Action - SS_ADD_MARKETING_PREFERENCE,TC-005,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,SS_ADD_MARKETING_PREFERENCE,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,SS_ADD_MARKETING_PREFERENCE,Valid,PETSURE,,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,SS_ADD_MARKETING_PREFERENCE,Valid,PETSURE,rumanaintervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,SS_ADD_MARKETING_PREFERENCE,null,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,SS_ADD_MARKETING_PREFERENCE,Invalid,Invalid,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,SS_ADD_MARKETING_PREFERENCE,Valid,null,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,SS_ADD_MARKETING_PREFERENCE,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,SS_ADD_MARKETING_PREFERENCE,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": """",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,SS_ADD_MARKETING_PREFERENCE,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": """",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Document action saved successfully
+Save Action - SS_CHANGE_MARKETING_PREFERENCE,TC-005,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,SS_CHANGE_MARKETING_PREFERENCE,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,SS_CHANGE_MARKETING_PREFERENCE,Valid,PETSURE,,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,SS_CHANGE_MARKETING_PREFERENCE,Valid,PETSURE,rumanaintervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,SS_CHANGE_MARKETING_PREFERENCE,null,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,SS_CHANGE_MARKETING_PREFERENCE,Invalid,Invalid,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,SS_CHANGE_MARKETING_PREFERENCE,Valid,null,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,SS_CHANGE_MARKETING_PREFERENCE,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,SS_CHANGE_MARKETING_PREFERENCE,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": """",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,SS_CHANGE_MARKETING_PREFERENCE,Valid,PETSURE,gihan@intervest.lk,"{
+        ""first_name"": ""Rumana"",
+        ""sur_name"": """",
+        ""title"": ""Mr"",
+        ""marketing_preference"": ""2216313063"",
+        ""login_link"": ""https://www.google.com?text=1""
+    }
+",Document action saved successfully
+Save Action - SS_GET_IN_TOUCH,TC-005,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,SS_GET_IN_TOUCH,Valid,PETSURE,gihan@intervest.lk,"{
+    ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""subject"": ""Add missing policy"",
+        ""message"": ""testing np"",
+        ""email"": ""nishantha@intervest.lk"",
+        ""telephoneNo"": ""0112456456"",
+        ""domainName"": ""Avanthi""
+    }",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,SS_GET_IN_TOUCH,Valid,PETSURE,,"{
+    ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""subject"": ""Add missing policy"",
+        ""message"": ""testing np"",
+        ""email"": ""nishantha@intervest.lk"",
+        ""telephoneNo"": ""0112456456"",
+        ""domainName"": ""Avanthi""
+    }",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,SS_GET_IN_TOUCH,Valid,PETSURE,rumanaintervest.lk,"{
+    ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""subject"": ""Add missing policy"",
+        ""message"": ""testing np"",
+        ""email"": ""nishantha@intervest.lk"",
+        ""telephoneNo"": ""0112456456"",
+        ""domainName"": ""Avanthi""
+    }",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,SS_GET_IN_TOUCH,null,PETSURE,gihan@intervest.lk,"{
+    ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""subject"": ""Add missing policy"",
+        ""message"": ""testing np"",
+        ""email"": ""nishantha@intervest.lk"",
+        ""telephoneNo"": ""0112456456"",
+        ""domainName"": ""Avanthi""
+    }",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,SS_GET_IN_TOUCH,Invalid,Invalid,gihan@intervest.lk,"{
+    ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""subject"": ""Add missing policy"",
+        ""message"": ""testing np"",
+        ""email"": ""nishantha@intervest.lk"",
+        ""telephoneNo"": ""0112456456"",
+        ""domainName"": ""Avanthi""
+    }",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,SS_GET_IN_TOUCH,Valid,null,gihan@intervest.lk,"{
+    ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""subject"": ""Add missing policy"",
+        ""message"": ""testing np"",
+        ""email"": ""nishantha@intervest.lk"",
+        ""telephoneNo"": ""0112456456"",
+        ""domainName"": ""Avanthi""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,SS_GET_IN_TOUCH,Valid,PETSURE,gihan@intervest.lk,"{
+    ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""subject"": ""Add missing policy"",
+        ""message"": ""testing np"",
+        ""email"": ""nishantha@intervest.lk"",
+        ""telephoneNo"": ""0112456456"",
+        ""domainName"": ""Avanthi""
+    }",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,SS_GET_IN_TOUCH,Valid,PETSURE,gihan@intervest.lk,"{
+    ""first_name"": """",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""subject"": ""Add missing policy"",
+        ""message"": ""testing np"",
+        ""email"": ""nishantha@intervest.lk"",
+        ""telephoneNo"": ""0112456456"",
+        ""domainName"": ""Avanthi""
+    }",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,SS_GET_IN_TOUCH,Valid,PETSURE,gihan@intervest.lk,"{
+    ""first_name"": ""Rumana"",
+        ""sur_name"": """",
+        ""title"": ""Mr"",
+        ""subject"": ""Add missing policy"",
+        ""message"": ""testing np"",
+        ""email"": ""nishantha@intervest.lk"",
+        ""telephoneNo"": ""0112456456"",
+        ""domainName"": ""Avanthi""
+    }",Document action saved successfully
+,TC-014,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,SS_GET_IN_TOUCH,Valid,PETSURE,gihan@intervest.lk,"{
+    ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": """",
+        ""subject"": ""Add missing policy"",
+        ""message"": ""testing np"",
+        ""email"": ""nishantha@intervest.lk"",
+        ""telephoneNo"": ""0112456456"",
+        ""domainName"": ""Avanthi""
+    }",Document action saved successfully
+,TC-015,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/18/2020,OK,SS_GET_IN_TOUCH,Valid,PETSURE,gihan@intervest.lk,"{
+    ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""subject"": ""Add missing policy"",
+        ""message"": ""testing np"",
+        ""email"": ""nishantha@intervest.lk"",
+        ""telephoneNo"": ""0112456456"",
+        ""domainName"": ""Avanthi""
+    }",Document action saved successfully
+,TC-016,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/19/2020,OK,SS_GET_IN_TOUCH,Valid,PETSURE,gihan@intervest.lk,"{
+    ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""subject"": ""Add missing policy"",
+        ""message"": ""testing np"",
+        ""email"": ""nishantha@intervest.lk"",
+        ""telephoneNo"": ""0112456456"",
+        ""domainName"": ""Avanthi""
+    }",Document action saved successfully
+,TC-017,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/20/2020,OK,SS_GET_IN_TOUCH,,PETSURE,gihan@intervest.lk,"{
+    ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""subject"": ""Add missing policy"",
+        ""message"": ""testing np"",
+        ""email"": ""nishantha@intervest.lk"",
+        ""telephoneNo"": ""0112456456"",
+        ""domainName"": ""Avanthi""
+    }",Document action saved successfully
+,TC-018,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/21/2020,OK,SS_GET_IN_TOUCH,,PETSURE,gihan@intervest.lk,"{
+    ""first_name"": ""Rumana"",
+        ""sur_name"": ""Banu"",
+        ""title"": ""Mr"",
+        ""subject"": ""Add missing policy"",
+        ""message"": """",
+        ""email"": ""nishantha@intervest.lk"",
+        ""telephoneNo"": ""0112456456"",
+        ""domainName"": ""Avanthi""
+    }",Document action saved successfully
+"SaveAction-POLICY_CANCELLATION_PAYMENT_FAILED
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": """",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""policy_cancelled_date"": ""01-05-2021""
+    }",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,PETSURE,,"{
+        ""title"": ""Mr"",
+        ""surname"": """",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""policy_cancelled_date"": ""01-05-2021""
+    }",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,PETSURE,rumanaintervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": """",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""policy_cancelled_date"": ""01-05-2021""
+    }",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,null,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": """",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""policy_cancelled_date"": ""01-05-2021""
+    }",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Invalid,Invalid,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": """",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""policy_cancelled_date"": ""01-05-2021""
+    }",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,null,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": """",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""policy_cancelled_date"": ""01-05-2021""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": """",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""policy_cancelled_date"": ""01-05-2021""
+    }",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": """",
+        ""surname"": """",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""policy_cancelled_date"": ""01-05-2021""
+    }",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": """",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""policy_cancelled_date"": ""01-05-2021""
+    }",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,POLICY_CANCELLATION_PAYMENT_FAILED,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": """",
+        ""first_name"": """",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""policy_cancelled_date"": ""01-05-2021""
+    }",Document action saved successfully
+"Save Action - PAYMENT_FAILURE
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,PAYMENT_FAILURE,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": ""jdjhjshdjsds"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,PAYMENT_FAILURE,Valid,PETSURE,,"{
+        ""title"": ""Mr"",
+        ""surname"": ""jdjhjshdjsds"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,PAYMENT_FAILURE,Valid,PETSURE,rumanaintervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": ""jdjhjshdjsds"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,PAYMENT_FAILURE,null,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": ""jdjhjshdjsds"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,PAYMENT_FAILURE,Invalid,Invalid,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": ""jdjhjshdjsds"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,PAYMENT_FAILURE,Valid,null,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": ""jdjhjshdjsds"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,PAYMENT_FAILURE,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": ""jdjhjshdjsds"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,PAYMENT_FAILURE,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": """",
+        ""surname"": ""jdjhjshdjsds"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,PAYMENT_FAILURE,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": """",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Document action saved successfully
+,TC-014,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/17/2020,OK,PAYMENT_FAILURE,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": ""jdjhjshdjsds"",
+        ""first_name"": """",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Document action saved successfully
+"SaveAction-PAYMENT_FAILURE_2ND_ATTEMPT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/8/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": ""Gibhabh"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Document action saved successfully
+,TC-006,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/9/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,PETSURE,,"{
+        ""title"": ""Mr"",
+        ""surname"": ""Gibhabh"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Email address is null or invalid!
+,TC-007,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/10/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,PETSURE,rumanaintervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": ""Gibhabh"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Email address is null or invalid!
+,TC-008,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/11/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,null,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": ""Gibhabh"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Invalid token
+,TC-009,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/12/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Invalid,Invalid,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": ""Gibhabh"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Invalid domain code
+,TC-010,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/13/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,null,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": ""Gibhabh"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Invalid domain code
+,TC-011,STS,user,"{
+        ""underwriter"":""GLI""
+ }",12/14/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": ""Gibhabh"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/15/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": """",
+        ""surname"": ""Gibhabh"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": """",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Document action saved successfully
+,TC-013,PETSURE,user,"{
+        ""underwriter"":""GLI""
+ }",12/16/2020,OK,PAYMENT_FAILURE_2ND_ATTEMPT,Valid,PETSURE,gihan@intervest.lk,"{
+        ""title"": ""Mr"",
+        ""surname"": ""Gibhabh"",
+        ""first_name"": ""Amila"",
+        ""payment_amount"": ""�30.00"",
+        ""login_link"": ""https://www.google.com/"",
+        ""policy_number"": ""123456850"",
+        ""pet_list"": [
+            {
+                ""pet"": ""rover""
+            },
+            {
+                ""pet"": ""rover2""
+            }
+        ],
+        ""payment_due"": ""01-05-2021""
+    }",Document action saved successfully

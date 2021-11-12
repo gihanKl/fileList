@@ -1,0 +1,395 @@
+Testcase, Testcase #,domainCodeRegister,category,staticGroup,requestedDate,messageRegister,action,userTokenValidity,domainCodeSaveAction,value,data,messageSaveAction
+"SaveAction-QUOTE_NOT_BOUGHT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",TC-005,PETSURE,quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-08,OK,QUOTE_NOT_BOUGHT,Valid,PETSURE,gihan@intervest.lk,"{
+""title"": ""Miss"",
+""first_name"": ""Chathumi"",
+""sur_name"": ""Bandara"",
+""faq_url"": ""https://webqa01.petsure.com/"",
+""find_out_more_url"": ""https://webqa01.petsure.com"",
+""retrieve_quote_link"": ""https://webqa01.petsure.com/qnb-back?qnb=sGKAj%2FKyM%2Bwk5Yja%2BguDmbi2VralOL%2BdO9gWQLtbkwec4lgKYMDLHJPyiWLWPIIM7Fofwc5Q6Zld%2BwLjG5Hbr9QNyrcVWPQy1ZrG%2FpWyuvbDf9Z6cTRW3%2FtcCHbzGhk8"",
+""pet_list"": [ {
+""pet"": ""One"",
+""pet_type"": ""cat"",
+""breed"": ""Abyssinian"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""5000"",
+""excess"": ""300"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 11.22,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}, {
+""pet"": ""Two"",
+""pet_type"": ""dog"",
+""breed"": ""Affenpinscher"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""3000"",
+""excess"": ""500"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 14.41,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}
+],
+""monthly_cost"": ""25.63"",
+""annual_cost"": ""307.43""
+}",Document action saved successfully
+,TC-006,PETSURE,quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-09,OK,QUOTE_NOT_BOUGHT,Valid,PETSURE,,"{
+""title"": ""Miss"",
+""first_name"": ""Chathumi"",
+""sur_name"": ""Bandara"",
+""faq_url"": ""https://webqa01.petsure.com/"",
+""find_out_more_url"": ""https://webqa01.petsure.com"",
+""retrieve_quote_link"": ""https://webqa01.petsure.com/qnb-back?qnb=sGKAj%2FKyM%2Bwk5Yja%2BguDmbi2VralOL%2BdO9gWQLtbkwec4lgKYMDLHJPyiWLWPIIM7Fofwc5Q6Zld%2BwLjG5Hbr9QNyrcVWPQy1ZrG%2FpWyuvbDf9Z6cTRW3%2FtcCHbzGhk8"",
+""pet_list"": [ {
+""pet"": ""One"",
+""pet_type"": ""cat"",
+""breed"": ""Abyssinian"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""5000"",
+""excess"": ""300"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 11.22,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}, {
+""pet"": ""Two"",
+""pet_type"": ""dog"",
+""breed"": ""Affenpinscher"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""3000"",
+""excess"": ""500"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 14.41,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}
+],
+""monthly_cost"": ""25.63"",
+""annual_cost"": ""307.43""
+}",Email address is null or invalid!
+,TC-007,PETSURE,quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-10,OK,QUOTE_NOT_BOUGHT,Valid,PETSURE,gihanintervest.lk,"{
+""title"": ""Miss"",
+""first_name"": ""Chathumi"",
+""sur_name"": ""Bandara"",
+""faq_url"": ""https://webqa01.petsure.com/"",
+""find_out_more_url"": ""https://webqa01.petsure.com"",
+""retrieve_quote_link"": ""https://webqa01.petsure.com/qnb-back?qnb=sGKAj%2FKyM%2Bwk5Yja%2BguDmbi2VralOL%2BdO9gWQLtbkwec4lgKYMDLHJPyiWLWPIIM7Fofwc5Q6Zld%2BwLjG5Hbr9QNyrcVWPQy1ZrG%2FpWyuvbDf9Z6cTRW3%2FtcCHbzGhk8"",
+""pet_list"": [ {
+""pet"": ""One"",
+""pet_type"": ""cat"",
+""breed"": ""Abyssinian"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""5000"",
+""excess"": ""300"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 11.22,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}, {
+""pet"": ""Two"",
+""pet_type"": ""dog"",
+""breed"": ""Affenpinscher"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""3000"",
+""excess"": ""500"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 14.41,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}
+],
+""monthly_cost"": ""25.63"",
+""annual_cost"": ""307.43""
+}",Email address is null or invalid!
+,TC-008,PETSURE,quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-11,OK,QUOTE_NOT_BOUGHT,null,PETSURE,gihan@intervest.lk,"{
+""title"": ""Miss"",
+""first_name"": ""Chathumi"",
+""sur_name"": ""Bandara"",
+""faq_url"": ""https://webqa01.petsure.com/"",
+""find_out_more_url"": ""https://webqa01.petsure.com"",
+""retrieve_quote_link"": ""https://webqa01.petsure.com/qnb-back?qnb=sGKAj%2FKyM%2Bwk5Yja%2BguDmbi2VralOL%2BdO9gWQLtbkwec4lgKYMDLHJPyiWLWPIIM7Fofwc5Q6Zld%2BwLjG5Hbr9QNyrcVWPQy1ZrG%2FpWyuvbDf9Z6cTRW3%2FtcCHbzGhk8"",
+""pet_list"": [ {
+""pet"": ""One"",
+""pet_type"": ""cat"",
+""breed"": ""Abyssinian"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""5000"",
+""excess"": ""300"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 11.22,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}, {
+""pet"": ""Two"",
+""pet_type"": ""dog"",
+""breed"": ""Affenpinscher"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""3000"",
+""excess"": ""500"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 14.41,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}
+],
+""monthly_cost"": ""25.63"",
+""annual_cost"": ""307.43""
+}",Invalid token
+,TC-009,PETSURE,quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-12,OK,QUOTE_NOT_BOUGHT,Invalid,Invalid,gihan@intervest.lk,"{
+""title"": ""Miss"",
+""first_name"": ""Chathumi"",
+""sur_name"": ""Bandara"",
+""faq_url"": ""https://webqa01.petsure.com/"",
+""find_out_more_url"": ""https://webqa01.petsure.com"",
+""retrieve_quote_link"": ""https://webqa01.petsure.com/qnb-back?qnb=sGKAj%2FKyM%2Bwk5Yja%2BguDmbi2VralOL%2BdO9gWQLtbkwec4lgKYMDLHJPyiWLWPIIM7Fofwc5Q6Zld%2BwLjG5Hbr9QNyrcVWPQy1ZrG%2FpWyuvbDf9Z6cTRW3%2FtcCHbzGhk8"",
+""pet_list"": [ {
+""pet"": ""One"",
+""pet_type"": ""cat"",
+""breed"": ""Abyssinian"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""5000"",
+""excess"": ""300"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 11.22,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}, {
+""pet"": ""Two"",
+""pet_type"": ""dog"",
+""breed"": ""Affenpinscher"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""3000"",
+""excess"": ""500"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 14.41,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}
+],
+""monthly_cost"": ""25.63"",
+""annual_cost"": ""307.43""
+}",Invalid domain code
+,TC-010,PETSURE,quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-13,OK,QUOTE_NOT_BOUGHT,Valid,null,gihan@intervest.lk,"{
+""title"": ""Miss"",
+""first_name"": ""Chathumi"",
+""sur_name"": ""Bandara"",
+""faq_url"": ""https://webqa01.petsure.com/"",
+""find_out_more_url"": ""https://webqa01.petsure.com"",
+""retrieve_quote_link"": ""https://webqa01.petsure.com/qnb-back?qnb=sGKAj%2FKyM%2Bwk5Yja%2BguDmbi2VralOL%2BdO9gWQLtbkwec4lgKYMDLHJPyiWLWPIIM7Fofwc5Q6Zld%2BwLjG5Hbr9QNyrcVWPQy1ZrG%2FpWyuvbDf9Z6cTRW3%2FtcCHbzGhk8"",
+""pet_list"": [ {
+""pet"": ""One"",
+""pet_type"": ""cat"",
+""breed"": ""Abyssinian"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""5000"",
+""excess"": ""300"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 11.22,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}, {
+""pet"": ""Two"",
+""pet_type"": ""dog"",
+""breed"": ""Affenpinscher"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""3000"",
+""excess"": ""500"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 14.41,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}
+],
+""monthly_cost"": ""25.63"",
+""annual_cost"": ""307.43""
+}",Invalid domain code
+,TC-011,STS,quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,QUOTE_NOT_BOUGHT,Valid,PETSURE,gihan@intervest.lk,"{
+""title"": ""Miss"",
+""first_name"": ""Chathumi"",
+""sur_name"": ""Bandara"",
+""faq_url"": ""https://webqa01.petsure.com/"",
+""find_out_more_url"": ""https://webqa01.petsure.com"",
+""retrieve_quote_link"": ""https://webqa01.petsure.com/qnb-back?qnb=sGKAj%2FKyM%2Bwk5Yja%2BguDmbi2VralOL%2BdO9gWQLtbkwec4lgKYMDLHJPyiWLWPIIM7Fofwc5Q6Zld%2BwLjG5Hbr9QNyrcVWPQy1ZrG%2FpWyuvbDf9Z6cTRW3%2FtcCHbzGhk8"",
+""pet_list"": [ {
+""pet"": ""One"",
+""pet_type"": ""cat"",
+""breed"": ""Abyssinian"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""5000"",
+""excess"": ""300"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 11.22,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}, {
+""pet"": ""Two"",
+""pet_type"": ""dog"",
+""breed"": ""Affenpinscher"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""3000"",
+""excess"": ""500"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 14.41,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}
+],
+""monthly_cost"": ""25.63"",
+""annual_cost"": ""307.43""
+}",Requested domain and registered domain are mismatch
+,TC-012,PETSURE,quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-15,OK,QUOTE_NOT_BOUGHT,Valid,PETSURE,gihan@intervest.lk,"{
+""title"": """",
+""first_name"": ""Chathumi"",
+""sur_name"": ""Bandara"",
+""faq_url"": ""https://webqa01.petsure.com/"",
+""find_out_more_url"": ""https://webqa01.petsure.com"",
+""retrieve_quote_link"": ""https://webqa01.petsure.com/qnb-back?qnb=sGKAj%2FKyM%2Bwk5Yja%2BguDmbi2VralOL%2BdO9gWQLtbkwec4lgKYMDLHJPyiWLWPIIM7Fofwc5Q6Zld%2BwLjG5Hbr9QNyrcVWPQy1ZrG%2FpWyuvbDf9Z6cTRW3%2FtcCHbzGhk8"",
+""pet_list"": [ {
+""pet"": ""One"",
+""pet_type"": ""cat"",
+""breed"": ""Abyssinian"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""5000"",
+""excess"": ""300"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 11.22,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}, {
+""pet"": ""Two"",
+""pet_type"": ""dog"",
+""breed"": ""Affenpinscher"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""3000"",
+""excess"": ""500"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 14.41,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}
+],
+""monthly_cost"": ""25.63"",
+""annual_cost"": ""307.43""
+}",Document action saved successfully
+,TC-013,PETSURE,quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-16,OK,QUOTE_NOT_BOUGHT,Valid,PETSURE,gihan@intervest.lk,"{
+""title"": ""Miss"",
+""first_name"": """",
+""sur_name"": ""Bandara"",
+""faq_url"": ""https://webqa01.petsure.com/"",
+""find_out_more_url"": ""https://webqa01.petsure.com"",
+""retrieve_quote_link"": ""https://webqa01.petsure.com/qnb-back?qnb=sGKAj%2FKyM%2Bwk5Yja%2BguDmbi2VralOL%2BdO9gWQLtbkwec4lgKYMDLHJPyiWLWPIIM7Fofwc5Q6Zld%2BwLjG5Hbr9QNyrcVWPQy1ZrG%2FpWyuvbDf9Z6cTRW3%2FtcCHbzGhk8"",
+""pet_list"": [ {
+""pet"": ""One"",
+""pet_type"": ""cat"",
+""breed"": ""Abyssinian"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""5000"",
+""excess"": ""300"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 11.22,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}, {
+""pet"": ""Two"",
+""pet_type"": ""dog"",
+""breed"": ""Affenpinscher"",
+""age"": ""1 year and 5 months"",
+""vet_fee_cover"": ""3000"",
+""excess"": ""500"",
+""bill_share"": ""20%"",
+""total_policy_cost"": 14.41,
+""dental_cover"": ""Y"",
+""farewell_cover"": ""Y"",
+""lost_or_stolen_cover"": ""Y"",
+""travel_and_holiday_cover"": ""Y""
+}
+],
+""monthly_cost"": ""25.63"",
+""annual_cost"": ""307.43""
+}",Document action saved successfully

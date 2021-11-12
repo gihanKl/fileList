@@ -1,0 +1,2985 @@
+Testcase,Description, Testcase #,domainCodeRegister,category,staticGroup,requestedDate,dataRegister,messageRegister
+"Register - POLICY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+",,TC-001,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-08,"{
+  ""data_set"": [
+  {
+  ""trip_type"": ""st"",
+  ""purches_detail"": [
+  {
+  ""purches_date"": ""27/10/2020 22:17""
+  }
+  ],
+  ""personal_detail"": [
+  {
+  ""insurer"": ""Great Lakes Insurance SE - Test"",
+  ""policy_number"": ""320000510"",  
+        ""name"": ""Charutha Fonseka"",
+  ""policy_holder_first_name"": ""Charutha"",
+        ""policy_holder_last_name"": ""Fonseka"",
+  ""address_line_1"": ""One Britannia House"",
+  ""address_line_2"": null,
+        ""address_line_3"": null,
+  ""town"":null,
+        ""city"":""City Northampton"",
+  ""county"": ""County Northamptonshire"",
+  ""country"":""United Kingdom"",
+  ""postcode"":""NN4 7YB"",
+  ""phone"": ""+940716101676"",        
+        ""phone_eve"":""077424444555"",
+  ""email"": ""charutha@intervest.lk""
+  }
+  ],
+  ""cover_detail"": [
+  {
+  ""date_of_issue"": ""24/11/2020"",
+  ""policy_type"": ""Single Trip Essentials"",
+  ""cover_type"": ""Classic"",
+  ""destination"": ""Antigua And Barbuda, Bosnia And Herzegovina, British Indian Ocean Territory, Brunei Darussalam, Christmas Island, Cocos (Keeling) Islands, Congo, The Democratic Republic Of The Congo, Dominican Republic, Finland (Åland Islands), French Polynesia, Guernsey (Alderney, Sark, Herm, Brecqhou, Jethou, Lihou), Heard Island And Mcdonald Islands, Holy See (Vatican City State), Macedonia, The Former Yugoslav Republic Of, Micronesia, Federated States Of, Moldova, Republic Of, Northern Mariana Islands, Russian Federation, Saint Pierre And Miquelon, Saint Vincent And The Grenadines, Sao Tome And Principe, South Georgia And The South Sandwich Islands, Spain (including Balearic Islands, Canary Islands), Svalbard And Jan Mayen, Taiwan, Province Of China, Trinidad And Tobago, Turks And Caicos Islands, Virgin Islands,British, Wallis And Futuna"",
+  ""cover_start_date"": ""01/11/2020"",
+  ""cover_end_date"": ""30/11/2021"",
+  ""cancellation_limit"": ""£2500"",
+  ""cruise"": ""Not covered"",
+  ""excess_waiver"": ""£1444.83"",
+  ""terrerism_cancellation"": ""£1000.41"",
+  ""winter_sports_cover"":""17 Days inc"",
+  ""travel_cover_start_date"": ""25/11/2020"",
+  ""cancellation_cover_start_date"": ""26/11/2020"",
+  ""gadget_cover_start_date"": ""27/11/2020"",
+  ""baggage_&_belongings_cover_limit"": ""£500"",
+  ""gadget_cover_limit"": ""5"",
+  ""trip_claim_excess"": ""£1500""
+  }
+  ],
+  ""table_of_benifits"": [
+  {
+  ""cancellation_limit_value"": ""<cancellation_limit_value>"",
+  ""baggage_belongings_limit_value"": ""<baggage_&_belongings_limit_value>"",
+  ""trip_claim_excess_value"": ""<Classic>""
+  }
+  ],
+  ""price_list"": [
+  {
+  ""base_price"": ""£9933.33"",
+  ""addtional_cover"": ""£925.24"",
+  ""insuarnace_tax"": ""£911.70"",
+  ""postage"": ""£0.00"",
+  ""sub_total"": ""£970.27"",
+  ""discounts"": ""-£968.87"",
+  ""total"": ""£9991.40""
+  }
+  ],
+  ""insured_list"": [
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Fonseka"",
+  ""first_name"": ""Charutha_Test"",
+  ""age"": 1,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Silvster"",
+  ""first_name"": ""Amila_Test"",
+  ""age"": 18,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Mahinthantest"",
+  ""first_name"": ""Ganesagugantest"",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+        {
+  ""title"": ""Mr"",
+  ""last_name"": ""Steve"",
+  ""first_name"": ""Charutha Fonseka-Test'Jr."",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  }
+  ]
+  }
+  ]
+  }",OK
+,,TC-002,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",,"{
+  ""data_set"": [
+  {
+  ""trip_type"": ""st"",
+  ""purches_detail"": [
+  {
+  ""purches_date"": ""27/10/2020 22:17""
+  }
+  ],
+  ""personal_detail"": [
+  {
+  ""insurer"": ""Great Lakes Insurance SE - Test"",
+  ""policy_number"": ""320000510"",  
+        ""name"": ""Charutha Fonseka"",
+  ""policy_holder_first_name"": ""Charutha"",
+        ""policy_holder_last_name"": ""Fonseka"",
+  ""address_line_1"": ""One Britannia House"",
+  ""address_line_2"": null,
+        ""address_line_3"": null,
+  ""town"":null,
+        ""city"":""City Northampton"",
+  ""county"": ""County Northamptonshire"",
+  ""country"":""United Kingdom"",
+  ""postcode"":""NN4 7YB"",
+  ""phone"": ""+940716101676"",        
+        ""phone_eve"":""077424444555"",
+  ""email"": ""charutha@intervest.lk""
+  }
+  ],
+  ""cover_detail"": [
+  {
+  ""date_of_issue"": ""24/11/2020"",
+  ""policy_type"": ""Single Trip Essentials"",
+  ""cover_type"": ""Classic"",
+  ""destination"": ""Antigua And Barbuda, Bosnia And Herzegovina, British Indian Ocean Territory, Brunei Darussalam, Christmas Island, Cocos (Keeling) Islands, Congo, The Democratic Republic Of The Congo, Dominican Republic, Finland (Åland Islands), French Polynesia, Guernsey (Alderney, Sark, Herm, Brecqhou, Jethou, Lihou), Heard Island And Mcdonald Islands, Holy See (Vatican City State), Macedonia, The Former Yugoslav Republic Of, Micronesia, Federated States Of, Moldova, Republic Of, Northern Mariana Islands, Russian Federation, Saint Pierre And Miquelon, Saint Vincent And The Grenadines, Sao Tome And Principe, South Georgia And The South Sandwich Islands, Spain (including Balearic Islands, Canary Islands), Svalbard And Jan Mayen, Taiwan, Province Of China, Trinidad And Tobago, Turks And Caicos Islands, Virgin Islands,British, Wallis And Futuna"",
+  ""cover_start_date"": ""01/11/2020"",
+  ""cover_end_date"": ""30/11/2021"",
+  ""cancellation_limit"": ""£2500"",
+  ""cruise"": ""Not covered"",
+  ""excess_waiver"": ""£1444.83"",
+  ""terrerism_cancellation"": ""£1000.41"",
+  ""winter_sports_cover"":""17 Days inc"",
+  ""travel_cover_start_date"": ""25/11/2020"",
+  ""cancellation_cover_start_date"": ""26/11/2020"",
+  ""gadget_cover_start_date"": ""27/11/2020"",
+  ""baggage_&_belongings_cover_limit"": ""£500"",
+  ""gadget_cover_limit"": ""5"",
+  ""trip_claim_excess"": ""£1500""
+  }
+  ],
+  ""table_of_benifits"": [
+  {
+  ""cancellation_limit_value"": ""<cancellation_limit_value>"",
+  ""baggage_belongings_limit_value"": ""<baggage_&_belongings_limit_value>"",
+  ""trip_claim_excess_value"": ""<Classic>""
+  }
+  ],
+  ""price_list"": [
+  {
+  ""base_price"": ""£9933.33"",
+  ""addtional_cover"": ""£925.24"",
+  ""insuarnace_tax"": ""£911.70"",
+  ""postage"": ""£0.00"",
+  ""sub_total"": ""£970.27"",
+  ""discounts"": ""-£968.87"",
+  ""total"": ""£9991.40""
+  }
+  ],
+  ""insured_list"": [
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Fonseka"",
+  ""first_name"": ""Charutha_Test"",
+  ""age"": 1,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Silvster"",
+  ""first_name"": ""Amila_Test"",
+  ""age"": 18,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Mahinthantest"",
+  ""first_name"": ""Ganesagugantest"",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+        {
+  ""title"": ""Mr"",
+  ""last_name"": ""Steve"",
+  ""first_name"": ""Charutha Fonseka-Test'Jr."",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  }
+  ]
+  }
+  ]
+  }",Please provide date to register document
+,,TC-003,null,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-10,"{
+  ""data_set"": [
+  {
+  ""trip_type"": ""st"",
+  ""purches_detail"": [
+  {
+  ""purches_date"": ""27/10/2020 22:17""
+  }
+  ],
+  ""personal_detail"": [
+  {
+  ""insurer"": ""Great Lakes Insurance SE - Test"",
+  ""policy_number"": ""320000510"",  
+        ""name"": ""Charutha Fonseka"",
+  ""policy_holder_first_name"": ""Charutha"",
+        ""policy_holder_last_name"": ""Fonseka"",
+  ""address_line_1"": ""One Britannia House"",
+  ""address_line_2"": null,
+        ""address_line_3"": null,
+  ""town"":null,
+        ""city"":""City Northampton"",
+  ""county"": ""County Northamptonshire"",
+  ""country"":""United Kingdom"",
+  ""postcode"":""NN4 7YB"",
+  ""phone"": ""+940716101676"",        
+        ""phone_eve"":""077424444555"",
+  ""email"": ""charutha@intervest.lk""
+  }
+  ],
+  ""cover_detail"": [
+  {
+  ""date_of_issue"": ""24/11/2020"",
+  ""policy_type"": ""Single Trip Essentials"",
+  ""cover_type"": ""Classic"",
+  ""destination"": ""Antigua And Barbuda, Bosnia And Herzegovina, British Indian Ocean Territory, Brunei Darussalam, Christmas Island, Cocos (Keeling) Islands, Congo, The Democratic Republic Of The Congo, Dominican Republic, Finland (Åland Islands), French Polynesia, Guernsey (Alderney, Sark, Herm, Brecqhou, Jethou, Lihou), Heard Island And Mcdonald Islands, Holy See (Vatican City State), Macedonia, The Former Yugoslav Republic Of, Micronesia, Federated States Of, Moldova, Republic Of, Northern Mariana Islands, Russian Federation, Saint Pierre And Miquelon, Saint Vincent And The Grenadines, Sao Tome And Principe, South Georgia And The South Sandwich Islands, Spain (including Balearic Islands, Canary Islands), Svalbard And Jan Mayen, Taiwan, Province Of China, Trinidad And Tobago, Turks And Caicos Islands, Virgin Islands,British, Wallis And Futuna"",
+  ""cover_start_date"": ""01/11/2020"",
+  ""cover_end_date"": ""30/11/2021"",
+  ""cancellation_limit"": ""£2500"",
+  ""cruise"": ""Not covered"",
+  ""excess_waiver"": ""£1444.83"",
+  ""terrerism_cancellation"": ""£1000.41"",
+  ""winter_sports_cover"":""17 Days inc"",
+  ""travel_cover_start_date"": ""25/11/2020"",
+  ""cancellation_cover_start_date"": ""26/11/2020"",
+  ""gadget_cover_start_date"": ""27/11/2020"",
+  ""baggage_&_belongings_cover_limit"": ""£500"",
+  ""gadget_cover_limit"": ""5"",
+  ""trip_claim_excess"": ""£1500""
+  }
+  ],
+  ""table_of_benifits"": [
+  {
+  ""cancellation_limit_value"": ""<cancellation_limit_value>"",
+  ""baggage_belongings_limit_value"": ""<baggage_&_belongings_limit_value>"",
+  ""trip_claim_excess_value"": ""<Classic>""
+  }
+  ],
+  ""price_list"": [
+  {
+  ""base_price"": ""£9933.33"",
+  ""addtional_cover"": ""£925.24"",
+  ""insuarnace_tax"": ""£911.70"",
+  ""postage"": ""£0.00"",
+  ""sub_total"": ""£970.27"",
+  ""discounts"": ""-£968.87"",
+  ""total"": ""£9991.40""
+  }
+  ],
+  ""insured_list"": [
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Fonseka"",
+  ""first_name"": ""Charutha_Test"",
+  ""age"": 1,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Silvster"",
+  ""first_name"": ""Amila_Test"",
+  ""age"": 18,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Mahinthantest"",
+  ""first_name"": ""Ganesagugantest"",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+        {
+  ""title"": ""Mr"",
+  ""last_name"": ""Steve"",
+  ""first_name"": ""Charutha Fonseka-Test'Jr."",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  }
+  ]
+  }
+  ]
+  }",Invalid domain code
+,,TC-004,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-11,"{
+  ""data_set"": [
+  {
+  ""trip_type"": ""st"",
+  ""purches_detail"": [
+  {
+  ""purches_date"": ""27/10/2020 22:17""
+  }
+  ],
+  ""personal_detail"": [
+  {
+  ""insurer"": ""Great Lakes Insurance SE - Test"",
+  ""policy_number"": ""320000510"",  
+        ""name"": ""Charutha Fonseka"",
+  ""policy_holder_first_name"": ""Charutha"",
+        ""policy_holder_last_name"": ""Fonseka"",
+  ""address_line_1"": ""One Britannia House"",
+  ""address_line_2"": null,
+        ""address_line_3"": null,
+  ""town"":null,
+        ""city"":""City Northampton"",
+  ""county"": ""County Northamptonshire"",
+  ""country"":""United Kingdom"",
+  ""postcode"":""NN4 7YB"",
+  ""phone"": ""+940716101676"",        
+        ""phone_eve"":""077424444555"",
+  ""email"": ""charutha@intervest.lk""
+  }
+  ],
+  ""cover_detail"": [
+  {
+  ""date_of_issue"": ""24/11/2020"",
+  ""policy_type"": ""Single Trip Essentials"",
+  ""cover_type"": ""Classic"",
+  ""destination"": ""Antigua And Barbuda, Bosnia And Herzegovina, British Indian Ocean Territory, Brunei Darussalam, Christmas Island, Cocos (Keeling) Islands, Congo, The Democratic Republic Of The Congo, Dominican Republic, Finland (Åland Islands), French Polynesia, Guernsey (Alderney, Sark, Herm, Brecqhou, Jethou, Lihou), Heard Island And Mcdonald Islands, Holy See (Vatican City State), Macedonia, The Former Yugoslav Republic Of, Micronesia, Federated States Of, Moldova, Republic Of, Northern Mariana Islands, Russian Federation, Saint Pierre And Miquelon, Saint Vincent And The Grenadines, Sao Tome And Principe, South Georgia And The South Sandwich Islands, Spain (including Balearic Islands, Canary Islands), Svalbard And Jan Mayen, Taiwan, Province Of China, Trinidad And Tobago, Turks And Caicos Islands, Virgin Islands,British, Wallis And Futuna"",
+  ""cover_start_date"": ""01/11/2020"",
+  ""cover_end_date"": ""30/11/2021"",
+  ""cancellation_limit"": ""£2500"",
+  ""cruise"": ""Not covered"",
+  ""excess_waiver"": ""£1444.83"",
+  ""terrerism_cancellation"": ""£1000.41"",
+  ""winter_sports_cover"":""17 Days inc"",
+  ""travel_cover_start_date"": ""25/11/2020"",
+  ""cancellation_cover_start_date"": ""26/11/2020"",
+  ""gadget_cover_start_date"": ""27/11/2020"",
+  ""baggage_&_belongings_cover_limit"": ""£500"",
+  ""gadget_cover_limit"": ""5"",
+  ""trip_claim_excess"": ""£1500""
+  }
+  ],
+  ""table_of_benifits"": [
+  {
+  ""cancellation_limit_value"": ""<cancellation_limit_value>"",
+  ""baggage_belongings_limit_value"": ""<baggage_&_belongings_limit_value>"",
+  ""trip_claim_excess_value"": ""<Classic>""
+  }
+  ],
+  ""price_list"": [
+  {
+  ""base_price"": ""£9933.33"",
+  ""addtional_cover"": ""£925.24"",
+  ""insuarnace_tax"": ""£911.70"",
+  ""postage"": ""£0.00"",
+  ""sub_total"": ""£970.27"",
+  ""discounts"": ""-£968.87"",
+  ""total"": ""£9991.40""
+  }
+  ],
+  ""insured_list"": [
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Fonseka"",
+  ""first_name"": ""Charutha_Test"",
+  ""age"": 1,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Silvster"",
+  ""first_name"": ""Amila_Test"",
+  ""age"": 18,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Mahinthantest"",
+  ""first_name"": ""Ganesagugantest"",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+        {
+  ""title"": ""Mr"",
+  ""last_name"": ""Steve"",
+  ""first_name"": ""Charutha Fonseka-Test'Jr."",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  }
+  ]
+  }
+  ]
+  }",OK
+,,TC-005,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-12,"{
+  ""data_set"": [
+  {
+  ""trip_type"": "",
+  ""purches_detail"": [
+  {
+  ""purches_date"": ""27/10/2020 22:17""
+  }
+  ],
+  ""personal_detail"": [
+  {
+  ""insurer"": ""Great Lakes Insurance SE - Test"",
+  ""policy_number"": ""320000510"",  
+        ""name"": ""Charutha Fonseka"",
+  ""policy_holder_first_name"": ""Charutha"",
+        ""policy_holder_last_name"": ""Fonseka"",
+  ""address_line_1"": ""One Britannia House"",
+  ""address_line_2"": null,
+        ""address_line_3"": null,
+  ""town"":null,
+        ""city"":""City Northampton"",
+  ""county"": ""County Northamptonshire"",
+  ""country"":""United Kingdom"",
+  ""postcode"":""NN4 7YB"",
+  ""phone"": ""+940716101676"",        
+        ""phone_eve"":""077424444555"",
+  ""email"": ""charutha@intervest.lk""
+  }
+  ],
+  ""cover_detail"": [
+  {
+  ""date_of_issue"": ""24/11/2020"",
+  ""policy_type"": ""Single Trip Essentials"",
+  ""cover_type"": ""Classic"",
+  ""destination"": ""Antigua And Barbuda, Bosnia And Herzegovina, British Indian Ocean Territory, Brunei Darussalam, Christmas Island, Cocos (Keeling) Islands, Congo, The Democratic Republic Of The Congo, Dominican Republic, Finland (Åland Islands), French Polynesia, Guernsey (Alderney, Sark, Herm, Brecqhou, Jethou, Lihou), Heard Island And Mcdonald Islands, Holy See (Vatican City State), Macedonia, The Former Yugoslav Republic Of, Micronesia, Federated States Of, Moldova, Republic Of, Northern Mariana Islands, Russian Federation, Saint Pierre And Miquelon, Saint Vincent And The Grenadines, Sao Tome And Principe, South Georgia And The South Sandwich Islands, Spain (including Balearic Islands, Canary Islands), Svalbard And Jan Mayen, Taiwan, Province Of China, Trinidad And Tobago, Turks And Caicos Islands, Virgin Islands,British, Wallis And Futuna"",
+  ""cover_start_date"": ""01/11/2020"",
+  ""cover_end_date"": ""30/11/2021"",
+  ""cancellation_limit"": ""£2500"",
+  ""cruise"": ""Not covered"",
+  ""excess_waiver"": ""£1444.83"",
+  ""terrerism_cancellation"": ""£1000.41"",
+  ""winter_sports_cover"":""17 Days inc"",
+  ""travel_cover_start_date"": ""25/11/2020"",
+  ""cancellation_cover_start_date"": ""26/11/2020"",
+  ""gadget_cover_start_date"": ""27/11/2020"",
+  ""baggage_&_belongings_cover_limit"": ""£500"",
+  ""gadget_cover_limit"": ""5"",
+  ""trip_claim_excess"": ""£1500""
+  }
+  ],
+  ""table_of_benifits"": [
+  {
+  ""cancellation_limit_value"": ""<cancellation_limit_value>"",
+  ""baggage_belongings_limit_value"": ""<baggage_&_belongings_limit_value>"",
+  ""trip_claim_excess_value"": ""<Classic>""
+  }
+  ],
+  ""price_list"": [
+  {
+  ""base_price"": ""£9933.33"",
+  ""addtional_cover"": ""£925.24"",
+  ""insuarnace_tax"": ""£911.70"",
+  ""postage"": ""£0.00"",
+  ""sub_total"": ""£970.27"",
+  ""discounts"": ""-£968.87"",
+  ""total"": ""£9991.40""
+  }
+  ],
+  ""insured_list"": [
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Fonseka"",
+  ""first_name"": ""Charutha_Test"",
+  ""age"": 1,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Silvster"",
+  ""first_name"": ""Amila_Test"",
+  ""age"": 18,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Mahinthantest"",
+  ""first_name"": ""Ganesagugantest"",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+        {
+  ""title"": ""Mr"",
+  ""last_name"": ""Steve"",
+  ""first_name"": ""Charutha Fonseka-Test'Jr."",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  }
+  ]
+  }
+  ]
+  }",OK
+,,TC-006,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-13,"{
+  ""data_set"": [
+  {
+  ""trip_type"": ""st"",
+  ""purches_detail"": [
+  {
+  ""purches_date"": ""27/10/2020 22:17""
+  }
+  ],
+  ""personal_detail"": [
+  {
+  ""insurer"": ""Great Lakes Insurance SE - Test"",
+  ""policy_number"": ""320000510"",  
+        ""name"": ""Charutha Fonseka"",
+  ""policy_holder_first_name"": ""Charutha"",
+        ""policy_holder_last_name"": ""Fonseka"",
+  ""address_line_1"": ""One Britannia House"",
+  ""address_line_2"": null,
+        ""address_line_3"": null,
+  ""town"":null,
+        ""city"":""City Northampton"",
+  ""county"": ""County Northamptonshire"",
+  ""country"":""United Kingdom"",
+  ""postcode"":""NN4 7YB"",
+  ""phone"": ""+940716101676"",        
+        ""phone_eve"":""077424444555"",
+  ""email"": ""charutha@intervest.lk""
+  }
+  ],
+  ""cover_detail"": [
+  {
+  ""date_of_issue"": ""24/11/2020"",
+  ""policy_type"": ""Single Trip Essentials"",
+  ""cover_type"": ""Classic"",
+  ""destination"": ""Antigua And Barbuda, Bosnia And Herzegovina, British Indian Ocean Territory, Brunei Darussalam, Christmas Island, Cocos (Keeling) Islands, Congo, The Democratic Republic Of The Congo, Dominican Republic, Finland (Åland Islands), French Polynesia, Guernsey (Alderney, Sark, Herm, Brecqhou, Jethou, Lihou), Heard Island And Mcdonald Islands, Holy See (Vatican City State), Macedonia, The Former Yugoslav Republic Of, Micronesia, Federated States Of, Moldova, Republic Of, Northern Mariana Islands, Russian Federation, Saint Pierre And Miquelon, Saint Vincent And The Grenadines, Sao Tome And Principe, South Georgia And The South Sandwich Islands, Spain (including Balearic Islands, Canary Islands), Svalbard And Jan Mayen, Taiwan, Province Of China, Trinidad And Tobago, Turks And Caicos Islands, Virgin Islands,British, Wallis And Futuna"",
+  ""cover_start_date"": ""01/11/2020"",
+  ""cover_end_date"": ""30/11/2021"",
+  ""cancellation_limit"": ""£2500"",
+  ""cruise"": ""Not covered"",
+  ""excess_waiver"": ""£1444.83"",
+  ""terrerism_cancellation"": ""£1000.41"",
+  ""winter_sports_cover"":""17 Days inc"",
+  ""travel_cover_start_date"": ""25/11/2020"",
+  ""cancellation_cover_start_date"": ""26/11/2020"",
+  ""gadget_cover_start_date"": ""27/11/2020"",
+  ""baggage_&_belongings_cover_limit"": ""£500"",
+  ""gadget_cover_limit"": ""5"",
+  ""trip_claim_excess"": ""£1500""
+  }
+  ],
+  ""table_of_benifits"": [
+  {
+  ""cancellation_limit_value"": ""<cancellation_limit_value>"",
+  ""baggage_belongings_limit_value"": ""<baggage_&_belongings_limit_value>"",
+  ""trip_claim_excess_value"": ""<Classic>""
+  }
+  ],
+  ""price_list"": [
+  {
+  ""base_price"": ""£9933.33"",
+  ""addtional_cover"": ""£925.24"",
+  ""insuarnace_tax"": ""£911.70"",
+  ""postage"": ""£0.00"",
+  ""sub_total"": ""£970.27"",
+  ""discounts"": ""-£968.87"",
+  ""total"": ""£9991.40""
+  }
+  ],
+  ""insured_list"": [
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Fonseka"",
+  ""first_name"": ""Charutha_Test"",
+  ""age"": 1,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Silvster"",
+  ""first_name"": ""Amila_Test"",
+  ""age"": 18,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Mahinthantest"",
+  ""first_name"": ""Ganesagugantest"",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+        {
+  ""title"": ""Mr"",
+  ""last_name"": ""Steve"",
+  ""first_name"": ""Charutha Fonseka-Test'Jr."",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  }
+  ]
+  }
+  ]
+  }",OK
+,,TC-007,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,"{
+  ""data_set"": [
+  {
+  ""trip_type"": ""amt"",
+  ""purches_detail"": [
+  {
+  ""purches_date"": ""27/10/2020 22:17""
+  }
+  ],
+  ""personal_detail"": [
+  {
+  ""insurer"": ""Great Lakes Insurance SE - Test"",
+  ""policy_number"": ""320000510"",  
+        ""name"": ""Charutha Fonseka"",
+  ""policy_holder_first_name"": ""Charutha"",
+        ""policy_holder_last_name"": ""Fonseka"",
+  ""address_line_1"": ""One Britannia House"",
+  ""address_line_2"": null,
+        ""address_line_3"": null,
+  ""town"":null,
+        ""city"":""City Northampton"",
+  ""county"": ""County Northamptonshire"",
+  ""country"":""United Kingdom"",
+  ""postcode"":""NN4 7YB"",
+  ""phone"": ""+940716101676"",        
+        ""phone_eve"":""077424444555"",
+  ""email"": ""charutha@intervest.lk""
+  }
+  ],
+  ""cover_detail"": [
+  {
+  ""date_of_issue"": ""24/11/2020"",
+  ""policy_type"": ""Single Trip Essentials"",
+  ""cover_type"": ""Classic"",
+  ""destination"": ""Antigua And Barbuda, Bosnia And Herzegovina, British Indian Ocean Territory, Brunei Darussalam, Christmas Island, Cocos (Keeling) Islands, Congo, The Democratic Republic Of The Congo, Dominican Republic, Finland (Åland Islands), French Polynesia, Guernsey (Alderney, Sark, Herm, Brecqhou, Jethou, Lihou), Heard Island And Mcdonald Islands, Holy See (Vatican City State), Macedonia, The Former Yugoslav Republic Of, Micronesia, Federated States Of, Moldova, Republic Of, Northern Mariana Islands, Russian Federation, Saint Pierre And Miquelon, Saint Vincent And The Grenadines, Sao Tome And Principe, South Georgia And The South Sandwich Islands, Spain (including Balearic Islands, Canary Islands), Svalbard And Jan Mayen, Taiwan, Province Of China, Trinidad And Tobago, Turks And Caicos Islands, Virgin Islands,British, Wallis And Futuna"",
+  ""cover_start_date"": ""01/11/2020"",
+  ""cover_end_date"": ""30/11/2021"",
+  ""cancellation_limit"": ""£2500"",
+  ""cruise"": ""Not covered"",
+  ""excess_waiver"": ""£1444.83"",
+  ""terrerism_cancellation"": ""£1000.41"",
+  ""winter_sports_cover"":""17 Days inc"",
+  ""travel_cover_start_date"": ""25/11/2020"",
+  ""cancellation_cover_start_date"": ""26/11/2020"",
+  ""gadget_cover_start_date"": ""27/11/2020"",
+  ""baggage_&_belongings_cover_limit"": ""£500"",
+  ""gadget_cover_limit"": ""5"",
+  ""trip_claim_excess"": ""£1500""
+  }
+  ],
+  ""table_of_benifits"": [
+  {
+  ""cancellation_limit_value"": ""<cancellation_limit_value>"",
+  ""baggage_belongings_limit_value"": ""<baggage_&_belongings_limit_value>"",
+  ""trip_claim_excess_value"": ""<Classic>""
+  }
+  ],
+  ""price_list"": [
+  {
+  ""base_price"": ""£9933.33"",
+  ""addtional_cover"": ""£925.24"",
+  ""insuarnace_tax"": ""£911.70"",
+  ""postage"": ""£0.00"",
+  ""sub_total"": ""£970.27"",
+  ""discounts"": ""-£968.87"",
+  ""total"": ""£9991.40""
+  }
+  ],
+  ""insured_list"": [
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Fonseka"",
+  ""first_name"": ""Charutha_Test"",
+  ""age"": 1,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Silvster"",
+  ""first_name"": ""Amila_Test"",
+  ""age"": 18,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Mahinthantest"",
+  ""first_name"": ""Ganesagugantest"",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+        {
+  ""title"": ""Mr"",
+  ""last_name"": ""Steve"",
+  ""first_name"": ""Charutha Fonseka-Test'Jr."",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  }
+  ]
+  }
+  ]
+  }",OK
+,,TC-008,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-15,"{
+  ""data_set"": [
+  {
+  ""trip_type"": ""st"",
+  ""purches_detail"": [
+  {
+  ""purches_date"": ""
+  }
+  ],
+  ""personal_detail"": [
+  {
+  ""insurer"": ""Great Lakes Insurance SE - Test"",
+  ""policy_number"": ""320000510"",  
+        ""name"": ""Charutha Fonseka"",
+  ""policy_holder_first_name"": ""Charutha"",
+        ""policy_holder_last_name"": ""Fonseka"",
+  ""address_line_1"": ""One Britannia House"",
+  ""address_line_2"": null,
+        ""address_line_3"": null,
+  ""town"":null,
+        ""city"":""City Northampton"",
+  ""county"": ""County Northamptonshire"",
+  ""country"":""United Kingdom"",
+  ""postcode"":""NN4 7YB"",
+  ""phone"": ""+940716101676"",        
+        ""phone_eve"":""077424444555"",
+  ""email"": ""charutha@intervest.lk""
+  }
+  ],
+  ""cover_detail"": [
+  {
+  ""date_of_issue"": ""24/11/2020"",
+  ""policy_type"": ""Single Trip Essentials"",
+  ""cover_type"": ""Classic"",
+  ""destination"": ""Antigua And Barbuda, Bosnia And Herzegovina, British Indian Ocean Territory, Brunei Darussalam, Christmas Island, Cocos (Keeling) Islands, Congo, The Democratic Republic Of The Congo, Dominican Republic, Finland (Åland Islands), French Polynesia, Guernsey (Alderney, Sark, Herm, Brecqhou, Jethou, Lihou), Heard Island And Mcdonald Islands, Holy See (Vatican City State), Macedonia, The Former Yugoslav Republic Of, Micronesia, Federated States Of, Moldova, Republic Of, Northern Mariana Islands, Russian Federation, Saint Pierre And Miquelon, Saint Vincent And The Grenadines, Sao Tome And Principe, South Georgia And The South Sandwich Islands, Spain (including Balearic Islands, Canary Islands), Svalbard And Jan Mayen, Taiwan, Province Of China, Trinidad And Tobago, Turks And Caicos Islands, Virgin Islands,British, Wallis And Futuna"",
+  ""cover_start_date"": ""01/11/2020"",
+  ""cover_end_date"": ""30/11/2021"",
+  ""cancellation_limit"": ""£2500"",
+  ""cruise"": ""Not covered"",
+  ""excess_waiver"": ""£1444.83"",
+  ""terrerism_cancellation"": ""£1000.41"",
+  ""winter_sports_cover"":""17 Days inc"",
+  ""travel_cover_start_date"": ""25/11/2020"",
+  ""cancellation_cover_start_date"": ""26/11/2020"",
+  ""gadget_cover_start_date"": ""27/11/2020"",
+  ""baggage_&_belongings_cover_limit"": ""£500"",
+  ""gadget_cover_limit"": ""5"",
+  ""trip_claim_excess"": ""£1500""
+  }
+  ],
+  ""table_of_benifits"": [
+  {
+  ""cancellation_limit_value"": ""<cancellation_limit_value>"",
+  ""baggage_belongings_limit_value"": ""<baggage_&_belongings_limit_value>"",
+  ""trip_claim_excess_value"": ""<Classic>""
+  }
+  ],
+  ""price_list"": [
+  {
+  ""base_price"": ""£9933.33"",
+  ""addtional_cover"": ""£925.24"",
+  ""insuarnace_tax"": ""£911.70"",
+  ""postage"": ""£0.00"",
+  ""sub_total"": ""£970.27"",
+  ""discounts"": ""-£968.87"",
+  ""total"": ""£9991.40""
+  }
+  ],
+  ""insured_list"": [
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Fonseka"",
+  ""first_name"": ""Charutha_Test"",
+  ""age"": 1,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Silvster"",
+  ""first_name"": ""Amila_Test"",
+  ""age"": 18,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Mahinthantest"",
+  ""first_name"": ""Ganesagugantest"",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+        {
+  ""title"": ""Mr"",
+  ""last_name"": ""Steve"",
+  ""first_name"": ""Charutha Fonseka-Test'Jr."",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  }
+  ]
+  }
+  ]
+  }",OK
+,,TC-009,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-16,"{
+  ""data_set"": [
+  {
+  ""trip_type"": ""st"",
+  ""purches_detail"": [
+  {
+  ""purches_date"": ""
+  }
+  ],
+  ""personal_detail"": [
+  {
+  ""insurer"": ""Great Lakes Insurance SE - Test"",
+  ""policy_number"": ""320000510"",  
+        ""name"": ""Charutha Fonseka"",
+  ""policy_holder_first_name"": ""Charutha"",
+        ""policy_holder_last_name"": ""Fonseka"",
+  ""address_line_1"": ""One Britannia House"",
+  ""address_line_2"": null,
+        ""address_line_3"": null,
+  ""town"":null,
+        ""city"":""City Northampton"",
+  ""county"": ""County Northamptonshire"",
+  ""country"":""United Kingdom"",
+  ""postcode"":""NN4 7YB"",
+  ""phone"": ""+940716101676"",        
+        ""phone_eve"":""077424444555"",
+  ""email"": ""charutha@intervest.lk""
+  }
+  ],
+  ""cover_detail"": [
+  {
+  ""date_of_issue"": ""24/11/2020"",
+  ""policy_type"": ""Single Trip Essentials"",
+  ""cover_type"": ""Classic"",
+  ""destination"": ""Antigua And Barbuda, Bosnia And Herzegovina, British Indian Ocean Territory, Brunei Darussalam, Christmas Island, Cocos (Keeling) Islands, Congo, The Democratic Republic Of The Congo, Dominican Republic, Finland (Åland Islands), French Polynesia, Guernsey (Alderney, Sark, Herm, Brecqhou, Jethou, Lihou), Heard Island And Mcdonald Islands, Holy See (Vatican City State), Macedonia, The Former Yugoslav Republic Of, Micronesia, Federated States Of, Moldova, Republic Of, Northern Mariana Islands, Russian Federation, Saint Pierre And Miquelon, Saint Vincent And The Grenadines, Sao Tome And Principe, South Georgia And The South Sandwich Islands, Spain (including Balearic Islands, Canary Islands), Svalbard And Jan Mayen, Taiwan, Province Of China, Trinidad And Tobago, Turks And Caicos Islands, Virgin Islands,British, Wallis And Futuna"",
+  ""cover_start_date"": ""01/11/2020"",
+  ""cover_end_date"": ""30/11/2021"",
+  ""cancellation_limit"": ""£2500"",
+  ""cruise"": ""Not covered"",
+  ""excess_waiver"": ""£1444.83"",
+  ""terrerism_cancellation"": ""£1000.41"",
+  ""winter_sports_cover"":""17 Days inc"",
+  ""travel_cover_start_date"": ""25/11/2020"",
+  ""cancellation_cover_start_date"": ""26/11/2020"",
+  ""gadget_cover_start_date"": ""27/11/2020"",
+  ""baggage_&_belongings_cover_limit"": ""£500"",
+  ""gadget_cover_limit"": ""5"",
+  ""trip_claim_excess"": ""£1500""
+  }
+  ],
+  ""table_of_benifits"": [
+  {
+  ""cancellation_limit_value"": ""<cancellation_limit_value>"",
+  ""baggage_belongings_limit_value"": ""<baggage_&_belongings_limit_value>"",
+  ""trip_claim_excess_value"": ""<Classic>""
+  }
+  ],
+  ""price_list"": [
+  {
+  ""base_price"": ""£9933.33"",
+  ""addtional_cover"": ""£925.24"",
+  ""insuarnace_tax"": ""£911.70"",
+  ""postage"": ""£0.00"",
+  ""sub_total"": ""£970.27"",
+  ""discounts"": ""-£968.87"",
+  ""total"": ""£9991.40""
+  }
+  ],
+  ""insured_list"": [
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Fonseka"",
+  ""first_name"": ""Charutha_Test"",
+  ""age"": 1,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Silvster"",
+  ""first_name"": ""Amila_Test"",
+  ""age"": 18,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Mahinthantest"",
+  ""first_name"": ""Ganesagugantest"",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+        {
+  ""title"": ""Mr"",
+  ""last_name"": ""Steve"",
+  ""first_name"": ""Charutha Fonseka-Test'Jr."",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  }
+  ]
+  }
+  ]
+  }",OK
+,,TC-010,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-17,"{
+  ""data_set"": [
+  {
+  ""trip_type"": ""st"",
+  ""purches_detail"": [
+  {
+  ""purches_date"": ""27/10/2020 22:17""
+  }
+  ],
+  ""personal_detail"": [
+  ],
+  ""cover_detail"": [
+  {
+  ""date_of_issue"": ""24/11/2020"",
+  ""policy_type"": ""Single Trip Essentials"",
+  ""cover_type"": ""Classic"",
+  ""destination"": ""Antigua And Barbuda, Bosnia And Herzegovina, British Indian Ocean Territory, Brunei Darussalam, Christmas Island, Cocos (Keeling) Islands, Congo, The Democratic Republic Of The Congo, Dominican Republic, Finland (Åland Islands), French Polynesia, Guernsey (Alderney, Sark, Herm, Brecqhou, Jethou, Lihou), Heard Island And Mcdonald Islands, Holy See (Vatican City State), Macedonia, The Former Yugoslav Republic Of, Micronesia, Federated States Of, Moldova, Republic Of, Northern Mariana Islands, Russian Federation, Saint Pierre And Miquelon, Saint Vincent And The Grenadines, Sao Tome And Principe, South Georgia And The South Sandwich Islands, Spain (including Balearic Islands, Canary Islands), Svalbard And Jan Mayen, Taiwan, Province Of China, Trinidad And Tobago, Turks And Caicos Islands, Virgin Islands,British, Wallis And Futuna"",
+  ""cover_start_date"": ""01/11/2020"",
+  ""cover_end_date"": ""30/11/2021"",
+  ""cancellation_limit"": ""£2500"",
+  ""cruise"": ""Not covered"",
+  ""excess_waiver"": ""£1444.83"",
+  ""terrerism_cancellation"": ""£1000.41"",
+  ""winter_sports_cover"":""17 Days inc"",
+  ""travel_cover_start_date"": ""25/11/2020"",
+  ""cancellation_cover_start_date"": ""26/11/2020"",
+  ""gadget_cover_start_date"": ""27/11/2020"",
+  ""baggage_&_belongings_cover_limit"": ""£500"",
+  ""gadget_cover_limit"": ""5"",
+  ""trip_claim_excess"": ""£1500""
+  }
+  ],
+  ""table_of_benifits"": [
+  {
+  ""cancellation_limit_value"": ""<cancellation_limit_value>"",
+  ""baggage_belongings_limit_value"": ""<baggage_&_belongings_limit_value>"",
+  ""trip_claim_excess_value"": ""<Classic>""
+  }
+  ],
+  ""price_list"": [
+  {
+  ""base_price"": ""£9933.33"",
+  ""addtional_cover"": ""£925.24"",
+  ""insuarnace_tax"": ""£911.70"",
+  ""postage"": ""£0.00"",
+  ""sub_total"": ""£970.27"",
+  ""discounts"": ""-£968.87"",
+  ""total"": ""£9991.40""
+  }
+  ],
+  ""insured_list"": [
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Fonseka"",
+  ""first_name"": ""Charutha_Test"",
+  ""age"": 1,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Silvster"",
+  ""first_name"": ""Amila_Test"",
+  ""age"": 18,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Mahinthantest"",
+  ""first_name"": ""Ganesagugantest"",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+        {
+  ""title"": ""Mr"",
+  ""last_name"": ""Steve"",
+  ""first_name"": ""Charutha Fonseka-Test'Jr."",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  }
+  ]
+  }
+  ]
+  }",No message available
+,,TC-011,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-18,"{
+  ""data_set"": [
+  {
+  ""trip_type"": ""st"",
+  ""purches_detail"": [
+  {
+  ""purches_date"": ""27/10/2020 22:17""
+  }
+  ],
+  ""personal_detail"": [
+  {
+  ""insurer"": ""Great Lakes Insurance SE - Test"",
+  ""policy_number"": ""320000510"",  
+        ""name"": ""Charutha Fonseka"",
+  ""policy_holder_first_name"": ""Charutha"",
+        ""policy_holder_last_name"": ""Fonseka"",
+  ""address_line_1"": ""One Britannia House"",
+  ""address_line_2"": null,
+        ""address_line_3"": null,
+  ""town"":null,
+        ""city"":""City Northampton"",
+  ""county"": ""County Northamptonshire"",
+  ""country"":""United Kingdom"",
+  ""postcode"":""NN4 7YB"",
+  ""phone"": ""+940716101676"",        
+        ""phone_eve"":""077424444555"",
+  ""email"": ""charutha@intervest.lk""
+  }
+  ],
+  ""cover_detail"": [
+  ],
+  ""table_of_benifits"": [
+  {
+  ""cancellation_limit_value"": ""<cancellation_limit_value>"",
+  ""baggage_belongings_limit_value"": ""<baggage_&_belongings_limit_value>"",
+  ""trip_claim_excess_value"": ""<Classic>""
+  }
+  ],
+  ""price_list"": [
+  {
+  ""base_price"": ""£9933.33"",
+  ""addtional_cover"": ""£925.24"",
+  ""insuarnace_tax"": ""£911.70"",
+  ""postage"": ""£0.00"",
+  ""sub_total"": ""£970.27"",
+  ""discounts"": ""-£968.87"",
+  ""total"": ""£9991.40""
+  }
+  ],
+  ""insured_list"": [
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Fonseka"",
+  ""first_name"": ""Charutha_Test"",
+  ""age"": 1,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Silvster"",
+  ""first_name"": ""Amila_Test"",
+  ""age"": 18,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Mahinthantest"",
+  ""first_name"": ""Ganesagugantest"",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+        {
+  ""title"": ""Mr"",
+  ""last_name"": ""Steve"",
+  ""first_name"": ""Charutha Fonseka-Test'Jr."",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  }
+  ]
+  }
+  ]
+  }",OK
+,,TC-012,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-19,"{
+  ""data_set"": [
+  {
+  ""trip_type"": ""st"",
+  ""purches_detail"": [
+  {
+  ""purches_date"": ""27/10/2020 22:17""
+  }
+  ],
+  ""personal_detail"": [
+  {
+  ""insurer"": ""Great Lakes Insurance SE - Test"",
+  ""policy_number"": ""320000510"",  
+        ""name"": ""Charutha Fonseka"",
+  ""policy_holder_first_name"": ""Charutha"",
+        ""policy_holder_last_name"": ""Fonseka"",
+  ""address_line_1"": ""One Britannia House"",
+  ""address_line_2"": null,
+        ""address_line_3"": null,
+  ""town"":null,
+        ""city"":""City Northampton"",
+  ""county"": ""County Northamptonshire"",
+  ""country"":""United Kingdom"",
+  ""postcode"":""NN4 7YB"",
+  ""phone"": ""+940716101676"",        
+        ""phone_eve"":""077424444555"",
+  ""email"": ""charutha@intervest.lk""
+  }
+  ],
+  ""cover_detail"": [
+  {
+  ""date_of_issue"": ""24/11/2020"",
+  ""policy_type"": ""Single Trip Essentials"",
+  ""cover_type"": ""Classic"",
+  ""destination"": ""Antigua And Barbuda, Bosnia And Herzegovina, British Indian Ocean Territory, Brunei Darussalam, Christmas Island, Cocos (Keeling) Islands, Congo, The Democratic Republic Of The Congo, Dominican Republic, Finland (Åland Islands), French Polynesia, Guernsey (Alderney, Sark, Herm, Brecqhou, Jethou, Lihou), Heard Island And Mcdonald Islands, Holy See (Vatican City State), Macedonia, The Former Yugoslav Republic Of, Micronesia, Federated States Of, Moldova, Republic Of, Northern Mariana Islands, Russian Federation, Saint Pierre And Miquelon, Saint Vincent And The Grenadines, Sao Tome And Principe, South Georgia And The South Sandwich Islands, Spain (including Balearic Islands, Canary Islands), Svalbard And Jan Mayen, Taiwan, Province Of China, Trinidad And Tobago, Turks And Caicos Islands, Virgin Islands,British, Wallis And Futuna"",
+  ""cover_start_date"": ""01/11/2020"",
+  ""cover_end_date"": ""30/11/2021"",
+  ""cancellation_limit"": ""£2500"",
+  ""cruise"": ""Not covered"",
+  ""excess_waiver"": ""£1444.83"",
+  ""terrerism_cancellation"": ""£1000.41"",
+  ""winter_sports_cover"":""17 Days inc"",
+  ""travel_cover_start_date"": ""25/11/2020"",
+  ""cancellation_cover_start_date"": ""26/11/2020"",
+  ""gadget_cover_start_date"": ""27/11/2020"",
+  ""baggage_&_belongings_cover_limit"": ""£500"",
+  ""gadget_cover_limit"": ""5"",
+  ""trip_claim_excess"": ""£1500""
+  }
+  ],
+  ""table_of_benifits"": [
+  ],
+  ""price_list"": [
+  {
+  ""base_price"": ""£9933.33"",
+  ""addtional_cover"": ""£925.24"",
+  ""insuarnace_tax"": ""£911.70"",
+  ""postage"": ""£0.00"",
+  ""sub_total"": ""£970.27"",
+  ""discounts"": ""-£968.87"",
+  ""total"": ""£9991.40""
+  }
+  ],
+  ""insured_list"": [
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Fonseka"",
+  ""first_name"": ""Charutha_Test"",
+  ""age"": 1,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Silvster"",
+  ""first_name"": ""Amila_Test"",
+  ""age"": 18,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Mahinthantest"",
+  ""first_name"": ""Ganesagugantest"",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+        {
+  ""title"": ""Mr"",
+  ""last_name"": ""Steve"",
+  ""first_name"": ""Charutha Fonseka-Test'Jr."",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  }
+  ]
+  }
+  ]
+  }",OK
+,,TC-013,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-20,"{
+  ""data_set"": [
+  {
+  ""trip_type"": ""st"",
+  ""purches_detail"": [
+  {
+  ""purches_date"": ""27/10/2020 22:17""
+  }
+  ],
+  ""personal_detail"": [
+  {
+  ""insurer"": ""Great Lakes Insurance SE - Test"",
+  ""policy_number"": ""320000510"",  
+        ""name"": ""Charutha Fonseka"",
+  ""policy_holder_first_name"": ""Charutha"",
+        ""policy_holder_last_name"": ""Fonseka"",
+  ""address_line_1"": ""One Britannia House"",
+  ""address_line_2"": null,
+        ""address_line_3"": null,
+  ""town"":null,
+        ""city"":""City Northampton"",
+  ""county"": ""County Northamptonshire"",
+  ""country"":""United Kingdom"",
+  ""postcode"":""NN4 7YB"",
+  ""phone"": ""+940716101676"",        
+        ""phone_eve"":""077424444555"",
+  ""email"": ""charutha@intervest.lk""
+  }
+  ],
+  ""cover_detail"": [
+  {
+  ""date_of_issue"": ""24/11/2020"",
+  ""policy_type"": ""Single Trip Essentials"",
+  ""cover_type"": ""Classic"",
+  ""destination"": ""Antigua And Barbuda, Bosnia And Herzegovina, British Indian Ocean Territory, Brunei Darussalam, Christmas Island, Cocos (Keeling) Islands, Congo, The Democratic Republic Of The Congo, Dominican Republic, Finland (Åland Islands), French Polynesia, Guernsey (Alderney, Sark, Herm, Brecqhou, Jethou, Lihou), Heard Island And Mcdonald Islands, Holy See (Vatican City State), Macedonia, The Former Yugoslav Republic Of, Micronesia, Federated States Of, Moldova, Republic Of, Northern Mariana Islands, Russian Federation, Saint Pierre And Miquelon, Saint Vincent And The Grenadines, Sao Tome And Principe, South Georgia And The South Sandwich Islands, Spain (including Balearic Islands, Canary Islands), Svalbard And Jan Mayen, Taiwan, Province Of China, Trinidad And Tobago, Turks And Caicos Islands, Virgin Islands,British, Wallis And Futuna"",
+  ""cover_start_date"": ""01/11/2020"",
+  ""cover_end_date"": ""30/11/2021"",
+  ""cancellation_limit"": ""£2500"",
+  ""cruise"": ""Not covered"",
+  ""excess_waiver"": ""£1444.83"",
+  ""terrerism_cancellation"": ""£1000.41"",
+  ""winter_sports_cover"":""17 Days inc"",
+  ""travel_cover_start_date"": ""25/11/2020"",
+  ""cancellation_cover_start_date"": ""26/11/2020"",
+  ""gadget_cover_start_date"": ""27/11/2020"",
+  ""baggage_&_belongings_cover_limit"": ""£500"",
+  ""gadget_cover_limit"": ""5"",
+  ""trip_claim_excess"": ""£1500""
+  }
+  ],
+  ""table_of_benifits"": [
+  {
+  ""cancellation_limit_value"": ""<cancellation_limit_value>"",
+  ""baggage_belongings_limit_value"": ""<baggage_&_belongings_limit_value>"",
+  ""trip_claim_excess_value"": ""<Classic>""
+  }
+  ],
+  ""price_list"": [
+  ],
+  ""insured_list"": [
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Fonseka"",
+  ""first_name"": ""Charutha_Test"",
+  ""age"": 1,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Silvster"",
+  ""first_name"": ""Amila_Test"",
+  ""age"": 18,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+  {
+  ""title"": ""Mr"",
+  ""last_name"": ""Mahinthantest"",
+  ""first_name"": ""Ganesagugantest"",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  },
+        {
+  ""title"": ""Mr"",
+  ""last_name"": ""Steve"",
+  ""first_name"": ""Charutha Fonseka-Test'Jr."",
+  ""age"": 59,
+  ""medical_conditions"": ""Benign brain tumour | Cavernoma on the brain | Chronic granulomatous disease | Bipolar disorder | Subarachnoid haemorrhage""
+  }
+  ]
+  }
+  ]
+  }",OK
+,,TC-014,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-21,"{
+  ""data_set"": [
+  {
+  ""trip_type"": ""st"",
+  ""purches_detail"": [
+  {
+  ""purches_date"": ""27/10/2020 22:17""
+  }
+  ],
+  ""personal_detail"": [
+  {
+  ""insurer"": ""Great Lakes Insurance SE - Test"",
+  ""policy_number"": ""320000510"",  
+        ""name"": ""Charutha Fonseka"",
+  ""policy_holder_first_name"": ""Charutha"",
+        ""policy_holder_last_name"": ""Fonseka"",
+  ""address_line_1"": ""One Britannia House"",
+  ""address_line_2"": null,
+        ""address_line_3"": null,
+  ""town"":null,
+        ""city"":""City Northampton"",
+  ""county"": ""County Northamptonshire"",
+  ""country"":""United Kingdom"",
+  ""postcode"":""NN4 7YB"",
+  ""phone"": ""+940716101676"",        
+        ""phone_eve"":""077424444555"",
+  ""email"": ""charutha@intervest.lk""
+  }
+  ],
+  ""cover_detail"": [
+  {
+  ""date_of_issue"": ""24/11/2020"",
+  ""policy_type"": ""Single Trip Essentials"",
+  ""cover_type"": ""Classic"",
+  ""destination"": ""Antigua And Barbuda, Bosnia And Herzegovina, British Indian Ocean Territory, Brunei Darussalam, Christmas Island, Cocos (Keeling) Islands, Congo, The Democratic Republic Of The Congo, Dominican Republic, Finland (Åland Islands), French Polynesia, Guernsey (Alderney, Sark, Herm, Brecqhou, Jethou, Lihou), Heard Island And Mcdonald Islands, Holy See (Vatican City State), Macedonia, The Former Yugoslav Republic Of, Micronesia, Federated States Of, Moldova, Republic Of, Northern Mariana Islands, Russian Federation, Saint Pierre And Miquelon, Saint Vincent And The Grenadines, Sao Tome And Principe, South Georgia And The South Sandwich Islands, Spain (including Balearic Islands, Canary Islands), Svalbard And Jan Mayen, Taiwan, Province Of China, Trinidad And Tobago, Turks And Caicos Islands, Virgin Islands,British, Wallis And Futuna"",
+  ""cover_start_date"": ""01/11/2020"",
+  ""cover_end_date"": ""30/11/2021"",
+  ""cancellation_limit"": ""£2500"",
+  ""cruise"": ""Not covered"",
+  ""excess_waiver"": ""£1444.83"",
+  ""terrerism_cancellation"": ""£1000.41"",
+  ""winter_sports_cover"":""17 Days inc"",
+  ""travel_cover_start_date"": ""25/11/2020"",
+  ""cancellation_cover_start_date"": ""26/11/2020"",
+  ""gadget_cover_start_date"": ""27/11/2020"",
+  ""baggage_&_belongings_cover_limit"": ""£500"",
+  ""gadget_cover_limit"": ""5"",
+  ""trip_claim_excess"": ""£1500""
+  }
+  ],
+  ""table_of_benifits"": [
+  {
+  ""cancellation_limit_value"": ""<cancellation_limit_value>"",
+  ""baggage_belongings_limit_value"": ""<baggage_&_belongings_limit_value>"",
+  ""trip_claim_excess_value"": ""<Classic>""
+  }
+  ],
+  ""price_list"": [
+  {
+  ""base_price"": ""£9933.33"",
+  ""addtional_cover"": ""£925.24"",
+  ""insuarnace_tax"": ""£911.70"",
+  ""postage"": ""£0.00"",
+  ""sub_total"": ""£970.27"",
+  ""discounts"": ""-£968.87"",
+  ""total"": ""£9991.40""
+  }
+  ],
+  ""insured_list"": [
+  ]
+  }
+  ]
+  }",OK
+,"ActivePet_NoSurgeries- Accepted, Excluded and Linked MedicalConditions With Not McsScore GraterThan1",TC-015,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-21,"{
+        ""data_set"": [
+            {
+                ""trip_type"": ""st"",
+                ""purches_detail"": [
+                    {
+                        ""purches_date"": ""23/06/2021""
+                    }
+                ],
+                ""personal_detail"": [
+                    {
+                        ""address_line_1"": ""Staysure Travel"",
+                        ""address_line_2"": ""11 Waterside Way"",
+                        ""postcode"": ""NN4 7YB"",
+                        ""phone"": ""0710429240"",
+                        ""email"": ""dinelka@intervest.lk"",
+                        ""city"": ""Northampton"",
+                        ""policy_number"": ""PSR1002123"",
+                        ""date_of_issue"": ""23/06/2021"",
+                        ""title"": ""Ms"",
+                        ""policy_holder_first_name"": ""Dinelka"",
+                        ""policy_holder_last_name"": ""Nethmini"",
+                        ""jointpolicyholder_title"": null,
+                        ""jointpolicyholder_first_name"": null,
+                        ""jointpolicyholder_last_name"": null,
+                        ""purches_date_original"": ""23/06/2021"",
+                        ""renewal_date"": ""23/06/2022"",
+                        ""cover_start_date"": ""23/06/2021""
+                    }
+                ],
+                ""cover_detail"": [],
+                ""table_of_benifits"": [],
+                ""price_list"": [
+                    {
+                        ""total_annual_amount"": ""£660.00"",
+                        ""total_monthly_amount"": ""£50.00"",
+                        ""initial_payment"": ""£100.00"",
+                        ""payment_period"": ""Monthly"",
+                        ""payment_type"": ""card"",
+                        ""pet_payment_details"": [
+                            {
+                                ""pet_name"": ""Tommy"",
+                                ""cover_date"": ""21/05/2021"",
+                                ""pet_cover_start_date"": ""23/06/2021"",
+                                ""pet_cover_end_date"": ""23/06/2022"",
+                                ""amount_per_pet"": ""£188.85"",
+                                ""pet_current_status"":""ACTIVE"",
+                                ""optional_extras"": [
+                                    {
+                                        ""optional_extra"": ""Dental Illness Cover"",
+                                        ""amount"": ""£5.00""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Travel & Holiday Cover"",
+                                        ""amount"": ""£9.08""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Farewell Cover"",
+                                        ""amount"": ""£5.02""
+                                    }
+                                ]
+                            }
+                           
+                           
+                        ],
+                        ""discounts"": []
+                    }
+                ],
+                ""insured_list"": [
+                    {
+                        ""pet_name"": ""Tommy"",
+                        ""cover_date"": ""21/05/2021"",
+                        ""pet_type"": ""Dog"",
+                        ""pet_type_icon"": ""img/petsure/vc-images/dog_img.png"",
+                        ""pet_gender"": ""Male"",
+                        ""type_of_breed"": ""Pedigree"",
+                        ""weight"": """",
+                        ""first_breed"": ""Affenpinscher"",
+                        ""second_breed"": """",
+                        ""pet_dob"": ""10/03/2018"",
+                        ""pet_old"": ""3 years 3 months"",
+                        ""is_microchiped"": ""Y"",
+                        ""is_neutered"": ""Y"",
+                        ""amount_paid"": ""£100000"",
+                        ""is_awaiting_surgery"": ""N"",
+                        ""is_awaiting_surgery_exclusion"": null,
+                        ""accepted_medical_conditions"": [
+                            {
+                                ""condition"": ""Acondition1"",
+                                ""mcs_score"": ""1.0"",
+                                ""medical_declaration"": [
+                                    {
+                                        ""question"": ""AAquestionA"",
+                                        ""answer"": ""AAanswer1""
+                                    },
+                                    {
+                                        ""question"": ""AAquestionB"",
+                                        ""answer"": ""AAanswer2""
+                                    }
+                                ]
+                            },
+                            {
+                                ""condition"": ""Acondition2"",
+                                ""mcs_score"": ""1.0"",
+                                ""medical_declaration"": [
+                                    {
+                                        ""question"": ""AAquestionA2"",
+                                        ""answer"": ""AAanswer3""
+                                    }
+                                ]
+                            }
+                        ],
+                        ""excluded_medical_conditions"": [
+                            {
+                                ""condition"": ""EEcondition1"",
+                                ""mcs_score"": ""1.0"",
+                                ""medical_declaration"": [
+                                    {
+                                        ""question"": ""EEquestionA"",
+                                        ""answer"": ""EEanswer1""
+                                    }
+                                ]
+                            }
+                        ],
+                        ""linked_medical_conditions"": [
+                            {
+                                ""condition"": ""LLcondition1"",
+                                ""mcs_score"": ""1.0"",
+                                ""medical_declaration"": [ {
+                                        ""question"": ""LLquestionA"",
+                                        ""answer"": ""LLanswer1""
+                                    }]
+                            }
+                        ],
+                        ""vet_fees"": ""£3000"",
+                        ""complementary_medicine"": null,
+                        ""behavioural_cover"": null,
+                        ""dental_accident_cover"": null,
+                        ""excess_selected"": ""£500"",
+                        ""bill_share_amount"": ""10%"",
+                        ""third_party_library"": null,
+                        ""farewell_cover"": ""Included"",
+                        ""missing_pet"": ""Not Included"",
+                        ""dental_illness"": ""Included"",
+                        ""dental_illness_amount"": ""£3000"",
+                        ""travel_and_holiday_cover"": ""Included"",
+                        ""medical_declaration"": null
+                    }
+                    
+                   
+                ]
+            }
+        ]
+    }",OK
+,"ActivePet_NoSurgeries-Accepted, Excluded and Linked MedicalConditions With McsScore GraterThan1",TC-016,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-21,"{
+        ""data_set"": [
+            {
+                ""trip_type"": ""st"",
+                ""purches_detail"": [
+                    {
+                        ""purches_date"": ""23/06/2021""
+                    }
+                ],
+                ""personal_detail"": [
+                    {
+                        ""address_line_1"": ""Staysure Travel"",
+                        ""address_line_2"": ""11 Waterside Way"",
+                        ""postcode"": ""NN4 7YB"",
+                        ""phone"": ""0710429240"",
+                        ""email"": ""dinelka@intervest.lk"",
+                        ""city"": ""Northampton"",
+                        ""policy_number"": ""PSR1002123"",
+                        ""date_of_issue"": ""23/06/2021"",
+                        ""title"": ""Ms"",
+                        ""policy_holder_first_name"": ""Dinelka"",
+                        ""policy_holder_last_name"": ""Nethmini"",
+                        ""jointpolicyholder_title"": null,
+                        ""jointpolicyholder_first_name"": null,
+                        ""jointpolicyholder_last_name"": null,
+                        ""purches_date_original"": ""23/06/2021"",
+                        ""renewal_date"": ""23/06/2022"",
+                        ""cover_start_date"": ""23/06/2021""
+                    }
+                ],
+                ""cover_detail"": [],
+                ""table_of_benifits"": [],
+                ""price_list"": [
+                    {
+                        ""total_annual_amount"": ""£660.00"",
+                        ""total_monthly_amount"": ""£50.00"",
+                        ""initial_payment"": ""£100.00"",
+                        ""payment_period"": ""Monthly"",
+                        ""payment_type"": ""card"",
+                        ""pet_payment_details"": [
+                            {
+                                ""pet_name"": ""Tommy"",
+                                ""cover_date"": ""21/05/2021"",
+                                ""pet_cover_start_date"": ""23/06/2021"",
+                                ""pet_cover_end_date"": ""23/06/2022"",
+                                ""amount_per_pet"": ""£188.85"",
+                                ""pet_current_status"":""ACTIVE"",
+                                ""optional_extras"": [
+                                    {
+                                        ""optional_extra"": ""Dental Illness Cover"",
+                                        ""amount"": ""£5.00""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Travel & Holiday Cover"",
+                                        ""amount"": ""£9.08""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Farewell Cover"",
+                                        ""amount"": ""£5.02""
+                                    }
+                                ]
+                            }
+                           
+                           
+                        ],
+                        ""discounts"": []
+                    }
+                ],
+                ""insured_list"": [
+                    {
+                        ""pet_name"": ""Tommy"",
+                        ""cover_date"": ""21/05/2021"",
+                        ""pet_type"": ""Dog"",
+                        ""pet_type_icon"": ""img/petsure/vc-images/dog_img.png"",
+                        ""pet_gender"": ""Male"",
+                        ""type_of_breed"": ""Pedigree"",
+                        ""weight"": """",
+                        ""first_breed"": ""Affenpinscher"",
+                        ""second_breed"": """",
+                        ""pet_dob"": ""10/03/2018"",
+                        ""pet_old"": ""3 years 3 months"",
+                        ""is_microchiped"": ""Y"",
+                        ""is_neutered"": ""Y"",
+                        ""amount_paid"": ""£100000"",
+                        ""is_awaiting_surgery"": ""N"",
+                        ""is_awaiting_surgery_exclusion"": null,
+                        ""accepted_medical_conditions"": [
+                            {
+                                ""condition"": ""Acondition1"",
+                                ""mcs_score"": ""1.1"",
+                                ""medical_declaration"": [
+                                    {
+                                        ""question"": ""AAquestionA"",
+                                        ""answer"": ""AAanswer1""
+                                    },
+                                    {
+                                        ""question"": ""AAquestionB"",
+                                        ""answer"": ""AAanswer2""
+                                    }
+                                ]
+                            },
+                            {
+                                ""condition"": ""Acondition2"",
+                                ""mcs_score"": ""1.1"",
+                                ""medical_declaration"": [
+                                    {
+                                        ""question"": ""AAquestionA2"",
+                                        ""answer"": ""AAanswer3""
+                                    }
+                                ]
+                            }
+                        ],
+                        ""excluded_medical_conditions"": [
+                            {
+                                ""condition"": ""EEcondition1"",
+                                ""mcs_score"": ""1.1"",
+                                ""medical_declaration"": [
+                                    {
+                                        ""question"": ""EEquestionA"",
+                                        ""answer"": ""EEanswer1""
+                                    }
+                                ]
+                            }
+                        ],
+                        ""linked_medical_conditions"": [
+                            {
+                                ""condition"": ""LLcondition1"",
+                                ""mcs_score"": ""1.1"",
+                                ""medical_declaration"": [ {
+                                        ""question"": ""LLquestionA"",
+                                        ""answer"": ""LLanswer1""
+                                    }]
+                            }
+                        ],
+                        ""vet_fees"": ""£3000"",
+                        ""complementary_medicine"": null,
+                        ""behavioural_cover"": null,
+                        ""dental_accident_cover"": null,
+                        ""excess_selected"": ""£500"",
+                        ""bill_share_amount"": ""10%"",
+                        ""third_party_library"": null,
+                        ""farewell_cover"": ""Included"",
+                        ""missing_pet"": ""Not Included"",
+                        ""dental_illness"": ""Included"",
+                        ""dental_illness_amount"": ""£3000"",
+                        ""travel_and_holiday_cover"": ""Included"",
+                        ""medical_declaration"": null
+                    }
+                    
+                   
+                ]
+            }
+        ]
+    }",OK
+,ActivePet_NoSurgeries-MedicalConditionsWith Mcs Score Grater Than1 ForLinked Medical Conditions,TC-017,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-22,"{
+        ""data_set"": [
+            {
+                ""trip_type"": ""st"",
+                ""purches_detail"": [
+                    {
+                        ""purches_date"": ""23/06/2021""
+                    }
+                ],
+                ""personal_detail"": [
+                    {
+                        ""address_line_1"": ""Staysure Travel"",
+                        ""address_line_2"": ""11 Waterside Way"",
+                        ""postcode"": ""NN4 7YB"",
+                        ""phone"": ""0710429240"",
+                        ""email"": ""dinelka@intervest.lk"",
+                        ""city"": ""Northampton"",
+                        ""policy_number"": ""PSR1002123"",
+                        ""date_of_issue"": ""23/06/2021"",
+                        ""title"": ""Ms"",
+                        ""policy_holder_first_name"": ""Dinelka"",
+                        ""policy_holder_last_name"": ""Nethmini"",
+                        ""jointpolicyholder_title"": null,
+                        ""jointpolicyholder_first_name"": null,
+                        ""jointpolicyholder_last_name"": null,
+                        ""purches_date_original"": ""23/06/2021"",
+                        ""renewal_date"": ""23/06/2022"",
+                        ""cover_start_date"": ""23/06/2021""
+                    }
+                ],
+                ""cover_detail"": [],
+                ""table_of_benifits"": [],
+                ""price_list"": [
+                    {
+                        ""total_annual_amount"": ""£660.00"",
+                        ""total_monthly_amount"": ""£50.00"",
+                        ""initial_payment"": ""£100.00"",
+                        ""payment_period"": ""Monthly"",
+                        ""payment_type"": ""card"",
+                        ""pet_payment_details"": [
+                            {
+                                ""pet_name"": ""Tommy"",
+                                ""cover_date"": ""21/05/2021"",
+                                ""pet_cover_start_date"": ""23/06/2021"",
+                                ""pet_cover_end_date"": ""23/06/2022"",
+                                ""amount_per_pet"": ""£188.85"",
+                                ""pet_current_status"":""ACTIVE"",
+                                ""optional_extras"": [
+                                    {
+                                        ""optional_extra"": ""Dental Illness Cover"",
+                                        ""amount"": ""£5.00""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Travel & Holiday Cover"",
+                                        ""amount"": ""£9.08""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Farewell Cover"",
+                                        ""amount"": ""£5.02""
+                                    }
+                                ]
+                            }
+                           
+                           
+                        ],
+                        ""discounts"": []
+                    }
+                ],
+                ""insured_list"": [
+                    {
+                        ""pet_name"": ""Tommy"",
+                        ""cover_date"": ""21/05/2021"",
+                        ""pet_type"": ""Dog"",
+                        ""pet_type_icon"": ""img/petsure/vc-images/dog_img.png"",
+                        ""pet_gender"": ""Male"",
+                        ""type_of_breed"": ""Pedigree"",
+                        ""weight"": """",
+                        ""first_breed"": ""Affenpinscher"",
+                        ""second_breed"": """",
+                        ""pet_dob"": ""10/03/2018"",
+                        ""pet_old"": ""3 years 3 months"",
+                        ""is_microchiped"": ""Y"",
+                        ""is_neutered"": ""Y"",
+                        ""amount_paid"": ""£100000"",
+                        ""is_awaiting_surgery"": ""N"",
+                        ""is_awaiting_surgery_exclusion"": null,
+                        ""accepted_medical_conditions"": [
+                            {
+                                ""condition"": ""Acondition1"",
+                                ""mcs_score"": ""1.0"",
+                                ""medical_declaration"": [
+                                    {
+                                        ""question"": ""AAquestionA"",
+                                        ""answer"": ""AAanswer1""
+                                    },
+                                    {
+                                        ""question"": ""AAquestionB"",
+                                        ""answer"": ""AAanswer2""
+                                    }
+                                ]
+                            },
+                            {
+                                ""condition"": ""Acondition2"",
+                                ""mcs_score"": ""1.0"",
+                                ""medical_declaration"": [
+                                    {
+                                        ""question"": ""AAquestionA2"",
+                                        ""answer"": ""AAanswer3""
+                                    }
+                                ]
+                            }
+                        ],
+                        ""excluded_medical_conditions"": [
+                            {
+                                ""condition"": ""EEcondition1"",
+                                ""mcs_score"": ""1.0"",
+                                ""medical_declaration"": [
+                                    {
+                                        ""question"": ""EEquestionA"",
+                                        ""answer"": ""EEanswer1""
+                                    }
+                                ]
+                            }
+                        ],
+                        ""linked_medical_conditions"": [
+                            {
+                                ""condition"": ""LLcondition1"",
+                                ""mcs_score"": ""1.1"",
+                                ""medical_declaration"": [ {
+                                        ""question"": ""LLquestionA"",
+                                        ""answer"": ""LLanswer1""
+                                    }]
+                            }
+                        ],
+                        ""vet_fees"": ""£3000"",
+                        ""complementary_medicine"": null,
+                        ""behavioural_cover"": null,
+                        ""dental_accident_cover"": null,
+                        ""excess_selected"": ""£500"",
+                        ""bill_share_amount"": ""10%"",
+                        ""third_party_library"": null,
+                        ""farewell_cover"": ""Included"",
+                        ""missing_pet"": ""Not Included"",
+                        ""dental_illness"": ""Included"",
+                        ""dental_illness_amount"": ""£3000"",
+                        ""travel_and_holiday_cover"": ""Included"",
+                        ""medical_declaration"": null
+                    }
+                    
+                   
+                ]
+            }
+        ]
+    }",OK
+,ActivePet_With Surgeries-No Medical Conditions,TC-018,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-23,"{
+    ""category"": ""policy"",
+    ""domainCode"": ""PETSURE"",
+    ""requestedDate"": ""2021-06-23"",
+    ""staticGroup"": {
+        ""underwriter"": ""GLI""
+    },
+    ""data"": {
+        ""data_set"": [
+            {
+                ""trip_type"": ""st"",
+                ""purches_detail"": [
+                    {
+                        ""purches_date"": ""23/06/2021""
+                    }
+                ],
+                ""personal_detail"": [
+                    {
+                        ""address_line_1"": ""Staysure Travel"",
+                        ""address_line_2"": ""11 Waterside Way"",
+                        ""postcode"": ""NN4 7YB"",
+                        ""phone"": ""0710429240"",
+                        ""email"": ""dinelka@intervest.lk"",
+                        ""city"": ""Northampton"",
+                        ""policy_number"": ""PSR1002123"",
+                        ""date_of_issue"": ""23/06/2021"",
+                        ""title"": ""Ms"",
+                        ""policy_holder_first_name"": ""Dinelka"",
+                        ""policy_holder_last_name"": ""Nethmini"",
+                        ""jointpolicyholder_title"": null,
+                        ""jointpolicyholder_first_name"": null,
+                        ""jointpolicyholder_last_name"": null,
+                        ""purches_date_original"": ""23/06/2021"",
+                        ""renewal_date"": ""23/06/2022"",
+                        ""cover_start_date"": ""23/06/2021""
+                    }
+                ],
+                ""cover_detail"": [],
+                ""table_of_benifits"": [],
+                ""price_list"": [
+                    {
+                        ""total_annual_amount"": ""£660.00"",
+                        ""total_monthly_amount"": ""£50.00"",
+                        ""initial_payment"": ""£100.00"",
+                        ""payment_period"": ""Monthly"",
+                        ""payment_type"": ""card"",
+                        ""pet_payment_details"": [
+                            {
+                                ""pet_name"": ""Tommy"",
+                                ""cover_date"": ""21/05/2021"",
+                                ""pet_cover_start_date"": ""23/06/2021"",
+                                ""pet_cover_end_date"": ""23/06/2022"",
+                                ""amount_per_pet"": ""£188.85"",
+                                ""pet_current_status"":""ACTIVE"",
+                                ""optional_extras"": [
+                                    {
+                                        ""optional_extra"": ""Dental Illness Cover"",
+                                        ""amount"": ""£5.00""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Travel & Holiday Cover"",
+                                        ""amount"": ""£9.08""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Farewell Cover"",
+                                        ""amount"": ""£5.02""
+                                    }
+                                ]
+                            }
+                           
+                           
+                        ],
+                        ""discounts"": []
+                    }
+                ],
+                ""insured_list"": [
+                    {
+                        ""pet_name"": ""Tommy"",
+                        ""cover_date"": ""21/05/2021"",
+                        ""pet_type"": ""Dog"",
+                        ""pet_type_icon"": ""img/petsure/vc-images/dog_img.png"",
+                        ""pet_gender"": ""Male"",
+                        ""type_of_breed"": ""Pedigree"",
+                        ""weight"": """",
+                        ""first_breed"": ""Affenpinscher"",
+                        ""second_breed"": """",
+                        ""pet_dob"": ""10/03/2018"",
+                        ""pet_old"": ""3 years 3 months"",
+                        ""is_microchiped"": ""Y"",
+                        ""is_neutered"": ""Y"",
+                        ""amount_paid"": ""£100000"",
+                        ""is_awaiting_surgery"": ""Y"",
+                        ""is_awaiting_surgery_exclusion"": null,
+                        ""accepted_medical_conditions"": null,
+                        ""excluded_medical_conditions"": null,
+                        ""declined_medical_conditions"": null,
+                        ""linked_medical_conditions"": null,
+                        ""vet_fees"": ""£3000"",
+                        ""complementary_medicine"": null,
+                        ""behavioural_cover"": null,
+                        ""dental_accident_cover"": null,
+                        ""excess_selected"": ""£500"",
+                        ""bill_share_amount"": ""10%"",
+                        ""third_party_library"": null,
+                        ""farewell_cover"": ""Included"",
+                        ""missing_pet"": ""Not Included"",
+                        ""dental_illness"": ""Included"",
+                        ""dental_illness_amount"": ""£3000"",
+                        ""travel_and_holiday_cover"": ""Included"",
+                        ""medical_declaration"": null
+                    }
+                    
+                   
+                ]
+            }
+        ]
+    }
+}
+",OK
+,ActivePet_NoSurgeries-NoMedical Conditions,TC-019,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-24,"{
+        ""data_set"": [
+            {
+                ""trip_type"": ""st"",
+                ""purches_detail"": [
+                    {
+                        ""purches_date"": ""23/06/2021""
+                    }
+                ],
+                ""personal_detail"": [
+                    {
+                        ""address_line_1"": ""Staysure Travel"",
+                        ""address_line_2"": ""11 Waterside Way"",
+                        ""postcode"": ""NN4 7YB"",
+                        ""phone"": ""0710429240"",
+                        ""email"": ""dinelka@intervest.lk"",
+                        ""city"": ""Northampton"",
+                        ""policy_number"": ""PSR1002123"",
+                        ""date_of_issue"": ""23/06/2021"",
+                        ""title"": ""Ms"",
+                        ""policy_holder_first_name"": ""Dinelka"",
+                        ""policy_holder_last_name"": ""Nethmini"",
+                        ""jointpolicyholder_title"": null,
+                        ""jointpolicyholder_first_name"": null,
+                        ""jointpolicyholder_last_name"": null,
+                        ""purches_date_original"": ""23/06/2021"",
+                        ""renewal_date"": ""23/06/2022"",
+                        ""cover_start_date"": ""23/06/2021""
+                    }
+                ],
+                ""cover_detail"": [],
+                ""table_of_benifits"": [],
+                ""price_list"": [
+                    {
+                        ""total_annual_amount"": ""£660.00"",
+                        ""total_monthly_amount"": ""£50.00"",
+                        ""initial_payment"": ""£100.00"",
+                        ""payment_period"": ""Monthly"",
+                        ""payment_type"": ""card"",
+                        ""pet_payment_details"": [
+                            {
+                                ""pet_name"": ""Tommy"",
+                                ""cover_date"": ""21/05/2021"",
+                                ""pet_cover_start_date"": ""23/06/2021"",
+                                ""pet_cover_end_date"": ""23/06/2022"",
+                                ""amount_per_pet"": ""£188.85"",
+                                ""pet_current_status"":""ACTIVE"",
+                                ""optional_extras"": [
+                                    {
+                                        ""optional_extra"": ""Dental Illness Cover"",
+                                        ""amount"": ""£5.00""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Travel & Holiday Cover"",
+                                        ""amount"": ""£9.08""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Farewell Cover"",
+                                        ""amount"": ""£5.02""
+                                    }
+                                ]
+                            }
+                           
+                           
+                        ],
+                        ""discounts"": []
+                    }
+                ],
+                ""insured_list"": [
+                    {
+                        ""pet_name"": ""Tommy"",
+                        ""cover_date"": ""21/05/2021"",
+                        ""pet_type"": ""Dog"",
+                        ""pet_type_icon"": ""img/petsure/vc-images/dog_img.png"",
+                        ""pet_gender"": ""Male"",
+                        ""type_of_breed"": ""Pedigree"",
+                        ""weight"": """",
+                        ""first_breed"": ""Affenpinscher"",
+                        ""second_breed"": """",
+                        ""pet_dob"": ""10/03/2018"",
+                        ""pet_old"": ""3 years 3 months"",
+                        ""is_microchiped"": ""Y"",
+                        ""is_neutered"": ""Y"",
+                        ""amount_paid"": ""£100000"",
+                        ""is_awaiting_surgery"": ""N"",
+                        ""is_awaiting_surgery_exclusion"": null,
+                        ""accepted_medical_conditions"": null,
+                        ""excluded_medical_conditions"": null,
+                        ""declined_medical_conditions"": null,
+                        ""linked_medical_conditions"": null,
+                        ""vet_fees"": ""£3000"",
+                        ""complementary_medicine"": null,
+                        ""behavioural_cover"": null,
+                        ""dental_accident_cover"": null,
+                        ""excess_selected"": ""£500"",
+                        ""bill_share_amount"": ""10%"",
+                        ""third_party_library"": null,
+                        ""farewell_cover"": ""Included"",
+                        ""missing_pet"": ""Not Included"",
+                        ""dental_illness"": ""Included"",
+                        ""dental_illness_amount"": ""£3000"",
+                        ""travel_and_holiday_cover"": ""Included"",
+                        ""medical_declaration"": null
+                    }
+                    
+                   
+                ]
+            }
+        ]
+    }",OK
+,ActivePet_NoSurgeries-Excluded Medical Conditions With McsScoreGraterThan1,TC-020,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-25,"{
+        ""data_set"": [
+            {
+                ""trip_type"": ""st"",
+                ""purches_detail"": [
+                    {
+                        ""purches_date"": ""23/06/2021""
+                    }
+                ],
+                ""personal_detail"": [
+                    {
+                        ""address_line_1"": ""Staysure Travel"",
+                        ""address_line_2"": ""11 Waterside Way"",
+                        ""postcode"": ""NN4 7YB"",
+                        ""phone"": ""0710429240"",
+                        ""email"": ""dinelka@intervest.lk"",
+                        ""city"": ""Northampton"",
+                        ""policy_number"": ""PSR1002123"",
+                        ""date_of_issue"": ""23/06/2021"",
+                        ""title"": ""Ms"",
+                        ""policy_holder_first_name"": ""Dinelka"",
+                        ""policy_holder_last_name"": ""Nethmini"",
+                        ""jointpolicyholder_title"": null,
+                        ""jointpolicyholder_first_name"": null,
+                        ""jointpolicyholder_last_name"": null,
+                        ""purches_date_original"": ""23/06/2021"",
+                        ""renewal_date"": ""23/06/2022"",
+                        ""cover_start_date"": ""23/06/2021""
+                    }
+                ],
+                ""cover_detail"": [],
+                ""table_of_benifits"": [],
+                ""price_list"": [
+                    {
+                        ""total_annual_amount"": ""£660.00"",
+                        ""total_monthly_amount"": ""£50.00"",
+                        ""initial_payment"": ""£100.00"",
+                        ""payment_period"": ""Monthly"",
+                        ""payment_type"": ""card"",
+                        ""pet_payment_details"": [
+                            {
+                                ""pet_name"": ""Tommy"",
+                                ""cover_date"": ""21/05/2021"",
+                                ""pet_cover_start_date"": ""23/06/2021"",
+                                ""pet_cover_end_date"": ""23/06/2022"",
+                                ""amount_per_pet"": ""£188.85"",
+                                ""pet_current_status"":""ACTIVE"",
+                                ""optional_extras"": [
+                                    {
+                                        ""optional_extra"": ""Dental Illness Cover"",
+                                        ""amount"": ""£5.00""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Travel & Holiday Cover"",
+                                        ""amount"": ""£9.08""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Farewell Cover"",
+                                        ""amount"": ""£5.02""
+                                    }
+                                ]
+                            }
+                           
+                           
+                        ],
+                        ""discounts"": []
+                    }
+                ],
+                ""insured_list"": [
+                    {
+                        ""pet_name"": ""Tommy"",
+                        ""cover_date"": ""21/05/2021"",
+                        ""pet_type"": ""Dog"",
+                        ""pet_type_icon"": ""img/petsure/vc-images/dog_img.png"",
+                        ""pet_gender"": ""Male"",
+                        ""type_of_breed"": ""Pedigree"",
+                        ""weight"": """",
+                        ""first_breed"": ""Affenpinscher"",
+                        ""second_breed"": """",
+                        ""pet_dob"": ""10/03/2018"",
+                        ""pet_old"": ""3 years 3 months"",
+                        ""is_microchiped"": ""Y"",
+                        ""is_neutered"": ""Y"",
+                        ""amount_paid"": ""£100000"",
+                        ""is_awaiting_surgery"": ""N"",
+                        ""is_awaiting_surgery_exclusion"": null,
+                        ""accepted_medical_conditions"": null,
+                         ""excluded_medical_conditions"": [
+                            {
+                                ""condition"": ""EEcondition1"",
+                                ""mcs_score"": ""1.1"",
+                                ""medical_declaration"": [
+                                    {
+                                        ""question"": ""EEquestionA"",
+                                        ""answer"": ""EEanswer1""
+                                    }
+                                ]
+                            }
+                        ],
+                        ""linked_medical_conditions"": null,
+                        ""vet_fees"": ""£3000"",
+                        ""complementary_medicine"": null,
+                        ""behavioural_cover"": null,
+                        ""dental_accident_cover"": null,
+                        ""excess_selected"": ""£500"",
+                        ""bill_share_amount"": ""10%"",
+                        ""third_party_library"": null,
+                        ""farewell_cover"": ""Included"",
+                        ""missing_pet"": ""Not Included"",
+                        ""dental_illness"": ""Included"",
+                        ""dental_illness_amount"": ""£3000"",
+                        ""travel_and_holiday_cover"": ""Included"",
+                        ""medical_declaration"": null
+                    }
+                    
+                   
+                ]
+            }
+        ]
+    }",OK
+,ActivePet_WithSurgeries-No Medical Conditions,TC-021,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-26,"{
+        ""data_set"": [
+            {
+                ""trip_type"": ""st"",
+                ""purches_detail"": [
+                    {
+                        ""purches_date"": ""23/06/2021""
+                    }
+                ],
+                ""personal_detail"": [
+                    {
+                        ""address_line_1"": ""Staysure Travel"",
+                        ""address_line_2"": ""11 Waterside Way"",
+                        ""postcode"": ""NN4 7YB"",
+                        ""phone"": ""0710429240"",
+                        ""email"": ""dinelka@intervest.lk"",
+                        ""city"": ""Northampton"",
+                        ""policy_number"": ""PSR1002123"",
+                        ""date_of_issue"": ""23/06/2021"",
+                        ""title"": ""Ms"",
+                        ""policy_holder_first_name"": ""Dinelka"",
+                        ""policy_holder_last_name"": ""Nethmini"",
+                        ""jointpolicyholder_title"": null,
+                        ""jointpolicyholder_first_name"": null,
+                        ""jointpolicyholder_last_name"": null,
+                        ""purches_date_original"": ""23/06/2021"",
+                        ""renewal_date"": ""23/06/2022"",
+                        ""cover_start_date"": ""23/06/2021""
+                    }
+                ],
+                ""cover_detail"": [],
+                ""table_of_benifits"": [],
+                ""price_list"": [
+                    {
+                        ""total_annual_amount"": ""£660.00"",
+                        ""total_monthly_amount"": ""£50.00"",
+                        ""initial_payment"": ""£100.00"",
+                        ""payment_period"": ""Monthly"",
+                        ""payment_type"": ""card"",
+                        ""pet_payment_details"": [
+                            {
+                                ""pet_name"": ""Tommy"",
+                                ""cover_date"": ""21/05/2021"",
+                                ""pet_cover_start_date"": ""23/06/2021"",
+                                ""pet_cover_end_date"": ""23/06/2022"",
+                                ""amount_per_pet"": ""£188.85"",
+                                ""pet_current_status"":""ACTIVE"",
+                                ""optional_extras"": [
+                                    {
+                                        ""optional_extra"": ""Dental Illness Cover"",
+                                        ""amount"": ""£5.00""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Travel & Holiday Cover"",
+                                        ""amount"": ""£9.08""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Farewell Cover"",
+                                        ""amount"": ""£5.02""
+                                    }
+                                ]
+                            }
+                           
+                           
+                        ],
+                        ""discounts"": []
+                    }
+                ],
+                ""insured_list"": [
+                    {
+                        ""pet_name"": ""Tommy"",
+                        ""cover_date"": ""21/05/2021"",
+                        ""pet_type"": ""Dog"",
+                        ""pet_type_icon"": ""img/petsure/vc-images/dog_img.png"",
+                        ""pet_gender"": ""Male"",
+                        ""type_of_breed"": ""Pedigree"",
+                        ""weight"": """",
+                        ""first_breed"": ""Affenpinscher"",
+                        ""second_breed"": """",
+                        ""pet_dob"": ""10/03/2018"",
+                        ""pet_old"": ""3 years 3 months"",
+                        ""is_microchiped"": ""Y"",
+                        ""is_neutered"": ""Y"",
+                        ""amount_paid"": ""£100000"",
+                        ""is_awaiting_surgery"": ""Y"",
+                        ""is_awaiting_surgery_exclusion"": null,
+                        ""accepted_medical_conditions"": null,
+                         ""excluded_medical_conditions"": null,
+                        ""linked_medical_conditions"": null,
+                        ""vet_fees"": ""£3000"",
+                        ""complementary_medicine"": null,
+                        ""behavioural_cover"": null,
+                        ""dental_accident_cover"": null,
+                        ""excess_selected"": ""£500"",
+                        ""bill_share_amount"": ""10%"",
+                        ""third_party_library"": null,
+                        ""farewell_cover"": ""Included"",
+                        ""missing_pet"": ""Not Included"",
+                        ""dental_illness"": ""Included"",
+                        ""dental_illness_amount"": ""£3000"",
+                        ""travel_and_holiday_cover"": ""Included"",
+                        ""medical_declaration"": null
+                    }
+                    
+                   
+                ]
+            }
+        ]
+    }",OK
+,ActivePet_NoSurgeries-NoMedical Conditions,TC-022,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-27,"{
+        ""data_set"": [
+            {
+                ""trip_type"": ""st"",
+                ""purches_detail"": [
+                    {
+                        ""purches_date"": ""23/06/2021""
+                    }
+                ],
+                ""personal_detail"": [
+                    {
+                        ""address_line_1"": ""Staysure Travel"",
+                        ""address_line_2"": ""11 Waterside Way"",
+                        ""postcode"": ""NN4 7YB"",
+                        ""phone"": ""0710429240"",
+                        ""email"": ""dinelka@intervest.lk"",
+                        ""city"": ""Northampton"",
+                        ""policy_number"": ""PSR1002123"",
+                        ""date_of_issue"": ""23/06/2021"",
+                        ""title"": ""Ms"",
+                        ""policy_holder_first_name"": ""Dinelka"",
+                        ""policy_holder_last_name"": ""Nethmini"",
+                        ""jointpolicyholder_title"": null,
+                        ""jointpolicyholder_first_name"": null,
+                        ""jointpolicyholder_last_name"": null,
+                        ""purches_date_original"": ""23/06/2021"",
+                        ""renewal_date"": ""23/06/2022"",
+                        ""cover_start_date"": ""23/06/2021""
+                    }
+                ],
+                ""cover_detail"": [],
+                ""table_of_benifits"": [],
+                ""price_list"": [
+                    {
+                        ""total_annual_amount"": ""£660.00"",
+                        ""total_monthly_amount"": ""£50.00"",
+                        ""initial_payment"": ""£100.00"",
+                        ""payment_period"": ""Monthly"",
+                        ""payment_type"": ""card"",
+                        ""pet_payment_details"": [
+                            {
+                                ""pet_name"": ""Tommy"",
+                                ""cover_date"": ""21/05/2021"",
+                                ""pet_cover_start_date"": ""23/06/2021"",
+                                ""pet_cover_end_date"": ""23/06/2022"",
+                                ""amount_per_pet"": ""£188.85"",
+                                ""pet_current_status"":""ACTIVE"",
+                                ""optional_extras"": [
+                                    {
+                                        ""optional_extra"": ""Dental Illness Cover"",
+                                        ""amount"": ""£5.00""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Travel & Holiday Cover"",
+                                        ""amount"": ""£9.08""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Farewell Cover"",
+                                        ""amount"": ""£5.02""
+                                    }
+                                ]
+                            }
+                           
+                           
+                        ],
+                        ""discounts"": []
+                    }
+                ],
+                ""insured_list"": [
+                    {
+                        ""pet_name"": ""Tommy"",
+                        ""cover_date"": ""21/05/2021"",
+                        ""pet_type"": ""Dog"",
+                        ""pet_type_icon"": ""img/petsure/vc-images/dog_img.png"",
+                        ""pet_gender"": ""Male"",
+                        ""type_of_breed"": ""Pedigree"",
+                        ""weight"": """",
+                        ""first_breed"": ""Affenpinscher"",
+                        ""second_breed"": """",
+                        ""pet_dob"": ""10/03/2018"",
+                        ""pet_old"": ""3 years and 3 months"",
+                        ""is_microchiped"": ""Y"",
+                        ""is_neutered"": ""Y"",
+                        ""amount_paid"": ""£100000"",
+                        ""is_awaiting_surgery"": ""N"",
+                        ""is_awaiting_surgery_exclusion"": null,
+                        ""accepted_medical_conditions"": null,
+                         ""excluded_medical_conditions"": null,
+                        ""linked_medical_conditions"": null,
+                        ""vet_fees"": ""£3000"",
+                        ""complementary_medicine"": null,
+                        ""behavioural_cover"": null,
+                        ""dental_accident_cover"": null,
+                        ""excess_selected"": ""£500"",
+                        ""bill_share_amount"": ""10%"",
+                        ""third_party_library"": null,
+                        ""farewell_cover"": ""Included"",
+                        ""missing_pet"": ""Not Included"",
+                        ""dental_illness"": ""Included"",
+                        ""dental_illness_amount"": ""£3000"",
+                        ""travel_and_holiday_cover"": ""Included"",
+                        ""medical_declaration"": null
+                    }
+                    
+                   
+                ]
+            }
+        ]
+    }",OK
+,ActivePet_NoSurgeries-NoMedical Conditions-No Optional Extras,TC-023,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-28,"{
+        ""data_set"": [
+            {
+                ""trip_type"": ""st"",
+                ""purches_detail"": [
+                    {
+                        ""purches_date"": ""23/06/2021""
+                    }
+                ],
+                ""personal_detail"": [
+                    {
+                        ""address_line_1"": ""Staysure Travel"",
+                        ""address_line_2"": ""11 Waterside Way"",
+                        ""postcode"": ""NN4 7YB"",
+                        ""phone"": ""0710429240"",
+                        ""email"": ""dinelka@intervest.lk"",
+                        ""city"": ""Northampton"",
+                        ""policy_number"": ""PSR1002123"",
+                        ""date_of_issue"": ""23/06/2021"",
+                        ""title"": ""Ms"",
+                        ""policy_holder_first_name"": ""Dinelka"",
+                        ""policy_holder_last_name"": ""Nethmini"",
+                        ""jointpolicyholder_title"": null,
+                        ""jointpolicyholder_first_name"": null,
+                        ""jointpolicyholder_last_name"": null,
+                        ""purches_date_original"": ""23/06/2021"",
+                        ""renewal_date"": ""23/06/2022"",
+                        ""cover_start_date"": ""23/06/2021""
+                    }
+                ],
+                ""cover_detail"": [],
+                ""table_of_benifits"": [],
+                ""price_list"": [
+                    {
+                        ""total_annual_amount"": ""£660.00"",
+                        ""total_monthly_amount"": ""£50.00"",
+                        ""initial_payment"": ""£100.00"",
+                        ""payment_period"": ""Monthly"",
+                        ""payment_type"": ""card"",
+                        ""pet_payment_details"": [
+                            {
+                                ""pet_name"": ""Tommy"",
+                                ""cover_date"": ""21/05/2021"",
+                                ""pet_cover_start_date"": ""23/06/2021"",
+                                ""pet_cover_end_date"": ""23/06/2022"",
+                                ""amount_per_pet"": ""£188.85"",
+                                ""pet_current_status"":""ACTIVE"",
+                                ""optional_extras"": null                                    
+                                   
+                                    
+                                
+                            }
+                           
+                           
+                        ],
+                        ""discounts"": []
+                    }
+                ],
+                ""insured_list"": [
+                    {
+                        ""pet_name"": ""Tommy"",
+                        ""cover_date"": ""21/05/2021"",
+                        ""pet_type"": ""Dog"",
+                        ""pet_type_icon"": ""img/petsure/vc-images/dog_img.png"",
+                        ""pet_gender"": ""Male"",
+                        ""type_of_breed"": ""Pedigree"",
+                        ""weight"": """",
+                        ""first_breed"": ""Affenpinscher"",
+                        ""second_breed"": """",
+                        ""pet_dob"": ""10/03/2018"",
+                        ""pet_old"": ""3 years 3 months"",
+                        ""is_microchiped"": ""Y"",
+                        ""is_neutered"": ""Y"",
+                        ""amount_paid"": ""£100000"",
+                        ""is_awaiting_surgery"": ""N"",
+                        ""is_awaiting_surgery_exclusion"": null,
+                        ""accepted_medical_conditions"": null,
+                         ""excluded_medical_conditions"":null,
+                        ""linked_medical_conditions"": null,
+                        ""vet_fees"": ""£3000"",
+                        ""complementary_medicine"": null,
+                        ""behavioural_cover"": null,
+                        ""dental_accident_cover"": null,
+                        ""excess_selected"": ""£500"",
+                        ""bill_share_amount"": ""10%"",
+                        ""third_party_library"": null,
+                        ""farewell_cover"": ""Included"",
+                        ""missing_pet"": ""Not Included"",
+                        ""dental_illness"": ""Included"",
+                        ""dental_illness_amount"": ""£3000"",
+                        ""travel_and_holiday_cover"": ""Included"",
+                        ""medical_declaration"": null
+                    }
+                    
+                   
+                ]
+            }
+        ]
+    }",OK
+,ADDED two Pets with ACTIVE and REMOVED,TC-024,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-29,"{
+        ""data_set"": [
+            {
+                ""trip_type"": ""st"",
+                ""purches_detail"": [
+                    {
+                        ""purches_date"": ""23/06/2021""
+                    }
+                ],
+                ""personal_detail"": [
+                    {
+                        ""address_line_1"": ""Staysure Travel"",
+                        ""address_line_2"": ""11 Waterside Way"",
+                        ""postcode"": ""NN4 7YB"",
+                        ""phone"": ""0710429240"",
+                        ""email"": ""dinelka@intervest.lk"",
+                        ""city"": ""Northampton"",
+                        ""policy_number"": ""PSR1002123"",
+                        ""date_of_issue"": ""23/06/2021"",
+                        ""title"": ""Mr"",
+                        ""policy_holder_first_name"": ""Dinelka"",
+                        ""policy_holder_last_name"": ""Nethmini"",
+                        ""jointpolicyholder_title"": null,
+                        ""jointpolicyholder_first_name"": null,
+                        ""jointpolicyholder_last_name"": null,
+                        ""purches_date_original"": ""23/06/2021"",
+                        ""renewal_date"": ""23/06/2022"",
+                        ""cover_start_date"": ""23/06/2021""
+                    }
+                ],
+                ""cover_detail"": [],
+                ""table_of_benifits"": [],
+                ""price_list"": [
+                    {
+                        ""total_annual_amount"": ""£660.00"",
+                        ""total_monthly_amount"": ""£50.00"",
+                        ""initial_payment"": ""£100.00"",
+                        ""payment_period"": ""Monthly"",
+                        ""payment_type"": ""card"",
+                        ""pet_payment_details"": [
+                            {
+                                ""pet_name"": ""Tommy"",
+                                ""cover_date"": ""21/05/2021"",
+                                ""pet_cover_start_date"": ""23/06/2021"",
+                                ""pet_cover_end_date"": ""23/06/2022"",
+                                ""amount_per_pet"": ""£188.85"",
+                                ""pet_current_status"":""ACTIVE"",
+                                ""optional_extras"": [
+                                    {
+                                        ""optional_extra"": ""Dental Illness Cover"",
+                                        ""amount"": ""£5.00""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Travel & Holiday Cover"",
+                                        ""amount"": ""£9.08""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Farewell Cover"",
+                                        ""amount"": ""£5.02""
+                                    }
+                                ]
+                            },
+                            {
+                                ""pet_name"": ""Doggy"",
+                                ""pet_cover_start_date"": ""23/06/2021"",
+                                ""pet_cover_end_date"": ""23/06/2022"",
+                                ""amount_per_pet"": ""£188.89"",
+                                ""pet_current_status"":""REMOVED"",
+                                ""optional_extras"": [
+                                    {
+                                        ""optional_extra"": ""Travel & Holiday Cover"",
+                                        ""amount"": ""£9.08""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Dental Illness Cover"",
+                                        ""amount"": ""£5.00""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Farewell Cover"",
+                                        ""amount"": ""£5.02""
+                                    }
+                                ]
+                            }
+                          
+                          
+                        ],
+                        ""discounts"": []
+                    }
+                ],
+                ""insured_list"": [
+                    {
+                        ""pet_name"": ""Tommy"",
+                        ""cover_date"": ""21/05/2021"",
+                        ""pet_type"": ""Dog"",
+                        ""pet_type_icon"": ""img/petsure/vc-images/dog_img.png"",
+                        ""pet_gender"": ""Male"",
+                        ""type_of_breed"": ""Mixd breed"",
+                        ""weight"": """",
+                        ""first_breed"": ""American Field Labrador"",
+                        ""second_breed"": """",
+                        ""pet_dob"": ""10/03/2018"",
+                        ""pet_old"": ""3 years and 3 months"",
+                        ""is_microchiped"": ""Y"",
+                        ""is_neutered"": ""Y"",
+                        ""amount_paid"": ""£100000"",
+                        ""is_awaiting_surgery"": ""N"",
+                        ""is_awaiting_surgery_exclusion"": null,
+                        ""accepted_medical_conditions"": null,
+                        ""excluded_medical_conditions"": null,
+                        ""declined_medical_conditions"": null,
+                        ""linked_medical_conditions"": null,
+                        ""vet_fees"": ""£3000"",
+                        ""complementary_medicine"": null,
+                        ""behavioural_cover"": null,
+                        ""dental_accident_cover"": null,
+                        ""excess_selected"": ""£500"",
+                        ""bill_share_amount"": ""10%"",
+                        ""third_party_library"": null,
+                        ""farewell_cover"": ""Included"",
+                        ""missing_pet"": ""Not Included"",
+                        ""dental_illness"": ""Included"",
+                        ""dental_illness_amount"": ""£3000"",
+                        ""travel_and_holiday_cover"": ""Included"",
+                        ""medical_declaration"": null
+                    },
+                    {
+                        ""pet_name"": ""Doggy"",
+                        ""cover_date"": ""21/05/2021"",
+                        ""pet_type"": ""Cat"",
+                        ""pet_type_icon"": ""img/petsure/vc-images/dog_img.png"",
+                        ""pet_gender"": ""Male"",
+                        ""type_of_breed"": ""Moggie"",
+                        ""weight"": """",
+                        ""first_breed"": ""Affenpinscher"",
+                        ""second_breed"": """",
+                        ""pet_dob"": ""10/03/2018"",
+                        ""pet_old"": ""3 years and 3 months"",
+                        ""is_microchiped"": ""Y"",
+                        ""is_neutered"": ""Y"",
+                        ""amount_paid"": ""£100"",
+                        ""is_awaiting_surgery"": ""N"",
+                        ""is_awaiting_surgery_exclusion"": ""N"",
+                        ""accepted_medical_conditions"": [
+                            {
+                                ""condition"": ""AAcondition1"",
+                                ""mcs_score"": ""1.1"",
+                                ""medical_declaration"": [
+                                    {
+                                        ""question"": ""AquestionA"",
+                                        ""answer"": ""Aanswer1""
+                                    },
+                                    {
+                                        ""question"": ""Aquestion2B"",
+                                        ""answer"": ""Aanswer2""
+                                    }
+                                ]
+                            },
+                            {
+                                ""condition"": ""AAcondition2"",
+                                ""mcs_score"": ""1.1"",
+                                ""medical_declaration"": [
+                                    {
+                                        ""question"": ""AAquestionA"",
+                                        ""answer"": ""AAanswer1""
+                                    }
+                                ]
+                            }
+                        ],
+                        ""excluded_medical_conditions"": [
+                            {
+                                ""condition"": ""EEcondition1"",
+                                ""mcs_score"": ""1.1"",
+                                ""medical_declaration"": [
+                                    {
+                                        ""question"": ""EEquestionA"",
+                                        ""answer"": ""EEanswer1""
+                                    }
+                                ]
+                            }
+                        ],
+                        ""linked_medical_conditions"": [
+                            {
+                                ""condition"": ""LLcondition1"",
+                                ""mcs_score"": ""0.0"",
+                                ""medical_declaration"": []
+                            }
+                        ],
+                        ""vet_fees"": ""£3000"",
+                        ""complementary_medicine"": null,
+                        ""behavioural_cover"": null,
+                        ""dental_accident_cover"": null,
+                        ""excess_selected"": ""£500"",
+                        ""bill_share_amount"": ""10%"",
+                        ""third_party_library"": null,
+                        ""farewell_cover"": ""Included"",
+                        ""missing_pet"": ""Not Included"",
+                        ""dental_illness"": ""Included"",
+                        ""dental_illness_amount"": ""£3000"",
+                        ""travel_and_holiday_cover"": ""Included"",
+                        ""medical_declaration"": null
+                    }
+                   
+                ]
+            }
+        ]
+    }",OK
+,Monthly payment selected,TC-025,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-30,"{
+        ""data_set"": [
+            {
+                ""trip_type"": ""st"",
+                ""purches_detail"": [
+                    {
+                        ""purches_date"": ""23/06/2021""
+                    }
+                ],
+                ""personal_detail"": [
+                    {
+                        ""address_line_1"": ""Staysure Travel"",
+                        ""address_line_2"": ""11 Waterside Way"",
+                        ""postcode"": ""NN4 7YB"",
+                        ""phone"": ""0710429240"",
+                        ""email"": ""dinelka@intervest.lk"",
+                        ""city"": ""Northampton"",
+                        ""policy_number"": ""PSR1002123"",
+                        ""date_of_issue"": ""23/06/2021"",
+                        ""title"": ""Ms"",
+                        ""policy_holder_first_name"": ""Dinelka"",
+                        ""policy_holder_last_name"": ""Nethmini"",
+                        ""jointpolicyholder_title"": null,
+                        ""jointpolicyholder_first_name"": null,
+                        ""jointpolicyholder_last_name"": null,
+                        ""purches_date_original"": ""23/06/2021"",
+                        ""renewal_date"": ""23/06/2022"",
+                        ""cover_start_date"": ""23/06/2021""
+                    }
+                ],
+                ""cover_detail"": [],
+                ""table_of_benifits"": [],
+                ""price_list"": [
+                    {
+                        ""total_annual_amount"": ""£660.00"",
+                        ""total_monthly_amount"": ""£50.00"",
+                        ""initial_payment"": ""£100.00"",
+                        ""payment_period"": ""Monthly"",
+                        ""payment_type"": ""card"",
+                        ""pet_payment_details"": [
+                            {
+                                ""pet_name"": ""Tommy"",
+                                ""cover_date"": ""21/05/2021"",
+                                ""pet_cover_start_date"": ""23/06/2021"",
+                                ""pet_cover_end_date"": ""23/06/2022"",
+                                ""amount_per_pet"": ""£188.85"",
+                                ""pet_current_status"":""ACTIVE"",
+                                ""optional_extras"": [
+                                    {
+                                        ""optional_extra"": ""Dental Illness Cover"",
+                                        ""amount"": ""£5.00""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Travel & Holiday Cover"",
+                                        ""amount"": ""£9.08""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Farewell Cover"",
+                                        ""amount"": ""£5.02""
+                                    }
+                                ]
+                            }
+                           
+                           
+                        ],
+                        ""discounts"": []
+                    }
+                ],
+                ""insured_list"": [
+                    {
+                        ""pet_name"": ""Tommy"",
+                        ""cover_date"": ""21/05/2021"",
+                        ""pet_type"": ""Dog"",
+                        ""pet_type_icon"": ""img/petsure/vc-images/dog_img.png"",
+                        ""pet_gender"": ""Male"",
+                        ""type_of_breed"": ""Pedigree"",
+                        ""weight"": """",
+                        ""first_breed"": ""Affenpinscher"",
+                        ""second_breed"": """",
+                        ""pet_dob"": ""10/03/2018"",
+                        ""pet_old"": ""3 years and 3 months"",
+                        ""is_microchiped"": ""Y"",
+                        ""is_neutered"": ""Y"",
+                        ""amount_paid"": ""£100000"",
+                        ""is_awaiting_surgery"": ""N"",
+                        ""is_awaiting_surgery_exclusion"": null,
+                        ""accepted_medical_conditions"": null,
+                         ""excluded_medical_conditions"": null,
+                        ""linked_medical_conditions"": null,
+                        ""vet_fees"": ""£3000"",
+                        ""complementary_medicine"": null,
+                        ""behavioural_cover"": null,
+                        ""dental_accident_cover"": null,
+                        ""excess_selected"": ""£500"",
+                        ""bill_share_amount"": ""10%"",
+                        ""third_party_library"": null,
+                        ""farewell_cover"": ""Included"",
+                        ""missing_pet"": ""Not Included"",
+                        ""dental_illness"": ""Included"",
+                        ""dental_illness_amount"": ""£3000"",
+                        ""travel_and_holiday_cover"": ""Included"",
+                        ""medical_declaration"": null
+                    }
+                    
+                   
+                ]
+            }
+        ]
+    }",OK
+,Annual Payment selected,TC-026,PETSURE,policy,"{
+        ""underwriter"":""GLI""
+ }",2020-12-31,"{
+        ""data_set"": [
+            {
+                ""trip_type"": ""st"",
+                ""purches_detail"": [
+                    {
+                        ""purches_date"": ""23/06/2021""
+                    }
+                ],
+                ""personal_detail"": [
+                    {
+                        ""address_line_1"": ""Staysure Travel"",
+                        ""address_line_2"": ""11 Waterside Way"",
+                        ""postcode"": ""NN4 7YB"",
+                        ""phone"": ""0710429240"",
+                        ""email"": ""dinelka@intervest.lk"",
+                        ""city"": ""Northampton"",
+                        ""policy_number"": ""PSR1002123"",
+                        ""date_of_issue"": ""23/06/2021"",
+                        ""title"": ""Ms"",
+                        ""policy_holder_first_name"": ""Dinelka"",
+                        ""policy_holder_last_name"": ""Nethmini"",
+                        ""jointpolicyholder_title"": null,
+                        ""jointpolicyholder_first_name"": null,
+                        ""jointpolicyholder_last_name"": null,
+                        ""purches_date_original"": ""23/06/2021"",
+                        ""renewal_date"": ""23/06/2022"",
+                        ""cover_start_date"": ""23/06/2021""
+                    }
+                ],
+                ""cover_detail"": [],
+                ""table_of_benifits"": [],
+                ""price_list"": [
+                    {
+                        ""total_annual_amount"": ""£660.00"",
+                        ""total_monthly_amount"": """",
+                        ""initial_payment"": ""£100.00"",
+                        ""payment_period"": ""Anually"",
+                        ""payment_type"": ""card"",
+                        ""pet_payment_details"": [
+                            {
+                                ""pet_name"": ""Tommy"",
+                                ""cover_date"": ""21/05/2021"",
+                                ""pet_cover_start_date"": ""23/06/2021"",
+                                ""pet_cover_end_date"": ""23/06/2022"",
+                                ""amount_per_pet"": ""£188.85"",
+                                ""pet_current_status"":""ACTIVE"",
+                                ""optional_extras"": [
+                                    {
+                                        ""optional_extra"": ""Dental Illness Cover"",
+                                        ""amount"": ""£5.00""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Travel & Holiday Cover"",
+                                        ""amount"": ""£9.08""
+                                    },
+                                    {
+                                        ""optional_extra"": ""Farewell Cover"",
+                                        ""amount"": ""£5.02""
+                                    }
+                                ]
+                            }
+                           
+                           
+                        ],
+                        ""discounts"": []
+                    }
+                ],
+                ""insured_list"": [
+                    {
+                        ""pet_name"": ""Tommy"",
+                        ""cover_date"": ""21/05/2021"",
+                        ""pet_type"": ""Dog"",
+                        ""pet_type_icon"": ""img/petsure/vc-images/dog_img.png"",
+                        ""pet_gender"": ""Male"",
+                        ""type_of_breed"": ""Pedigree"",
+                        ""weight"": """",
+                        ""first_breed"": ""Affenpinscher"",
+                        ""second_breed"": """",
+                        ""pet_dob"": ""10/03/2018"",
+                        ""pet_old"": ""3 years and 3 months"",
+                        ""is_microchiped"": ""Y"",
+                        ""is_neutered"": ""Y"",
+                        ""amount_paid"": ""£100000"",
+                        ""is_awaiting_surgery"": ""N"",
+                        ""is_awaiting_surgery_exclusion"": null,
+                        ""accepted_medical_conditions"": null,
+                         ""excluded_medical_conditions"": null,
+                        ""linked_medical_conditions"": null,
+                        ""vet_fees"": ""£3000"",
+                        ""complementary_medicine"": null,
+                        ""behavioural_cover"": null,
+                        ""dental_accident_cover"": null,
+                        ""excess_selected"": ""£500"",
+                        ""bill_share_amount"": ""10%"",
+                        ""third_party_library"": null,
+                        ""farewell_cover"": ""Included"",
+                        ""missing_pet"": ""Not Included"",
+                        ""dental_illness"": ""Included"",
+                        ""dental_illness_amount"": ""£3000"",
+                        ""travel_and_holiday_cover"": ""Included"",
+                        ""medical_declaration"": null
+                    }
+                    
+                   
+                ]
+            }
+        ]
+    }",OK

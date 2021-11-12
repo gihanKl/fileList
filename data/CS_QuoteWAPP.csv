@@ -1,0 +1,316 @@
+Testcase, Testcase #,domainCodeRegister,category,staticGroup,requestedDate,messageRegister,action,userTokenValidity,domainCodeSaveAction,value,data,messageSaveAction
+"SaveAction-VERIFICATION
+
+
+",TC-005,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-08,OK,CS_COMPLAINT_ACKNOWLEDGMENT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""dinelka"",
+        ""complaint_date"":""8 weeks after complaint date""
+ }",Document action saved successfully
+,TC-006,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-09,OK,CS_COMPLAINT_ACKNOWLEDGMENT_QUOTE,Valid,WAPP,,"{
+  ""first_name"":""dinelka"",
+        ""complaint_date"":""8 weeks after complaint date""
+ }",Email address is null or invalid!
+,TC-007,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-10,OK,CS_COMPLAINT_ACKNOWLEDGMENT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""dinelka"",
+        ""complaint_date"":""8 weeks after complaint date""
+ }",Document action saved successfully
+,TC-008,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-11,OK,CS_COMPLAINT_ACKNOWLEDGMENT_QUOTE,null,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""dinelka"",
+        ""complaint_date"":""8 weeks after complaint date""
+ }",Invalid token
+,TC-009,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-12,OK,CS_COMPLAINT_ACKNOWLEDGMENT_QUOTE,Invalid,Invalid,rumana@intervest.lk," {
+  ""first_name"":""dinelka"",
+        ""complaint_date"":""8 weeks after complaint date""
+ }",Invalid domain code
+,TC-010,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-13,OK,CS_COMPLAINT_ACKNOWLEDGMENT_QUOTE,Valid,null,rumana@intervest.lk,"{
+  ""first_name"":""dinelka"",
+        ""complaint_date"":""8 weeks after complaint date""
+ }",Invalid domain code
+,TC-011,STS,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_COMPLAINT_ACKNOWLEDGMENT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""dinelka"",
+        ""complaint_date"":""8 weeks after complaint date""
+ }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-15,OK,CS_COMPLAINT_ACKNOWLEDGMENT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""dinelka"",
+        ""complaint_date"":""8 weeks after complaint date""
+ }",Document action saved successfully
+,TC-013,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-16,OK,CS_COMPLAINT_ACKNOWLEDGMENT_QUOTE,Valid,WAPP,rumana@intervest.lk," {
+  ""first_name"":""dinelka"",
+        ""complaint_date"":""8 weeks after complaint date""
+ }",Document action saved successfully
+"CS_COMPLAINT_UNABLE_TO_CONTACT_QUOTE
+
+
+",TC-005,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-08,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Document action saved successfully
+,TC-006,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-09,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_QUOTE,Valid,WAPP,," {
+        ""first_name"":""dinelka""
+    }",Email address is null or invalid!
+,TC-007,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-10,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_QUOTE,Valid,WAPP,rumana@intervest.lk," {
+        ""first_name"":""dinelka""
+    }",Document action saved successfully
+,TC-008,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-11,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_QUOTE,null,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Invalid token
+,TC-009,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-12,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_QUOTE,Invalid,Invalid,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Invalid domain code
+,TC-010,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-13,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_QUOTE,Valid,null,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Invalid domain code
+,TC-011,STS,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_QUOTE,Valid,WAPP,rumana@intervest.lk," {
+        ""first_name"":""dinelka""
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-15,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Document action saved successfully
+,TC-013,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-16,OK,CS_COMPLAINT_UNABLE_TO_CONTACT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""""
+    }",Document action saved successfully
+"Save Action - CS_DATA_SUBJECT_ACCESS_REQUEST_QUOTE
+
+
+",TC-005,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-08,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Document action saved successfully
+,TC-006,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-09,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_QUOTE,Valid,WAPP,,"{
+        ""first_name"":""dinelka""
+    }",Email address is null or invalid!
+,TC-007,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-10,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Document action saved successfully
+,TC-008,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-11,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_QUOTE,null,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Invalid token
+,TC-009,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-12,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_QUOTE,Invalid,Invalid,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Invalid domain code
+,TC-010,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-13,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_QUOTE,Valid,null,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Invalid domain code
+,TC-011,STS,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-15,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Document action saved successfully
+,TC-013,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-16,OK,CS_DATA_SUBJECT_ACCESS_REQUEST_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""""
+    }",Document action saved successfully
+"SaveAction-VERIFICATION
+
+
+",TC-005,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-08,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""dinelka"",
+        ""link"":""www.google.com"",
+        ""num_of_days"": ""X days""
+ }",Document action saved successfully
+,TC-006,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-09,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_QUOTE,Valid,WAPP,,"{
+  ""first_name"":""dinelka"",
+        ""link"":""www.google.com"",
+        ""num_of_days"": ""X days""
+ }",Email address is null or invalid!
+,TC-007,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-10,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""dinelka"",
+        ""link"":""www.google.com"",
+        ""num_of_days"": ""X days""
+ }",Document action saved successfully
+,TC-008,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-11,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_QUOTE,null,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""dinelka"",
+        ""link"":""www.google.com"",
+        ""num_of_days"": ""X days""
+ }",Invalid token
+,TC-009,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-12,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_QUOTE,Invalid,Invalid,rumana@intervest.lk,"{
+  ""first_name"":""dinelka"",
+        ""link"":""www.google.com"",
+        ""num_of_days"": ""X days""
+ }",Invalid domain code
+,TC-010,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-13,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_QUOTE,Valid,,rumana@intervest.lk,"{
+  ""first_name"":""dinelka"",
+        ""link"":""www.google.com"",
+        ""num_of_days"": ""X days""
+ }",Invalid domain code
+,TC-011,STS,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""dinelka"",
+        ""link"":""www.google.com"",
+        ""num_of_days"": ""X days""
+ }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-15,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""dinelka"",
+        ""link"":""www.google.com"",
+        ""num_of_days"": ""X days""
+ }",Document action saved successfully
+,TC-013,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-16,OK,CS_FOUR_WEEK_HOLDING_COMPLAINT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+  ""first_name"":""dinelka"",
+        ""link"":""www.google.com"",
+        ""num_of_days"": ""X days""
+ }",Document action saved successfully
+"SaveAction-VERIFICATION
+
+
+",TC-005,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-08,OK,CS_SUMMARY_RESOLUTION_LETTER_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Document action saved successfully
+,TC-006,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-09,OK,CS_SUMMARY_RESOLUTION_LETTER_QUOTE,Valid,WAPP,,"{
+        ""first_name"":""dinelka""
+    }",Email address is null or invalid!
+,TC-007,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-10,OK,CS_SUMMARY_RESOLUTION_LETTER_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Document action saved successfully
+,TC-008,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-11,OK,CS_SUMMARY_RESOLUTION_LETTER_QUOTE,null,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Invalid token
+,TC-009,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-12,OK,CS_SUMMARY_RESOLUTION_LETTER_QUOTE,Invalid,Invalid,rumana@intervest.lk," {
+        ""first_name"":""dinelka""
+    }",Invalid domain code
+,TC-010,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-13,OK,CS_SUMMARY_RESOLUTION_LETTER_QUOTE,Valid,null,rumana@intervest.lk," {
+        ""first_name"":""dinelka""
+    }",Invalid domain code
+,TC-011,STS,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_SUMMARY_RESOLUTION_LETTER_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-15,OK,CS_SUMMARY_RESOLUTION_LETTER_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Document action saved successfully
+,TC-013,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-16,OK,CS_SUMMARY_RESOLUTION_LETTER_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""""
+    }",Document action saved successfully
+"SaveAction-CS_UNABLE_TO_CONTACT_QUOTE
+
+
+",TC-005,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-08,OK,CS_UNABLE_TO_CONTACT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Document action saved successfully
+,TC-006,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-09,OK,CS_UNABLE_TO_CONTACT_QUOTE,Valid,WAPP,,"{
+        ""first_name"":""dinelka""
+    }",Email address is null or invalid!
+,TC-007,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-10,OK,CS_UNABLE_TO_CONTACT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Document action saved successfully
+,TC-008,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-11,OK,CS_UNABLE_TO_CONTACT_QUOTE,null,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Invalid token
+,TC-009,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-12,OK,CS_UNABLE_TO_CONTACT_QUOTE,Invalid,Invalid,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Invalid domain code
+,TC-010,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-13,OK,CS_UNABLE_TO_CONTACT_QUOTE,Valid,null,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Invalid domain code
+,TC-011,STS,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-14,OK,CS_UNABLE_TO_CONTACT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Requested domain and registered domain are mismatch
+,TC-012,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-15,OK,CS_UNABLE_TO_CONTACT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""dinelka""
+    }",Document action saved successfully
+,TC-013,WAPP,cs_quote,"{
+        ""underwriter"":""GLI""
+ }",2020-12-16,OK,CS_UNABLE_TO_CONTACT_QUOTE,Valid,WAPP,rumana@intervest.lk,"{
+        ""first_name"":""""
+    }",Document action saved successfully
